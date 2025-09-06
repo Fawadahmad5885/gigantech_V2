@@ -1,0 +1,6 @@
+{
+  "timestamp": "2025-08-22T12:38:53.228Z",
+  "contentType": "landing-pages",
+  "error": "Request failed with status code 500",
+  "stack": "AxiosError: Request failed with status code 500\n    at settle (D:\\Gigantech\\gigantech-strapi-integration\\backend\\node_modules\\axios\\dist\\node\\axios.cjs:2031:12)\n    at IncomingMessage.handleStreamEnd (D:\\Gigantech\\gigantech-strapi-integration\\backend\\node_modules\\axios\\dist\\node\\axios.cjs:3148:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (D:\\Gigantech\\gigantech-strapi-integration\\backend\\node_modules\\axios\\dist\\node\\axios.cjs:4258:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchContentType (D:\\Gigantech\\gigantech-strapi-integration\\backend\\src\\scripts\\export-content.js:155:22)\n    at async fetchAndSave (D:\\Gigantech\\gigantech-strapi-integration\\backend\\src\\scripts\\export-content.js:181:18)\n    at async runExport (D:\\Gigantech\\gigantech-strapi-integration\\backend\\src\\scripts\\export-content.js:221:7)"
+}

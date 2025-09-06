@@ -1,0 +1,626 @@
+{
+  "data": [
+    {
+      "id": 50,
+      "documentId": "qklq8c1chcw52u906ni12062",
+      "title": "How Leading Brands Succeed with Digital Commerce?",
+      "slug": "how-leading-brands-succeed-with-digital-commerce",
+      "type": "event",
+      "author": "John Smith",
+      "date": "2025-07-11",
+      "content": "## 🧪 Project Overview\n\n![quattro research logo](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Logo_placeholder_image.png/600px-Logo_placeholder_image.png)\n\nFounded in **2004**, **quattro research** develops intuitive software that empowers digital scientific workflows. Their **Laboratory Information Management Systems (LIMS)** — such as **quattro/CM**, **quattro/LJ**, and **quattro/BR** — manage and analyze complex chemical and biological data.\n\n---\n\n![Team Collaboration](https://images.unsplash.com/photo-1632179002215-f5c8d5dcf35b)\n\nTo scale quickly and meet growing client demand, quattro research partnered with **unicrew** to strengthen their engineering team with skilled developers who could integrate seamlessly and boost project velocity.\n\n---\n\n## 🚧 Key Challenges\n\n![Challenges](https://images.unsplash.com/photo-1573164713347-df1e1f69a3f2)\n\n- **Scalability Requirements** – Needed to scale fast without lowering code quality.\n- **Complex UI Needs** – Required a responsive UI for large molecular datasets.\n- **Scientific Data Presentation** – Flexible visualization in dynamic grids and forms.\n- **Modern Security Protocols** – Needed secure access management (OAuth, JWT).\n- **High-Performance Rendering** – For complex molecule structure visualization.\n\n---\n\n## ✅ Solution\n\n### 🔹 React-Based UI\n\n![React UI](https://images.unsplash.com/photo-1581091012184-5c2bca6f3bb6)\n\nDesigned and implemented a performant, intuitive React frontend for handling complex molecule data structures.\n\n---\n\n### 🔹 Configurable Data Framework\n\n![Grid System](https://images.unsplash.com/photo-1645051915681-183d5f30ef0a)\n\nDeveloped a flexible framework allowing scientists to customize data views using dynamic **grids** and **forms**.\n\n---\n\n### 🔹 Secure Authentication\n\n![Security](https://miro.medium.com/v2/resize:fit:720/format:webp/0*PRZcNPDVe2z5n7kO)\n\nIntegrated **OAuth** and **JWT** for robust and modern authentication & authorization standards.\n\n---\n\n### 🔹 Molecule Visualization\n\n![Molecule Viewer](https://miro.medium.com/v2/resize:fit:720/format:webp/0*PRZcNPDVe2z5n7kO)\n\nDelivered advanced visualization tools for rendering large and complex molecule structures efficiently.\n\n---\n\n## 👥 Collaboration Snapshot\n\n![Unicrew Team](https://images.unsplash.com/photo-1581091870622-df42a3f9808b)\n\n**unicrew** assembled a full-stack development team with expertise in:\n- `.NET`, `Java`, `PHP`, `Laravel`\n- `JavaScript`, `React`, `Vue`\n\nThey worked in **agile sprints** alongside quattro research’s internal team to maintain alignment, speed, and flexibility.\n\n---\n\n## 🎯 Results\n\n![Success](https://images.unsplash.com/photo-1581093588401-99a6f43db2a9)\n\n- **⚡ Faster Development** – Accelerated product delivery timelines.\n- **🎨 Better Usability** – UI tailored for scientific users.\n- **🔐 Improved Security** – OAuth and JWT integration.\n- **🔬 Enhanced Visualization** – Clarity in molecule data exploration.\n- **🤝 Ongoing Partnership** – Sustained collaboration with quattro research.\n\n---\n\n> _\"unicrew's developers integrated seamlessly with our team, demonstrating professionalism and a deep understanding of our needs. Their contributions have been invaluable.\"_  \n> — **Dr. Bernhard Schirm**, Managing Director\n\n[🔗 View Full Review](https://example.com/review)\n\n---\n\n## 🛠 Related Services\n\n- ✅ Dedicated Software Development Teams  \n- ✅ White Label Web Development  \n- ✅ Legacy Software Modernization\n",
+      "createdAt": "2025-07-11T08:49:59.152Z",
+      "updatedAt": "2025-07-24T17:35:52.667Z",
+      "publishedAt": "2025-07-24T17:35:52.713Z",
+      "description": "nd advanced camera features like Low Light Boost. It also deprecates older technologies like WebSQL, making way for more modern solutions like IndexedDB.  ### Is Android 15 released?  V",
+      "readminutes": null,
+      "image": {
+        "id": 165,
+        "documentId": "mmsrlvc1cz99dahztth807tp",
+        "name": "news1.jpg",
+        "alternativeText": null,
+        "caption": null,
+        "width": 2048,
+        "height": 1152,
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_news1.jpg",
+            "hash": "thumbnail_news1_1b1d627477",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 245,
+            "height": 138,
+            "size": 5.35,
+            "sizeInBytes": 5350,
+            "url": "/uploads/thumbnail_news1_1b1d627477.jpg"
+          },
+          "large": {
+            "name": "large_news1.jpg",
+            "hash": "large_news1_1b1d627477",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 1000,
+            "height": 562,
+            "size": 29.77,
+            "sizeInBytes": 29774,
+            "url": "/uploads/large_news1_1b1d627477.jpg"
+          },
+          "small": {
+            "name": "small_news1.jpg",
+            "hash": "small_news1_1b1d627477",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 500,
+            "height": 281,
+            "size": 13.37,
+            "sizeInBytes": 13372,
+            "url": "/uploads/small_news1_1b1d627477.jpg"
+          },
+          "medium": {
+            "name": "medium_news1.jpg",
+            "hash": "medium_news1_1b1d627477",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 750,
+            "height": 422,
+            "size": 22.24,
+            "sizeInBytes": 22240,
+            "url": "/uploads/medium_news1_1b1d627477.jpg"
+          }
+        },
+        "hash": "news1_1b1d627477",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "size": 62.11,
+        "url": "/uploads/news1_1b1d627477.jpg",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "createdAt": "2025-07-11T08:50:17.442Z",
+        "updatedAt": "2025-07-11T08:50:17.442Z",
+        "publishedAt": "2025-07-11T08:50:17.442Z"
+      },
+      "tags": [
+        {
+          "id": 97,
+          "tag": "Digital Commerce"
+        },
+        {
+          "id": 98,
+          "tag": "Finance"
+        }
+      ],
+      "landing_page": {
+        "id": 13,
+        "documentId": "oqa7198bt1uxwd6aoec07a1v",
+        "createdAt": "2025-07-18T10:54:04.646Z",
+        "updatedAt": "2025-08-20T15:06:17.682Z",
+        "publishedAt": "2025-08-20T15:06:17.718Z"
+      },
+      "news_blogs_page": {
+        "id": 3,
+        "documentId": "nu3k1p1j3fb17ruz02w0drg0",
+        "createdAt": "2025-07-21T11:28:13.677Z",
+        "updatedAt": "2025-07-24T08:18:36.208Z",
+        "publishedAt": "2025-07-24T08:18:36.284Z"
+      }
+    },
+    {
+      "id": 57,
+      "documentId": "expnrtf2v1e9su6ymbk1uxyg",
+      "title": "BLA delivers quality according to world standards",
+      "slug": "this-new-ide-from-google-is-an-absolute-game-changer",
+      "type": "news",
+      "author": "John Smith",
+      "date": "2025-07-16",
+      "content": "## What’s new with Android 15?\nAndroid 15 introduces enhanced privacy controls, new APIs for better performance and user experience, and advanced camera features like **Low Light Boost**. It also deprecates older technologies like **WebSQL**, making way for more modern solutions like **IndexedDB**.\n## Is Android 15 released?\nVarious developer previews and beta versions of Android 15 have been released so far. The final launch is expected to occur sometime in the **fall of 2024**.\n\n## How does Android 15 address app compatibility and backward compatibility issues?\nAndroid 15 includes several measures to ensure app compatibility and backward compatibility, such as:\n- Detailed documentation on behavior changes\n- New feature support\n- Tools like the **Android Compatibility Test Suite (CTS)**\n\nThese ensure that apps remain functional and performant on the new platform while still supporting older versions where necessary.\n\n## What are the benefits of the improved camera APIs in Android 15 for app developers?\nThe improved camera APIs provide:\n- Greater control over camera hardware\n- Real-time effects\n- Improved HDR processing\n- Better integration with machine learning algorithms\n\nThese capabilities help developers create advanced camera experiences like:\n\n- Augmented reality applications\n- Advanced photo/video editing features\n## How does Android 15 improve app performance on older devices?\nAndroid 15 offers:\n- Optimized memory management\n- Enhanced rendering pipelines\n\nThese improvements ensure apps run smoothly even on devices with limited hardware resources.\n\n---\n\n## References\n\n- [First Android 15 Developer Preview](https://android-developers.googleblog.com/2024/02/first-developer-preview-android15.html)\n- [Android 15 Features Overview](https://developer.android.com/about/versions/15/features)\n- [Android Developers Blog](https://android-developers.googleblog.com)\n- [Android Developers Official Site](https://developer.android.com)\n",
+      "createdAt": "2025-07-11T12:23:49.379Z",
+      "updatedAt": "2025-08-20T11:58:44.392Z",
+      "publishedAt": "2025-08-20T11:58:44.406Z",
+      "description": "ISTQB (International Software Testing Qualifications Board) is a globally recognized organization that provides standardized certifications for software testers.",
+      "readminutes": 8,
+      "image": {
+        "id": 166,
+        "documentId": "j6dmgyoz5rygwyyu4tyav4ns",
+        "name": "representation-user-experience-interface-design-1200x800.webp",
+        "alternativeText": null,
+        "caption": null,
+        "width": 1440,
+        "height": 445,
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_representation-user-experience-interface-design-1200x800.webp",
+            "hash": "thumbnail_representation_user_experience_interface_design_1200x800_fedb475fc5",
+            "ext": ".webp",
+            "mime": "image/png",
+            "path": null,
+            "width": 245,
+            "height": 76,
+            "size": 33.78,
+            "sizeInBytes": 33782,
+            "url": "/uploads/thumbnail_representation_user_experience_interface_design_1200x800_fedb475fc5.webp"
+          },
+          "small": {
+            "name": "small_representation-user-experience-interface-design-1200x800.webp",
+            "hash": "small_representation_user_experience_interface_design_1200x800_fedb475fc5",
+            "ext": ".webp",
+            "mime": "image/png",
+            "path": null,
+            "width": 500,
+            "height": 155,
+            "size": 128.58,
+            "sizeInBytes": 128578,
+            "url": "/uploads/small_representation_user_experience_interface_design_1200x800_fedb475fc5.webp"
+          },
+          "medium": {
+            "name": "medium_representation-user-experience-interface-design-1200x800.webp",
+            "hash": "medium_representation_user_experience_interface_design_1200x800_fedb475fc5",
+            "ext": ".webp",
+            "mime": "image/png",
+            "path": null,
+            "width": 750,
+            "height": 232,
+            "size": 283.66,
+            "sizeInBytes": 283661,
+            "url": "/uploads/medium_representation_user_experience_interface_design_1200x800_fedb475fc5.webp"
+          },
+          "large": {
+            "name": "large_representation-user-experience-interface-design-1200x800.webp",
+            "hash": "large_representation_user_experience_interface_design_1200x800_fedb475fc5",
+            "ext": ".webp",
+            "mime": "image/png",
+            "path": null,
+            "width": 1000,
+            "height": 309,
+            "size": 498.89,
+            "sizeInBytes": 498886,
+            "url": "/uploads/large_representation_user_experience_interface_design_1200x800_fedb475fc5.webp"
+          }
+        },
+        "hash": "representation_user_experience_interface_design_1200x800_fedb475fc5",
+        "ext": ".webp",
+        "mime": "image/png",
+        "size": 303.52,
+        "url": "/uploads/representation_user_experience_interface_design_1200x800_fedb475fc5.webp",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "createdAt": "2025-07-11T12:21:27.742Z",
+        "updatedAt": "2025-08-20T11:57:26.900Z",
+        "publishedAt": "2025-07-11T12:21:27.743Z"
+      },
+      "tags": [
+        {
+          "id": 109,
+          "tag": "Mobile App"
+        },
+        {
+          "id": 110,
+          "tag": "Artificial Intelligence "
+        }
+      ],
+      "landing_page": {
+        "id": 13,
+        "documentId": "oqa7198bt1uxwd6aoec07a1v",
+        "createdAt": "2025-07-18T10:54:04.646Z",
+        "updatedAt": "2025-08-20T15:06:17.682Z",
+        "publishedAt": "2025-08-20T15:06:17.718Z"
+      },
+      "news_blogs_page": {
+        "id": 3,
+        "documentId": "nu3k1p1j3fb17ruz02w0drg0",
+        "createdAt": "2025-07-21T11:28:13.677Z",
+        "updatedAt": "2025-07-24T08:18:36.208Z",
+        "publishedAt": "2025-07-24T08:18:36.284Z"
+      }
+    },
+    {
+      "id": 58,
+      "documentId": "qfv4x7z7o6pfuq5rwe484fee",
+      "title": "Document Processing: Experience and Learnings",
+      "slug": "real-impact-with-solid-tech",
+      "type": "event",
+      "author": "John Smith",
+      "date": "2025-09-25",
+      "content": "## 🧪 Project Overview\n\n![quattro research logo](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Logo_placeholder_image.png/600px-Logo_placeholder_image.png)\n\nFounded in **2004**, **quattro research** develops intuitive software that empowers digital scientific workflows. Their **Laboratory Information Management Systems (LIMS)** — such as **quattro/CM**, **quattro/LJ**, and **quattro/BR** — manage and analyze complex chemical and biological data.\n\n---\n\n![Team Collaboration](https://images.unsplash.com/photo-1632179002215-f5c8d5dcf35b)\n\nTo scale quickly and meet growing client demand, quattro research partnered with **unicrew** to strengthen their engineering team with skilled developers who could integrate seamlessly and boost project velocity.\n\n---\n\n## 🚧 Key Challenges\n\n![Challenges](https://images.unsplash.com/photo-1573164713347-df1e1f69a3f2)\n\n- **Scalability Requirements** – Needed to scale fast without lowering code quality.\n- **Complex UI Needs** – Required a responsive UI for large molecular datasets.\n- **Scientific Data Presentation** – Flexible visualization in dynamic grids and forms.\n- **Modern Security Protocols** – Needed secure access management (OAuth, JWT).\n- **High-Performance Rendering** – For complex molecule structure visualization.\n\n---\n\n## ✅ Solution\n\n### 🔹 React-Based UI\n\n![React UI](https://images.unsplash.com/photo-1581091012184-5c2bca6f3bb6)\n\nDesigned and implemented a performant, intuitive React frontend for handling complex molecule data structures.\n\n---\n\n### 🔹 Configurable Data Framework\n\n![Grid System](https://images.unsplash.com/photo-1645051915681-183d5f30ef0a)\n\nDeveloped a flexible framework allowing scientists to customize data views using dynamic **grids** and **forms**.\n\n---\n\n### 🔹 Secure Authentication\n\n![Security](https://miro.medium.com/v2/resize:fit:720/format:webp/0*PRZcNPDVe2z5n7kO)\n\nIntegrated **OAuth** and **JWT** for robust and modern authentication & authorization standards.\n\n---\n\n### 🔹 Molecule Visualization\n\n![Molecule Viewer](https://miro.medium.com/v2/resize:fit:720/format:webp/0*PRZcNPDVe2z5n7kO)\n\nDelivered advanced visualization tools for rendering large and complex molecule structures efficiently.\n\n---\n\n## 👥 Collaboration Snapshot\n\n![Unicrew Team](https://images.unsplash.com/photo-1581091870622-df42a3f9808b)\n\n**unicrew** assembled a full-stack development team with expertise in:\n- `.NET`, `Java`, `PHP`, `Laravel`\n- `JavaScript`, `React`, `Vue`\n\nThey worked in **agile sprints** alongside quattro research’s internal team to maintain alignment, speed, and flexibility.\n\n---\n\n## 🎯 Results\n\n![Success](https://images.unsplash.com/photo-1581093588401-99a6f43db2a9)\n\n- **⚡ Faster Development** – Accelerated product delivery timelines.\n- **🎨 Better Usability** – UI tailored for scientific users.\n- **🔐 Improved Security** – OAuth and JWT integration.\n- **🔬 Enhanced Visualization** – Clarity in molecule data exploration.\n- **🤝 Ongoing Partnership** – Sustained collaboration with quattro research.\n\n---\n\n> _\"unicrew's developers integrated seamlessly with our team, demonstrating professionalism and a deep understanding of our needs. Their contributions have been invaluable.\"_  \n> — **Dr. Bernhard Schirm**, Managing Director\n\n[🔗 View Full Review](https://example.com/review)\n\n---\n\n## 🛠 Related Services\n\n- ✅ Dedicated Software Development Teams  \n- ✅ White Label Web Development  \n- ✅ Legacy Software Modernization\n",
+      "createdAt": "2025-07-11T08:42:46.052Z",
+      "updatedAt": "2025-08-20T11:59:04.331Z",
+      "publishedAt": "2025-08-20T11:59:04.346Z",
+      "description": "Is Android 15 released?  Various developer previews and beta versions of Android 15 have been released so far. ",
+      "readminutes": null,
+      "image": {
+        "id": 156,
+        "documentId": "t57pbuvdfho6u9bn7i6fhuzf",
+        "name": "news2.jpg",
+        "alternativeText": null,
+        "caption": null,
+        "width": 1200,
+        "height": 627,
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_news2.jpg",
+            "hash": "thumbnail_news2_3c6c533a21",
+            "ext": ".jpg",
+            "mime": "image/png",
+            "path": null,
+            "width": 245,
+            "height": 128,
+            "size": 47.44,
+            "sizeInBytes": 47439,
+            "url": "/uploads/thumbnail_news2_3c6c533a21.jpg"
+          },
+          "small": {
+            "name": "small_news2.jpg",
+            "hash": "small_news2_3c6c533a21",
+            "ext": ".jpg",
+            "mime": "image/png",
+            "path": null,
+            "width": 500,
+            "height": 261,
+            "size": 172.76,
+            "sizeInBytes": 172759,
+            "url": "/uploads/small_news2_3c6c533a21.jpg"
+          },
+          "medium": {
+            "name": "medium_news2.jpg",
+            "hash": "medium_news2_3c6c533a21",
+            "ext": ".jpg",
+            "mime": "image/png",
+            "path": null,
+            "width": 750,
+            "height": 392,
+            "size": 368.6,
+            "sizeInBytes": 368602,
+            "url": "/uploads/medium_news2_3c6c533a21.jpg"
+          },
+          "large": {
+            "name": "large_news2.jpg",
+            "hash": "large_news2_3c6c533a21",
+            "ext": ".jpg",
+            "mime": "image/png",
+            "path": null,
+            "width": 1000,
+            "height": 523,
+            "size": 619.66,
+            "sizeInBytes": 619664,
+            "url": "/uploads/large_news2_3c6c533a21.jpg"
+          }
+        },
+        "hash": "news2_3c6c533a21",
+        "ext": ".jpg",
+        "mime": "image/png",
+        "size": 220.92,
+        "url": "/uploads/news2_3c6c533a21.jpg",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "createdAt": "2025-07-10T08:31:48.164Z",
+        "updatedAt": "2025-08-20T11:54:16.902Z",
+        "publishedAt": "2025-07-10T08:31:48.164Z"
+      },
+      "tags": [
+        {
+          "id": 111,
+          "tag": "BLOCKCHAIN"
+        },
+        {
+          "id": 112,
+          "tag": "ML"
+        }
+      ],
+      "landing_page": {
+        "id": 13,
+        "documentId": "oqa7198bt1uxwd6aoec07a1v",
+        "createdAt": "2025-07-18T10:54:04.646Z",
+        "updatedAt": "2025-08-20T15:06:17.682Z",
+        "publishedAt": "2025-08-20T15:06:17.718Z"
+      },
+      "news_blogs_page": {
+        "id": 3,
+        "documentId": "nu3k1p1j3fb17ruz02w0drg0",
+        "createdAt": "2025-07-21T11:28:13.677Z",
+        "updatedAt": "2025-07-24T08:18:36.208Z",
+        "publishedAt": "2025-07-24T08:18:36.284Z"
+      }
+    },
+    {
+      "id": 59,
+      "documentId": "pzlfpjsy3sb4dfh1ge4kheyl",
+      "title": "A tool to create Flutter projects more efficiently",
+      "slug": "ai-in-travel-industry-use-cases-example-and-benefits",
+      "type": "blog",
+      "author": "John Smith",
+      "date": "2025-07-11",
+      "content": "## 🧪 Project Overview\n\n![quattro research logo](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Logo_placeholder_image.png/600px-Logo_placeholder_image.png)\n\nFounded in **2004**, **quattro research** develops intuitive software that empowers digital scientific workflows. Their **Laboratory Information Management Systems (LIMS)** — such as **quattro/CM**, **quattro/LJ**, and **quattro/BR** — manage and analyze complex chemical and biological data.\n\n---\n\n![Team Collaboration](https://images.unsplash.com/photo-1632179002215-f5c8d5dcf35b)\n\nTo scale quickly and meet growing client demand, quattro research partnered with **unicrew** to strengthen their engineering team with skilled developers who could integrate seamlessly and boost project velocity.\n\n---\n\n## 🚧 Key Challenges\n\n![Challenges](https://images.unsplash.com/photo-1573164713347-df1e1f69a3f2)\n\n- **Scalability Requirements** – Needed to scale fast without lowering code quality.\n- **Complex UI Needs** – Required a responsive UI for large molecular datasets.\n- **Scientific Data Presentation** – Flexible visualization in dynamic grids and forms.\n- **Modern Security Protocols** – Needed secure access management (OAuth, JWT).\n- **High-Performance Rendering** – For complex molecule structure visualization.\n\n---\n\n## ✅ Solution\n\n### 🔹 React-Based UI\n\n![React UI](https://images.unsplash.com/photo-1581091012184-5c2bca6f3bb6)\n\nDesigned and implemented a performant, intuitive React frontend for handling complex molecule data structures.\n\n---\n\n### 🔹 Configurable Data Framework\n\n![Grid System](https://images.unsplash.com/photo-1645051915681-183d5f30ef0a)\n\nDeveloped a flexible framework allowing scientists to customize data views using dynamic **grids** and **forms**.\n\n---\n\n### 🔹 Secure Authentication\n\n![Security](https://miro.medium.com/v2/resize:fit:720/format:webp/0*PRZcNPDVe2z5n7kO)\n\nIntegrated **OAuth** and **JWT** for robust and modern authentication & authorization standards.\n\n---\n\n### 🔹 Molecule Visualization\n\n![Molecule Viewer](https://miro.medium.com/v2/resize:fit:720/format:webp/0*PRZcNPDVe2z5n7kO)\n\nDelivered advanced visualization tools for rendering large and complex molecule structures efficiently.\n\n---\n\n## 👥 Collaboration Snapshot\n\n![Unicrew Team](https://images.unsplash.com/photo-1581091870622-df42a3f9808b)\n\n**unicrew** assembled a full-stack development team with expertise in:\n- `.NET`, `Java`, `PHP`, `Laravel`\n- `JavaScript`, `React`, `Vue`\n\nThey worked in **agile sprints** alongside quattro research’s internal team to maintain alignment, speed, and flexibility.\n\n---\n\n## 🎯 Results\n\n![Success](https://images.unsplash.com/photo-1581093588401-99a6f43db2a9)\n\n- **⚡ Faster Development** – Accelerated product delivery timelines.\n- **🎨 Better Usability** – UI tailored for scientific users.\n- **🔐 Improved Security** – OAuth and JWT integration.\n- **🔬 Enhanced Visualization** – Clarity in molecule data exploration.\n- **🤝 Ongoing Partnership** – Sustained collaboration with quattro research.\n\n---\n\n> _\"unicrew's developers integrated seamlessly with our team, demonstrating professionalism and a deep understanding of our needs. Their contributions have been invaluable.\"_  \n> — **Dr. Bernhard Schirm**, Managing Director\n\n[🔗 View Full Review](https://example.com/review)\n\n---\n\n## 🛠 Related Services\n\n- ✅ Dedicated Software Development Teams  \n- ✅ White Label Web Development  \n- ✅ Legacy Software Modernization\n",
+      "createdAt": "2025-07-11T08:45:50.526Z",
+      "updatedAt": "2025-08-20T12:05:31.140Z",
+      "publishedAt": "2025-08-20T12:05:31.154Z",
+      "description": "At Ballast Lane Applications we created a revolutionary tool that allows us to create projects in record time. ",
+      "readminutes": 19,
+      "image": {
+        "id": 164,
+        "documentId": "skfmubiurn3hesv4fny6iygx",
+        "name": "Chatbots.jpg",
+        "alternativeText": null,
+        "caption": null,
+        "width": 3840,
+        "height": 2160,
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_Chatbots.jpg",
+            "hash": "thumbnail_Chatbots_0bd37d5e4b",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 245,
+            "height": 138,
+            "size": 5.18,
+            "sizeInBytes": 5180,
+            "url": "/uploads/thumbnail_Chatbots_0bd37d5e4b.jpg"
+          },
+          "large": {
+            "name": "large_Chatbots.jpg",
+            "hash": "large_Chatbots_0bd37d5e4b",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 1000,
+            "height": 562,
+            "size": 23.29,
+            "sizeInBytes": 23292,
+            "url": "/uploads/large_Chatbots_0bd37d5e4b.jpg"
+          },
+          "small": {
+            "name": "small_Chatbots.jpg",
+            "hash": "small_Chatbots_0bd37d5e4b",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 500,
+            "height": 281,
+            "size": 11.04,
+            "sizeInBytes": 11038,
+            "url": "/uploads/small_Chatbots_0bd37d5e4b.jpg"
+          },
+          "medium": {
+            "name": "medium_Chatbots.jpg",
+            "hash": "medium_Chatbots_0bd37d5e4b",
+            "ext": ".jpg",
+            "mime": "image/jpeg",
+            "path": null,
+            "width": 750,
+            "height": 422,
+            "size": 16.91,
+            "sizeInBytes": 16912,
+            "url": "/uploads/medium_Chatbots_0bd37d5e4b.jpg"
+          }
+        },
+        "hash": "Chatbots_0bd37d5e4b",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "size": 97.66,
+        "url": "/uploads/Chatbots_0bd37d5e4b.jpg",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "createdAt": "2025-07-11T08:41:21.428Z",
+        "updatedAt": "2025-07-16T07:33:35.388Z",
+        "publishedAt": "2025-07-11T08:41:21.429Z"
+      },
+      "tags": [
+        {
+          "id": 113,
+          "tag": "App Development"
+        },
+        {
+          "id": 114,
+          "tag": "AI & Big Data Expo"
+        }
+      ],
+      "landing_page": {
+        "id": 13,
+        "documentId": "oqa7198bt1uxwd6aoec07a1v",
+        "createdAt": "2025-07-18T10:54:04.646Z",
+        "updatedAt": "2025-08-20T15:06:17.682Z",
+        "publishedAt": "2025-08-20T15:06:17.718Z"
+      },
+      "news_blogs_page": {
+        "id": 3,
+        "documentId": "nu3k1p1j3fb17ruz02w0drg0",
+        "createdAt": "2025-07-21T11:28:13.677Z",
+        "updatedAt": "2025-07-24T08:18:36.208Z",
+        "publishedAt": "2025-07-24T08:18:36.284Z"
+      }
+    },
+    {
+      "id": 61,
+      "documentId": "ezuxbxmwl2zrds4z62csxajm",
+      "title": "Partnering for Success: How Ballast Lane Applications Supports Agencies with Scalable Development Solutions",
+      "slug": "leading-brands-succeed-with-digital-commerce",
+      "type": "blog",
+      "author": "John Smith",
+      "date": "2025-07-22",
+      "content": null,
+      "createdAt": "2025-07-23T12:16:02.826Z",
+      "updatedAt": "2025-08-20T12:28:34.738Z",
+      "publishedAt": "2025-08-20T12:28:34.755Z",
+      "description": "We have had great success in the past few years with several agencies of different sizes.",
+      "readminutes": 8,
+      "image": {
+        "id": 174,
+        "documentId": "djnorelq8w7r0cozhs9shxre",
+        "name": "team-government-spies-meeting-cia-headquarters-monitor-surveillance.jpg",
+        "alternativeText": null,
+        "caption": null,
+        "width": 891,
+        "height": 445,
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_team-government-spies-meeting-cia-headquarters-monitor-surveillance.jpg",
+            "hash": "thumbnail_team_government_spies_meeting_cia_headquarters_monitor_surveillance_ed777e1b78",
+            "ext": ".jpg",
+            "mime": "image/png",
+            "path": null,
+            "width": 245,
+            "height": 122,
+            "size": 27.63,
+            "sizeInBytes": 27626,
+            "url": "/uploads/thumbnail_team_government_spies_meeting_cia_headquarters_monitor_surveillance_ed777e1b78.jpg"
+          },
+          "small": {
+            "name": "small_team-government-spies-meeting-cia-headquarters-monitor-surveillance.jpg",
+            "hash": "small_team_government_spies_meeting_cia_headquarters_monitor_surveillance_ed777e1b78",
+            "ext": ".jpg",
+            "mime": "image/png",
+            "path": null,
+            "width": 500,
+            "height": 250,
+            "size": 111.48,
+            "sizeInBytes": 111481,
+            "url": "/uploads/small_team_government_spies_meeting_cia_headquarters_monitor_surveillance_ed777e1b78.jpg"
+          },
+          "medium": {
+            "name": "medium_team-government-spies-meeting-cia-headquarters-monitor-surveillance.jpg",
+            "hash": "medium_team_government_spies_meeting_cia_headquarters_monitor_surveillance_ed777e1b78",
+            "ext": ".jpg",
+            "mime": "image/png",
+            "path": null,
+            "width": 750,
+            "height": 375,
+            "size": 241.94,
+            "sizeInBytes": 241938,
+            "url": "/uploads/medium_team_government_spies_meeting_cia_headquarters_monitor_surveillance_ed777e1b78.jpg"
+          }
+        },
+        "hash": "team_government_spies_meeting_cia_headquarters_monitor_surveillance_ed777e1b78",
+        "ext": ".jpg",
+        "mime": "image/png",
+        "size": 79.64,
+        "url": "/uploads/team_government_spies_meeting_cia_headquarters_monitor_surveillance_ed777e1b78.jpg",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "createdAt": "2025-07-23T09:00:23.121Z",
+        "updatedAt": "2025-08-20T12:28:33.261Z",
+        "publishedAt": "2025-07-23T09:00:23.121Z"
+      },
+      "tags": [
+        {
+          "id": 117,
+          "tag": "WebTechnologies"
+        }
+      ],
+      "landing_page": {
+        "id": 13,
+        "documentId": "oqa7198bt1uxwd6aoec07a1v",
+        "createdAt": "2025-07-18T10:54:04.646Z",
+        "updatedAt": "2025-08-20T15:06:17.682Z",
+        "publishedAt": "2025-08-20T15:06:17.718Z"
+      },
+      "news_blogs_page": {
+        "id": 3,
+        "documentId": "nu3k1p1j3fb17ruz02w0drg0",
+        "createdAt": "2025-07-21T11:28:13.677Z",
+        "updatedAt": "2025-07-24T08:18:36.208Z",
+        "publishedAt": "2025-07-24T08:18:36.284Z"
+      }
+    },
+    {
+      "id": 87,
+      "documentId": "s2t26pcu1nwbcyyx5jvscl5k",
+      "title": "Which LLM Really Handles Complex 3D Coding? A Stress Test You Won’t See in Demos",
+      "slug": "which-llm-really-handles-complex-3-d-coding-a-stress-test-you-won-t-see-in-demos",
+      "type": "blog",
+      "author": "Dr Mukhtiar Ahmad",
+      "date": "2025-08-22",
+      "content": "I gave GPT-5, Claude Sonnet 4, Gemini Flash 2.5, DeepSeek DeepThink (R1), and Amazon Kiro the same complex coding task: a 3D neural network simulation in Three.js. Only one model came close to production-level quality.\n\n\n##  Why I Ran This Experiment\nMost LLM reviews show simple tasks: “write a landing page” or “generate a Python script.” But those don’t really tell us how these models behave under **real production-like complexity.**\n*I wanted to see how these models perform when asked to tackle a tightly constrained, visually verifiable, and mathematically precise coding challenge — one where mistakes are immediately obvious.*\nSo I wrote a **prompt about 1,500 tokens long,** spelling out every requirement of a **3D neural network visualization in Three.js.**\n![Dashboard](/blogs-images/3d-coding-challenge.png)\n\nThe article below includes only a structured summary of those requirements (for readability). But make no mistake: the actual spec was meticulous, covering exact math formulas, timing phases, firing rules, and strict boundary enforcement.\n## The Benchmark Problem\n\n### Task (summary of original prompt):\n\nCreate a professional 3D neural network visualization using **Three.js** that demonstrates dynamic shape morphing, neural activity simulation, interactive camera controls, and perfect geometric containment of all neural elements.\n\n---\n\n## Highlights of the Requirements\n\n### 🔹 Shapes & Morphing\n- Cycle through 5 shapes in strict order: **Sphere → Cone → Cube → Pyramid → Cylinder**  \n- Smooth morphing transitions, infinite loop  \n\n### 🔹 Neurons & Connections\n- Exactly **1,200 neurons** (white wireframe spheres)  \n- At least **3 connections per neuron**, proximity-based  \n- **Zero tolerance** for neurons or links outside the shape boundary  \n\n### 🔹 Activity Simulation\n- Random neurons fire every **150ms (~1.5%)**\n- Red “meteor effect” travels along links.\n- Destination neuron glows red and scales 3x for 800ms, then resets.\n### 🔹Camera & Interaction\n- Interactive rotation with mouse; gentle auto-rotation fallback.\n- Cinematic zoom-in (3s) and zoom-out (3s), synced with morph transitions.\n- Smooth easing, no jerky movements.\n\n### 🔹Performance\n- 60fps target.\n- Memory-efficient cleanup of effects.\n- Responsive resizing.\n- Single HTML file with Three.js via CDN.\n\nIn short: **a professional-grade animation system** that would expose weaknesses in any model’s reasoning or code structure.\n\n## The Test Setup\n\nI tested five LLMs:\n\n- **Chat interfaces:** GPT-5, Claude Sonnet 4, Gemini Flash 2.5, DeepSeek DeepThink (R1)  \n- **Software development environment:** Amazon Kiro  \n\nEvery model received the same requirements. I evaluated them on **accuracy, containment, animation quality, and refinement potential**.\n\n---\n\n## Results by Model\n\n### GPT-5 (Chat UI)\n\nGPT-5 generated workable code, but with serious issues:\n\n- Neurons consistently **leaked outside shape boundaries**.  \n- Connections were extended incorrectly.  \n- Neuron firing lacked polish and synchronization.  \n- Even with multiple refinement prompts, shapes stayed messy.  \n\nUsing **GPT-5 Agents** (longer reasoning) prolonged the process but didn’t fix alignment errors — cones inverted, pyramids misplaced, neurons still out of bounds.\n\n**Verdict:** Ambitious, but ultimately unreliable for this kind of strict geometry.\n\n### Claude Sonnet 4 (Chat UI)\n\nClaude performed better than GPT-5:\n\n- More structured output and closer adherence to requirements.  \n- Shapes looked cleaner, firing slightly more naturally.  \n\nBut…\n\n- Neurons still escaped boundaries.  \n- Links didn’t always update correctly.  \n- After 5–7 refinement prompts, things improved, but never reached spec.  \n\n**Verdict:** Better discipline than GPT-5, but still not production-ready.  \n\n---\n\n### Gemini Flash 2.5 (Chat UI)\n\nWhen given the prompt, Gemini replied with:\n\n*I am unable to generate a complete and functional HTML file with the complex Three.js code you’ve requested. My capabilities are limited to providing information and generating text or images, and I cannot create a fully-coded, executable web page.*\n\n**Verdict:** Refreshingly honest, but ultimately a non-result for this test.\n### DeepSeek DeepThink (R1) (Chat UI)\n\nMarketed as a “thinking” model, DeepSeek showed the same execution gaps as GPT and Claude:\n\n- Out-of-bounds neurons.  \n- Misaligned links.  \n- Firing animations lacked precision.\n  \nReasoning ability didn’t translate into technical correctness here.  \n\n**Verdict:** Same flaws, different branding.  \n\n---\n\n### Amazon Kiro (Software Dev Environment)\n\nThis was the surprise.  \n\nUnlike the chat UIs, Kiro didn’t just dump code. It followed a structured development workflow:\n\n1. Converted my long prompt into a Markdown requirements doc.  \n2. Translated that into a design specification.  \n3. Broke it down into a task list.  \n4. Then generated the implementation.  \n\nThe first attempt missed a few requirements. But when I asked:  \n\n> Are you sure you implemented all the requirements?  \n\nKiro did something no other model did:  \n\n- It checked its work against the requirements list.  \n- Found the gaps.  \n- Fixed them in the next iteration with a single prompt.  \n\nThe final result hit about **95% of the full spec**.  \n\n**Verdict:** The only LLM-based system in this test that was able to implement all the requirements correctly.  \n## Final Rankings  \n\n🥇 **Amazon Kiro** → Clear winner. Met nearly all requirements with minimal prompting.  \n🥈 **Claude Sonnet 4.0** → Strong attempt, but too much manual refinement needed.  \n🥉 **GPT-5** → Ambitious but messy and inconsistent.  \n🎭 **DeepSeek Think (R1)** → Same flaws as GPT/Claude, despite “reasoning” claims.  \n🚫 **Gemini Flash 2.5** → Did not attempt implementation.  \n\n---\n\n## Takeaways  \n\n1. **Long, detailed prompts expose model weaknesses.**  \n   The 1,500-token spec I provided was deliberately precise, and most models struggled to stay within those constraints.  \n\n2. **Chat UIs aren’t enough for production-level tasks.**  \n   GPT, Claude, DeepSeek, and Gemini behaved like “helpers.” They don’t enforce discipline unless you spoon-feed corrections for hours.  \n\n3. **Requirement verification is the difference-maker.**  \n   Amazon Kiro stood out because it didn’t just generate code — it cross-checked requirements, found gaps, and corrected them. That’s what made it succeed where others failed.  \n\n---\n\n## Closing Thoughts  \n\nThis experiment convinced me of something bigger:  \n\nFuture LLMs won’t just be about being “smarter.” They’ll need to adopt structured engineering workflows — breaking problems down, checking against specs, and iterating systematically.  \n\nBecause in real-world coding, intelligence without verification isn’t enough.  \n\nAnd for now, **Kiro is the only LLM-based system I’ve tested that was able to implement all the requirements correctly.**  \n\n---\n\n**Note:** Some of the content is AI-generated.  \n\n",
+      "createdAt": "2025-07-11T11:48:10.779Z",
+      "updatedAt": "2025-09-05T08:41:42.450Z",
+      "publishedAt": "2025-09-05T08:41:42.512Z",
+      "description": "\nThis article is not about coffee; it’s about how user interactions change and adapt, how generative AI.\n\nUsing **GPT-5 Agents** (longer reasoning) prolonged the process but didn’t fix alignment errors — cones inverted, pyramids misplaced, neurons still out of bounds.\n\n**Verdict:** Ambitious, but ultimately unreliable for this kind of strict geometry.\n*I am unable to generate a complete and functional HTML file with the complex Three.js code you’ve requested. My capabilities are limited to providing information and generating text or images, and I cannot create a fully-coded, executable web page.*",
+      "readminutes": 4,
+      "image": {
+        "id": 163,
+        "documentId": "ka2ny8ll4z795ym5aaoxqu4g",
+        "name": "Chatbots.jpg",
+        "alternativeText": null,
+        "caption": null,
+        "width": 580,
+        "height": 435,
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_Chatbots.jpg",
+            "hash": "thumbnail_Chatbots_60e5e966f7",
+            "ext": ".jpg",
+            "mime": "image/png",
+            "path": null,
+            "width": 208,
+            "height": 156,
+            "size": 23.84,
+            "sizeInBytes": 23840,
+            "url": "/uploads/thumbnail_Chatbots_60e5e966f7.jpg"
+          },
+          "small": {
+            "name": "small_Chatbots.jpg",
+            "hash": "small_Chatbots_60e5e966f7",
+            "ext": ".jpg",
+            "mime": "image/png",
+            "path": null,
+            "width": 500,
+            "height": 375,
+            "size": 88.37,
+            "sizeInBytes": 88372,
+            "url": "/uploads/small_Chatbots_60e5e966f7.jpg"
+          }
+        },
+        "hash": "Chatbots_60e5e966f7",
+        "ext": ".jpg",
+        "mime": "image/png",
+        "size": 22.69,
+        "url": "/uploads/Chatbots_60e5e966f7.jpg",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "createdAt": "2025-07-11T08:41:05.613Z",
+        "updatedAt": "2025-09-04T10:40:41.847Z",
+        "publishedAt": "2025-07-11T08:41:05.614Z"
+      },
+      "tags": [
+        {
+          "id": 168,
+          "tag": "AndroidUpdates"
+        },
+        {
+          "id": 169,
+          "tag": " Android15"
+        }
+      ],
+      "landing_page": {
+        "id": 13,
+        "documentId": "oqa7198bt1uxwd6aoec07a1v",
+        "createdAt": "2025-07-18T10:54:04.646Z",
+        "updatedAt": "2025-08-20T15:06:17.682Z",
+        "publishedAt": "2025-08-20T15:06:17.718Z"
+      },
+      "news_blogs_page": {
+        "id": 3,
+        "documentId": "nu3k1p1j3fb17ruz02w0drg0",
+        "createdAt": "2025-07-21T11:28:13.677Z",
+        "updatedAt": "2025-07-24T08:18:36.208Z",
+        "publishedAt": "2025-07-24T08:18:36.284Z"
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 25,
+      "pageCount": 1,
+      "total": 6
+    }
+  }
+}
