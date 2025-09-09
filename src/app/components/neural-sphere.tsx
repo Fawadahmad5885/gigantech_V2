@@ -167,7 +167,6 @@ useEffect(() => {
       if (now - meteor.userData.createdAt > 600) {
         scene.remove(meteor);
         const targetIdx = meteor.userData.targetIndex;
-        // Restore original material, ensuring it's a clone to avoid modifying the shared material
         neurons[targetIdx].material = baseColorMaterial.clone();
         meteors.splice(i, 1);
       }

@@ -4,12 +4,6 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import {
-  Brain,
-  Sparkles,
-  Cpu,
-  Eye,
-  Cloud,
-  Blocks,
   CheckCircle,
 } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
@@ -17,6 +11,7 @@ import { useCallback } from "react";
 
 const images = {
   aiBg: "/assets/images/ai-technologies-images/ai-background.png",
+  edgeAiBg: "/assets/images/ai-technologies-images/edge-ai-bg.png",
   mlBg: "/assets/images/ai-technologies-images/machine-learning-bg.png",
   genaiBg: "/assets/images/ai-technologies-images/generative-ai-bg.png",
   cvBg: "/assets/images/ai-technologies-images/computer-vision-bg.png",
@@ -52,7 +47,7 @@ const technologies = [
     id: "edge-AI",
     name: "Edge AI",
     icon: icons.edgeIcon,
-    image: images.mlBg,
+    image: images.edgeAiBg,
     description:
       "Our Edge AI offerings bring intelligence closer to the source, enabling secure, real-time, and multilingual processing on mobile and offline devices.",
     services: [
@@ -124,8 +119,10 @@ const technologies = [
   
 ];
 
-export default function AiTechnologiesSection({aiTechnologies}) {
-  const [activeTechId, setActiveTechId] = useState("machine-learning");
+export default function AiTechnologiesSection({ aiTechnologies }) {
+  const [activeTechId, setActiveTechId] = useState("predictive-analytics");
+  const [isHovered, setIsHovered] = useState(false); 
+
   const activeIndex = useMemo(
     () =>
       Math.max(
@@ -134,9 +131,10 @@ export default function AiTechnologiesSection({aiTechnologies}) {
       ),
     [activeTechId]
   );
+
   const activeTech = technologies[activeIndex];
 
-  // Keyboard navigation for accessibility (Left/Right arrows)
+  // Keyboard navigation
   useEffect(() => {
     const onKey = (e) => {
       if (e.key === "ArrowRight") {
@@ -155,7 +153,17 @@ export default function AiTechnologiesSection({aiTechnologies}) {
     return () => window.removeEventListener("keydown", onKey);
   }, [activeIndex]);
 
-  // Parallax + spotlight interactions
+  useEffect(() => {
+     if (isHovered) return;
+    const interval = setInterval(() => {
+      setActiveTechId(
+        technologies[(activeIndex + 1) % technologies.length].id
+      );
+    }, 5000); 
+
+    return () => clearInterval(interval);
+  }, [activeIndex, isHovered]);
+
   const cardRef = useRef(null);
   const bgParallaxRef = useRef(null);
 
@@ -167,34 +175,30 @@ export default function AiTechnologiesSection({aiTechnologies}) {
         </h2>
         <p className="section-description">
           AI tailored to your needs — scalable, reliable, multilingual
-
-
-
-
-
-
         </p>
 
         {/* Tabs */}
         <div
           role="tablist"
           aria-label="AI Technologies"
-          className="flex flex-row flex-wrap justify-start xl:justify-between border-b-2 mt-10 lg:grid-cols-6   mb-10"
+          className="flex flex-row flex-wrap justify-start xl:justify-between border-b-2 mt-10 mb-10"
         >
           {technologies.map((tech) => {
             const isActive = tech.id === activeTechId;
             return (
               <button
                 key={tech.id}
-                role="tab"
-                aria-selected={isActive}
-                aria-controls={`panel-${tech.id}`}
                 onClick={() => setActiveTechId(tech.id)}
-                className={`relative flex items-center justify-center   gap-2 md:gap-3 rounded-md p-3 md:p-4 font-poppins text-sm md:text-lg font-medium transition-all duration-300 
-        ${isActive ? "bg-white services-card " : "text-gray-800 "}
-      `}
+                className={`relative flex items-center justify-center gap-2 md:gap-3 rounded-md p-3 md:p-4 font-poppins text-sm md:text-lg font-medium 
+                  transition-all duration-500 ease-in-out
+                  ${
+                    isActive
+                      ? "bg-white shadow-md scale-105 text-primary"
+                      : "text-gray-600 hover:text-primary"
+                  }
+                `}
               >
-                <div className={`w-6 h-6 md:w-8 md:h-8 relative `}>
+                <div className="w-6 h-6 md:w-8 md:h-8 relative">
                   <Image
                     src={tech.icon}
                     alt={`${tech.name} icon`}
@@ -223,12 +227,12 @@ export default function AiTechnologiesSection({aiTechnologies}) {
               transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
               className="group relative overflow-hidden rounded-xl shadow-xl mx-auto min-h-[520px] md:min-h-[560px] text-left"
               style={{
-                // Subtle mouse spotlight
                 background:
                   "radial-gradient(220px circle at var(--spot-x) var(--spot-y), rgba(255,255,255,0.10), transparent 60%)",
               }}
+              onMouseEnter={() => setIsHovered(true)}
+              onMouseLeave={() => setIsHovered(false)}
             >
-              {/* Background image with parallax and Ken Burns entrance */}
               <motion.div
                 ref={bgParallaxRef}
                 className="absolute inset-0 will-change-transform"

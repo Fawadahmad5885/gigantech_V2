@@ -58,12 +58,12 @@ export default function CaseStudyMain({
               {category}
             </h3>
             <h1 className="heading-text my-1">{title}</h1>
-            <p className="text-base tracking-wide font-poppins w-full text-start text-textColor mx-auto mb-4">
+            {/* <p className="text-base tracking-wide font-poppins w-full text-start text-textColor mx-auto mb-4">
               {description || "Discover our case studies"}
-            </p>
+            </p> */}
             {technologiesCard && technologiesCard.length > 0 && (
               <>
-                <h3 className="text-secondaryColor mt-2 text-lg font-poppins font-medium">
+                <h3 className="text-secondaryColor mt-4 text-lg font-poppins font-medium">
                   Technologies
                 </h3>
                 <div className="flex flex-row gap-4 mt-2 items-center justify-start flex-wrap">

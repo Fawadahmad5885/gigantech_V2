@@ -24,7 +24,7 @@ function ServicesCard({ service }) {
         </div>
 
         {/* Content Container */}
-        <div className="flex flex-col mr-auto gap-4 pb-4 w-4/6">
+        <div className="flex flex-col mr-auto gap-1 pb-4 w-4/6">
           <h2 className="text-start font-poppins text-lg font-medium text-primaryColor">
             {service.title}
           </h2>

@@ -94,7 +94,7 @@ const NewsDetailClient = ({
         <div className="container sm:px-6 mx-auto max-sm:px-4 pb-12">
           {/* Meta Information Cards */}
 
-          <div className="flex flex-row gap-6 mb-4 items-center">
+          <div className="flex flex-row flex-wrap gap-6 mb-4 items-center">
             <div>
               {newsArticle.type === "blog" && (
                 <div className="flex items-center gap-1">

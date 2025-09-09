@@ -11,7 +11,7 @@ import "swiper/css";
 import "swiper/css/grid";
 import "swiper/css/pagination";
 import { getStrapiMedia } from "../../../lib/api";
-import { getCategoryImage } from "../../../utils/categoryImages";
+import { getCategoryImage, categoryImages } from "../../../utils/categoryImages";
 
 function Technologies({ headerData, technologies }) {
   const techData = Array.isArray(technologies) ? technologies : [];
@@ -33,14 +33,21 @@ function Technologies({ headerData, technologies }) {
     return groups;
   }, {});
 
+  // Define the preferred order of categories
+  const categoryOrder = Object.keys(categoryImages);
+
+  // Sort categories based on the defined order
   const categories = Object.values(techGroups).sort((a, b) => {
-    if (a.name === "Artificial Intelligence") return -1;
-    if (b.name === "Artificial Intelligence") return 1;
-    return 0; // maintain order for others
+    const indexA = categoryOrder.indexOf(a.name);
+    const indexB = categoryOrder.indexOf(b.name);
+
+    return (
+      (indexA === -1 ? Number.MAX_SAFE_INTEGER : indexA) -
+      (indexB === -1 ? Number.MAX_SAFE_INTEGER : indexB)
+    );
   });
-  const [selectedCategory, setSelectedCategory] = useState(
-    "Artificial Intelligence"
-  );
+
+  const [selectedCategory, setSelectedCategory] = useState("Artificial Intelligence");
 
   // Set initial category if not set
   useEffect(() => {
@@ -62,7 +69,7 @@ function Technologies({ headerData, technologies }) {
     setIsDropdownOpen(false);
   };
 
-  // Get current tools for selected category (similar to old getTechCards)
+  // Get current tools for selected category
   const currentTools = selectedCategory
     ? techGroups[selectedCategory]?.tools || []
     : [];
@@ -82,7 +89,7 @@ function Technologies({ headerData, technologies }) {
   }
 
   return (
-    <div className="h-auto relative my-[1px] py-16 md:py-24 bg-gradient-to-r from-white shadow-sm via-backgroundColor/50 to-backgroundColor">
+    <div className="h-auto   relative my-[1px] py-16 md:py-24 bg-gradient-to-r from-white shadow-sm via-backgroundColor/50 to-backgroundColor">
       <div className="absolute top-0 left-0 h-full w-auto   opacity-20 pointer-events-none">
               <Image
                 src="/background-logo.png"
@@ -122,15 +129,15 @@ function Technologies({ headerData, technologies }) {
       </div>
 
       {/* Desktop Tabs */}
-      <div className="hidden md:grid md:grid-cols-5 mt-6 p-[0.25rem] h-[2.5rem] container md:px-8 mx-auto">
+      <div className="hidden container mx-auto  md:flex flex-row flex-wrap justify-start xl:justify-between border-b-gray-300 border-b-2 mt-10 mb-10">
         {categories.map((category) => (
           <button
             key={category.name}
             onClick={() => setSelectedCategory(category.name)}
-            className={`px-1 z-10 py-3 flex flex-row items-center justify-center gap-2 text-lg font-medium cursor-pointer ${
+            className={`px-2  z-10 py-3 flex flex-row items-center justify-center gap-2 text-base font-medium cursor-pointer ${
               category.name === selectedCategory
-                ? " bg-white  text-textColor border-b-[3px] border-primaryColor "
-                : "text-gray-600 border-b-[3px] "
+                ? " bg-white  text-textColor border-b-[3px] border-primaryColor"
+                : "text-gray-600"
             }`}
           >
             {category.image && (

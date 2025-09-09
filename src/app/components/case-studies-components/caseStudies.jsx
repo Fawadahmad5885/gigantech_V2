@@ -42,6 +42,13 @@ export default function CaseStudies({ headerData, cards }) {
           slidesToScroll: 1,
         },
       },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
     ],
   };
 
@@ -62,47 +69,41 @@ export default function CaseStudies({ headerData, cards }) {
           <Slider ref={sliderRef} {...settings}>
             {caseStudiesToDisplay.map((item) => (
               <div key={item.slug} className="md:px-3 h-full flex">
-                {" "}
-                {/* adds spacing + full height */}
                 <Link
                   data-aos="fade-up"
                   href={`/case-studies/${item.slug}`}
-                  className="flex flex-col group border border-gray-300 shadow-sm
-             transition-[transform] duration-500 ease-in-out 
-             overflow-hidden relative h-[500px]"
+                  className="flex flex-col group border border-gray-300 shadow-sm transition-[transform] duration-500 ease-in-out overflow-hidden relative  h-full"
                 >
                   {/* Image Section */}
-                  <div className="overflow-hidden relative">
+                  <div className="relative w-full aspect-[16/9] overflow-hidden">
                     <Image
                       src={
                         getStrapiMedia(item.image?.url) || "/placeholder.svg"
                       }
                       alt={item.title}
-                      width={500}
-                      height={300}
-                      style={{ objectFit: "cover" }}
-                      className=" w-full h-full transition-all duration-500 transform 
-               filter grayscale opacity-80 group-hover:grayscale-0 bg-secondaryColor group-hover:opacity-100"
+                      fill
+                      className="object-cover transition-all duration-500 transform filter grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 bg-secondaryColor"
                     />
-                    <div
-                      className="absolute inset-0 
-                  opacity-100 group-hover:opacity-0 transition-opacity duration-500 ease-out"
-                    ></div>
+                    <div className="absolute inset-0 opacity-100 group-hover:opacity-0 transition-opacity duration-500 ease-out"></div>
                   </div>
 
                   {/* Content */}
-                  <div className="flex flex-col p-6 flex-grow relative z-20 ">
+                  <div className="flex flex-col p-6 flex-1 relative z-20">
                     <div className="absolute inset-0 bg-white transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-out z-10"></div>
+
                     <p className="text-primaryColor text-left mb-2 text-base font-medium relative z-20">
                       {item.category}
                     </p>
-                    <h3 className="font-poppins font-semibold text-left mb-4  tracking-wide text-lg relative z-20">
+
+                    <h3 className="font-poppins font-semibold text-left mb-4 tracking-wide text-lg relative z-20 line-clamp-2 min-h-[3.5rem]">
                       {item.title}
                     </h3>
-                    <p className="text-gray-700 text-left text-sm md:text-base line-clamp-3 font-normal mb-4 flex-grow relative z-20">
+
+                    <p className="text-gray-700 text-left text-sm md:text-base line-clamp-3 font-normal mb-4 relative z-20">
                       {item.description}
                     </p>
-                    <div className="inline-flex items-center text-primaryColor transition-colors duration-300 relative z-20">
+
+                    <div className="inline-flex items-center text-primaryColor transition-colors duration-300 relative z-20 mt-auto">
                       <span className="text-base font-poppins tracking-wide font-medium">
                         Read Case Study
                       </span>

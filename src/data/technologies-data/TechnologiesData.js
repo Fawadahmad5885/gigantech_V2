@@ -289,11 +289,11 @@ export const TechnologiesData = [
     ],
   },
   {
-    name: "Embedded Systems",
+    name: "Embedded AI",
     tools: [
       {
         name: "C",
-        tooltip: "Programming language for embedded systems",
+        tooltip: "Programming language for ",
         image: CImage,
       },
       {
@@ -361,7 +361,7 @@ export const TechnologiesData = [
       // { name: "Lidar", tooltip: "Light detection and ranging technology", image: "https://example.com/lidar.png" },
       // { name: "IMU", tooltip: "Inertial Measurement Unit for motion tracking", image: "https://example.com/imu.png" },
       // { name: "AEIReader", tooltip: "Automated Equipment Identification Reader", image: "https://example.com/aeireader.png" },
-      // { name: "Baremetal", tooltip: "Low-level software for embedded systems", image: "https://example.com/baremetal.png" },
+      // { name: "Baremetal", tooltip: "Low-level software for ", image: "https://example.com/baremetal.png" },
       {
         name: "FreeRTOS",
         tooltip: "Real-Time Operating System for embedded devices",

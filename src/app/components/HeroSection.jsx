@@ -60,7 +60,7 @@ export default function HeroSection({data}) {
         </div>
         {/* Right Content - Rotating Sphere */}
         <div
-          className=" md:flex md:w-1/2 h-full items-center justify-end max:md:justify-center"
+          className=" md:flex w-full lg:w-1/2 h-full items-center justify-end max:md:justify-center"
           data-aos="fade-left"
           data-aos-duration="1000"
         >
