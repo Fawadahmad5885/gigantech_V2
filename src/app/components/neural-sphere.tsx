@@ -2,6 +2,9 @@
 
 import React, { useRef, useEffect, useState } from "react";
 import * as THREE from "three";
+import { Line2 } from 'three/examples/jsm/lines/Line2';
+import { LineMaterial } from 'three/examples/jsm/lines/LineMaterial';
+import { LineGeometry } from 'three/examples/jsm/lines/LineGeometry';
 
 export default function NeuralSphere() {
 const mountRef = useRef<HTMLDivElement>(null);
@@ -126,20 +129,17 @@ useEffect(() => {
       const from = neurons[i].position.clone();
       const to = neurons[j].position.clone();
 
-      const geometry = new THREE.BufferGeometry().setFromPoints([from, to]);
-      const meteorMaterial = new THREE.LineBasicMaterial({
-        color: 0xff0000,
-        linewidth: 5,
-      });
-      const meteor = new THREE.Line(geometry, meteorMaterial);
-      meteor.userData = {
-        createdAt: Date.now(),
-        targetIndex: j,
-      };
+      const geometry = new LineGeometry();
+geometry.setPositions([from.x, from.y, from.z, to.x, to.y, to.z]);
 
-      neurons[j].material = redMaterial.clone(); // temporarily red
-      meteors.push(meteor);
-      scene.add(meteor);
+const material = new LineMaterial({
+  color: 0xff0000,
+  linewidth: Math.max(1, 5 / window.devicePixelRatio)
+ // in world units, consistent across devices
+});
+      const line = new Line2(geometry, material);
+line.computeLineDistances();
+      scene.add(line);
     });
   }
 
