@@ -11,10 +11,9 @@ const CaseStudyCard = ({
   desc,
   CardButton,
   slug,
-  className
+  className,
 }) => {
-   const imageUrl =
-  img?.data?.attributes?.url
+  const imageUrl = img?.data?.attributes?.url
     ? getStrapiMedia(img.data.attributes.url)
     : img?.url
     ? getStrapiMedia(img.url)
@@ -36,22 +35,24 @@ const CaseStudyCard = ({
           height={300}
           alt={title}
           style={{ objectFit: "cover" }}
-          className="object-cover w-full h-full transition-all duration-500 transform 
-               filter grayscale opacity-80 group-hover:grayscale-0 bg-secondaryColor group-hover:opacity-100"
+          className="object-cover w-full h-full transition-all duration-500 transform  bg-secondaryColor"
         />
-         <div
-                      className="absolute inset-0 
-                  opacity-100 group-hover:opacity-0 transition-opacity duration-500 ease-out"
-                    ></div>
+       
       </div>
 
-      <div className={`flex max-sm:bg-gray-100 flex-col p-6 flex-grow relative z-20`}>
+      <div
+        className={`flex max-sm:bg-gray-100 flex-col p-6 flex-grow relative z-20`}
+      >
         <div className="absolute inset-0 bg-white transform -translate-x-full group-hover:translate-x-0 transition-transform duration-400 ease-out z-10"></div>
 
         <div className="flex flex-row justify-between items-center relative z-20">
-          <p className="text-secondaryColor medium text-left mb-2 text-base font-medium">{category}</p>
+          <p className="text-secondaryColor medium text-left mb-2 text-base font-medium">
+            {category}
+          </p>
         </div>
-        <h3 className="text-gray-700 font-semibold text-left mb-4 font-sans text-lg relative z-20">{title}</h3>
+        <h3 className="text-gray-700 font-semibold text-left mb-4 font-sans text-lg relative z-20">
+          {title}
+        </h3>
 
         <p className="text-gray-700 text-left text-sm md:text-base lg:text-lg line-clamp-3 font-normal mb-4 flex-grow relative z-20">
           {desc}

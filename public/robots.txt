@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.smachstack.com/sitemap.xml
+Sitemap: https://gigantech.io/sitemap.xml

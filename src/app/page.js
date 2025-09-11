@@ -91,6 +91,7 @@ export default async function Home() {
 
   const aiTechnologiesData = landingPageData?.[0] || {};
   const aiTechnologies = aiTechnologiesData.ai_technologies;
+  const aiTechnologiesSort = aiTechnologies.sort((a, b) => a.order - b.order);
 
   const industries = landingPageData?.[0] || {};
   const industriesData = industries.industries_section;
@@ -145,12 +146,10 @@ export default async function Home() {
         <HeroSection data={heroSectionData} />
         {clients[0]?.display !== false && <OurClients clientsLogo={clients} />}
         <WhyChooseUs aboutData={aboutUs} />
-        {/* <AboutUsSection /> */}
-         <AiTechnologiesSection aiTechnologies = {aiTechnologies} />
+         <AiTechnologiesSection aiTechnologies = {aiTechnologiesSort} />
         <Industries headerData={industriesData} />
         <Services headerData={servicesData} />
         <Technologies headerData={techsHeader} technologies={techs} />
-        {/* <div className="pt-[5%] bg-gray-100"></div> */}
         <CaseStudies headerData={caseStudiesheader} cards={caseStudiesCards} />
         <NewsSection headerData={newsAndBlogsHeader} data={newsAndBlogs} />
         <Contact headerData={contactFormData} contactForm={contactForm} />

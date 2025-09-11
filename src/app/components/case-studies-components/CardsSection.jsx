@@ -30,6 +30,8 @@ const CardsSection = ({ cards }) => {
   const caseStudiesToDisplay = showAll
     ? sortedCards
     : sortedCards.slice(0, initialDisplayCount);
+    console.log(caseStudiesToDisplay);
+    
 
   return (
     <div className="h-auto pb-[5%]  bg-gradient-to-r from-white via-backgroundColor/50 to-backgroundColor" >

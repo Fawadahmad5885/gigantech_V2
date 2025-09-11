@@ -20,15 +20,15 @@ const NewsCard = ({ item }) => {
     : imageUrl;
 
   return (
-    <Link key={item.id} href={`/news-and-blogs/${item.slug}`} className="flex h-full  ">
-      <article className="bg-white  shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 group flex flex-col h-[500px] relative">
+    <Link key={item.id} href={`/news-and-blogs/${item.slug}`} className="flex h-full   ">
+      <article className="bg-white rounded-t-lg  shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 group flex flex-col h-[500px] relative">
         {/* Featured Image */}
         <div className="relative h-56">
           {item.image?.url ? (
             <img
               src={getStrapiMedia(item.image.url)}
               alt={item.title}
-              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 rounded-t-lg"
+              className="w-full h-full  object-cover group-hover:scale-105 transition-transform duration-500 rounded-t-lg"
             />
           ) : (
             <div className="w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center rounded-t-lg">

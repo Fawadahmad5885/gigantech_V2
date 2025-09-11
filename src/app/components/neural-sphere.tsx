@@ -3,7 +3,6 @@
 import React, { useRef, useEffect, useState } from "react";
 import * as THREE from "three";
 
-
 export default function NeuralSphere() {
 const mountRef = useRef<HTMLDivElement>(null);
 const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
@@ -128,15 +127,11 @@ useEffect(() => {
       const to = neurons[j].position.clone();
 
       const geometry = new THREE.BufferGeometry().setFromPoints([from, to]);
-      const meteorGeometry = new LineGeometry();
-meteorGeometry.setPositions([from.x, from.y, from.z, to.x, to.y, to.z]);
-
-const meteorMaterial = new LineMaterial({
-    color: 0xff0000,
-    linewidth: 0.005, // This is in world units
-    resolution: new THREE.Vector2(clientWidth, clientHeight) // Pass the renderer's resolution
-});
-const meteor = new Line2(meteorGeometry, meteorMaterial);
+      const meteorMaterial = new THREE.LineBasicMaterial({
+        color: 0xff0000,
+        linewidth: 5,
+      });
+      const meteor = new THREE.Line(geometry, meteorMaterial);
       meteor.userData = {
         createdAt: Date.now(),
         targetIndex: j,

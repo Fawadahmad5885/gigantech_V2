@@ -3,7 +3,7 @@ import { fetchStrapi, getStrapiMedia } from "../../../lib/api";
 import CaseStudyMain from "../../components/case-studies-components/CaseStudyMain";
 
 export async function generateStaticParams() {
-  if (process.env.USE_LOCAL) {
+  if (process.env.NEXT_PUBLIC_USE_LOCAL_DATA) {
     try {
       const localData = await fetchStrapi("case-study-cards");
       return (localData || []).map((item) => ({
@@ -19,7 +19,7 @@ export async function generateStaticParams() {
     const res = await fetchStrapi(
       "case-study-cards?fields=slug&populate[image][fields]=url&populate[technologiesCard][populate][image][fields]=url"
     );
-    
+
     return (res || []).map((item) => ({
       slug: item.attributes?.slug || item.slug,
     }));
@@ -29,14 +29,15 @@ export async function generateStaticParams() {
   }
 }
 
-
 async function getCaseStudyData(slug) {
   let res;
 
-  if (process.env.USE_LOCAL) {
+  if (process.env.NEXT_PUBLIC_USE_LOCAL_DATA) {
     try {
-      res = await fetchStrapi(`case-study-cards?filters[slug][$eq]=${slug}&populate[image][fields]=url&populate[technologiesCard][populate][image][fields]=url`);
-      
+      res = await fetchStrapi(
+        `case-study-cards?filters[slug][$eq]=${slug}&populate[image][fields]=url&populate[technologiesCard][populate][image][fields]=url`
+      );
+
       if (!res) return null;
       const caseStudy = res.find((item) => item.slug === slug);
       if (!caseStudy) return null;
@@ -60,19 +61,20 @@ async function getCaseStudyData(slug) {
       case-study-cards?
       filters[slug][$eq]=${encodeURIComponent(slug)}
       &populate[image]=*
-    `.replace(/\s+/g, ''); 
+    `.replace(/\s+/g, "");
 
     res = await fetchStrapi(query);
 
     if (!res || !res.data || !res.data.length) return null;
-    
+
     const strapiCaseStudy = res.data[0];
     return {
       id: strapiCaseStudy.id,
       attributes: {
         ...strapiCaseStudy.attributes,
-        image: strapiCaseStudy.attributes.image?.data?.attributes || 
-               strapiCaseStudy.attributes.image,
+        image:
+          strapiCaseStudy.attributes.image?.data?.attributes ||
+          strapiCaseStudy.attributes.image,
       },
     };
   } catch (error) {
@@ -91,7 +93,7 @@ async function getContactData() {
 
   const data = await fetchStrapi(endpoint);
 
-  if (process.env.USE_LOCAL && Array.isArray(data)) {
+  if (process.env.NEXT_PUBLIC_USE_LOCAL_DATA && Array.isArray(data)) {
     // Transform local contact data to match Strapi structure
     return {
       contact_section: data[0]?.contact_section || {},

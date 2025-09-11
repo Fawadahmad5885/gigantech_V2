@@ -41,7 +41,7 @@ export async function generateMetadata() {
         },
       ],
       card: "summary_large_image",
-      creator: "SmachStack",
+      creator: "Gigantech",
     },
     canonicalUrl: `${getBaseUrl()}/case-studies`,
   };

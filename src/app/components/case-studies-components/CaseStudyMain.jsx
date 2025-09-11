@@ -97,12 +97,12 @@ export default function CaseStudyMain({
           <div
             data-aos="fade-left"
             data-aos-duration="1000"
-            className="items-center w-full  overflow-hidden md:flex-1 flex"
+            className="items-center w-full h-full  overflow-hidden md:flex-1 flex"
           >
             <Image
               src={imageUrl}
               alt={title || "Case Study Background"}
-              width={500}
+              width={800}
               height={500}
               className="object-cover"
             />

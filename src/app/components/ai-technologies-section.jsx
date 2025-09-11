@@ -2,122 +2,11 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
 import {
   CheckCircle,
 } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
-import { useCallback } from "react";
-
-const images = {
-  aiBg: "/assets/images/ai-technologies-images/ai-background.png",
-  edgeAiBg: "/assets/images/ai-technologies-images/edge-ai-bg.png",
-  mlBg: "/assets/images/ai-technologies-images/machine-learning-bg.png",
-  genaiBg: "/assets/images/ai-technologies-images/generative-ai-bg.png",
-  cvBg: "/assets/images/ai-technologies-images/computer-vision-bg.png",
-  iotBg: "/assets/images/ai-technologies-images/iot-bg.png",
-  bcBg: "/assets/images/ai-technologies-images/blockchain-bg.png",
-};
-const icons = {
-  aiIcon: "/assets/images/ai-technologies-images/predctive-analytics-icon.png",
-  mlIcon: "/assets/images/ai-technologies-images/ml-icon.png",
-  edgeIcon: "/assets/images/ai-technologies-images/edge-ai.png",
-  genaiIcon: "/assets/images/ai-technologies-images/generative-ai-icon.png",
-  cvIcon: "/assets/images/ai-technologies-images/computer-vision-icon.png",
-  iotIcon: "/assets/images/ai-technologies-images/iot-icon.png",
-  bcIcon: "/assets/images/ai-technologies-images/blockchain-icon.png",
-};
-
-const technologies = [
-  {
-    id: "predictive-analytics",
-    name: "Predictive Analytics",
-    icon: icons.aiIcon,
-    image: images.aiBg,
-    description:
-      "We develop predictive models that help organizations anticipate events, detect anomalies, and extract valuable insights — even in challenging environments.",
-    services: [
-      "Anomaly detection in audio signals, including beep/bell monitoring at train grade crossings.",
-      "Robotic arm anomaly prediction and proactive alerting using near real-time data streams in remote areas and production floors.",
-      "Multilingual extraction of action items, requirements, and ideas from meeting transcripts for seamless project tracking.",
-      "Predictive modeling for anomaly detection and event forecasting in sensor networks.",
-    ],
-  },
-  {
-    id: "edge-AI",
-    name: "Edge AI",
-    icon: icons.edgeIcon,
-    image: images.edgeAiBg,
-    description:
-      "Our Edge AI offerings bring intelligence closer to the source, enabling secure, real-time, and multilingual processing on mobile and offline devices.",
-    services: [
-      "Multilingual on-device meeting apps with offline transcription, summarization, and task extraction in over 90 languages.",
-      "Mobile-deployed AI tools for private, secure, and real-time processing of multimodal data.",
-      "Edge-optimized inference for custom neural networks and vision AI models with low latency.",
-      "Online and offline multilingual document-based chatbots with private knowledge bases, supporting diverse file types (Word, PDF, Excel sheets, transcripts, etc.) as well as online resources (websites, Google Docs/Sheets, etc.)."
-    ],
-  },
-  {
-    id: "generative-ai",
-    name: "Generative AI",
-    icon: icons.genaiIcon,
-    image: images.genaiBg,
-    description:
-      "Our Generative AI solutions are built with multilingual capabilities by design, enabling seamless interaction across diverse audiences and industries.",
-    services: [
-      "Multimodal chatbot integrating text, audio, and images across web, SMS, WhatsApp, and Telegram.",
-      "AI-based qualitative assessment and auto-grading for various exam formats — long/short answers, essays, and case studies.",
-      "Meeting intelligence agents that generate structured outputs such as tasks, ideas, and requirements from raw conversations.",
-"Actionable role-specific insights and recommendations from transcripts, documents, and events."
-    ],
-  },
-  {
-    id: "machine-learning",
-    name: "Machine Learning",
-    icon: icons.mlIcon,
-    image: images.mlBg,
-    description:
-      "We design and optimize machine learning models that power intelligent systems across industries.",
-    services: [
-      "Custom neural network design, training, and deployment for specialized applications.",
-      "Fine-tuning and optimization of LLMs using production-grade VLLM frameworks.",
-      "Data-driven feature engineering and model building across structured and unstructured datasets.",
-      "Adaptive ML pipelines supporting diverse industry use cases with continuous improvement."
-    ],
-  },
-
-  {
-    id: "computer-vision",
-    name: "Computer Vision",
-    icon: icons.cvIcon,
-    image: images.cvBg,
-    description:
-      "Our computer vision expertise enables automated monitoring, recognition, and anomaly detection in complex real-world scenarios.",
-    services: [
-      "Vision AI–based anomaly detection and tracking (e.g., YOLO, custom CNNs).",
-      "Near real-time video analytics for safety monitoring at critical infrastructure.",
-      "Human tracking and face recognition in near real time for security and operational insights.",
-      "Integration of multi-sensor inputs (video, lidar, radar) for robust scene understanding.",
-      "Advanced computer vision pipelines optimized for edge devices and low-latency applications."
-    ],
-  },
-  {
-    id: "iot",
-    name: "IoT & Industry 4.0",
-    icon: icons.iotIcon,
-    image: images.iotBg,
-    description:
-      "We build intelligent IoT ecosystems aligned with Industry 4.0, combining connectivity, automation, and AI-driven insights.",
-    services: [
-      "Connected crossing monitoring using audio, video, light, and motion sensors.",
-      "Fusion of LiDAR, RADAR, and image sensors for enhanced situational awareness.",
-      "Near real-time IoT telemetry integration with AI models for predictive safety applications.",
-      "Scalable IoT architectures linking edge devices with cloud-based AI dashboards.",
-      "Industry 4.0–enabled IoT solutions driving automation, connectivity, and smart analytics."
-    ],
-  },
-  
-];
+import { getStrapiMedia } from "../../lib/api";
 
 export default function AiTechnologiesSection({ aiTechnologies }) {
   const [activeTechId, setActiveTechId] = useState("predictive-analytics");
@@ -127,24 +16,24 @@ export default function AiTechnologiesSection({ aiTechnologies }) {
     () =>
       Math.max(
         0,
-        technologies.findIndex((t) => t.id === activeTechId)
+        aiTechnologies.findIndex((t) => t.slug === activeTechId)
       ),
     [activeTechId]
   );
 
-  const activeTech = technologies[activeIndex];
+  const activeTech = aiTechnologies[activeIndex];
 
   // Keyboard navigation
   useEffect(() => {
     const onKey = (e) => {
       if (e.key === "ArrowRight") {
         setActiveTechId(
-          technologies[(activeIndex + 1) % technologies.length].id
+          aiTechnologies[(activeIndex + 1) % aiTechnologies.length].slug
         );
       } else if (e.key === "ArrowLeft") {
         setActiveTechId(
-          technologies[
-            (activeIndex - 1 + technologies.length) % technologies.length
+          aiTechnologies[
+            (activeIndex - 1 + aiTechnologies.length) % aiTechnologies.length
           ].id
         );
       }
@@ -157,7 +46,7 @@ export default function AiTechnologiesSection({ aiTechnologies }) {
      if (isHovered) return;
     const interval = setInterval(() => {
       setActiveTechId(
-        technologies[(activeIndex + 1) % technologies.length].id
+        aiTechnologies[(activeIndex + 1) % aiTechnologies.length].slug
       );
     }, 5000); 
 
@@ -166,15 +55,17 @@ export default function AiTechnologiesSection({ aiTechnologies }) {
 
   const cardRef = useRef(null);
   const bgParallaxRef = useRef(null);
+  const sectionHeader = "Our AI Expertise at a Glance";
+  const sectionParagraph= "AI tailored to your needs — scalable, reliable, multilingual"
 
   return (
     <section className="py-16 md:py-24 shadow-md bg-gradient-to-l from-white to-backgroundColor">
       <div className="container mx-auto px-4 md:px-8 font-poppins text-center">
         <h2 className="heading-text text-textColor ">
-          Our AI Expertise at a Glance
+          {sectionHeader}
         </h2>
         <p className="section-description">
-          AI tailored to your needs — scalable, reliable, multilingual
+          {sectionParagraph}
         </p>
 
         {/* Tabs */}
@@ -183,12 +74,12 @@ export default function AiTechnologiesSection({ aiTechnologies }) {
           aria-label="AI Technologies"
           className="flex flex-row flex-wrap justify-start xl:justify-between border-b-2 mt-10 mb-10"
         >
-          {technologies.map((tech) => {
-            const isActive = tech.id === activeTechId;
+          {aiTechnologies.map((tech) => {
+            const isActive = tech?.slug === activeTechId;
             return (
               <button
-                key={tech.id}
-                onClick={() => setActiveTechId(tech.id)}
+                key={tech?.slug}
+                onClick={() => setActiveTechId(tech.slug)}
                 className={`relative flex items-center justify-center gap-2 md:gap-3 rounded-md p-3 md:p-4 font-poppins text-sm md:text-lg font-medium 
                   transition-all duration-500 ease-in-out
                   ${
@@ -200,7 +91,7 @@ export default function AiTechnologiesSection({ aiTechnologies }) {
               >
                 <div className="w-6 h-6 md:w-8 md:h-8 relative">
                   <Image
-                    src={tech.icon}
+                    src= {getStrapiMedia(tech?.icon?.url)}
                     alt={`${tech.name} icon`}
                     width={32}
                     height={32}
@@ -241,7 +132,8 @@ export default function AiTechnologiesSection({ aiTechnologies }) {
                 transition={{ duration: 1.2, ease: "easeOut" }}
               >
                 <Image
-                  src={activeTech.image || "/placeholder.svg"}
+                  src={getStrapiMedia(activeTech?.backgroundImage?.url)}
+                  // {getStrapiMedia(activeTech?.backgroundImage?.url)}
                   alt={`${activeTech.name} background`}
                   fill
                   priority
@@ -288,7 +180,7 @@ export default function AiTechnologiesSection({ aiTechnologies }) {
                       show: { transition: { staggerChildren: 0.08 } },
                     }}
                   >
-                    {activeTech.services.map((service, i) => (
+                    {activeTech.bullets.map((service, i) => (
                       <motion.li
                         key={i}
                         className="flex items-center text-white text-base md:text-lg"
@@ -298,7 +190,7 @@ export default function AiTechnologiesSection({ aiTechnologies }) {
                         }}
                       >
                         <CheckCircle className="w-5 h-5 text-emerald-400 mr-3 flex-shrink-0" />
-                        {service}
+                        {service.description}
                       </motion.li>
                     ))}
                   </motion.ul>

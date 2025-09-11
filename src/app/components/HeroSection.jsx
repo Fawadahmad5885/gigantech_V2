@@ -2,6 +2,7 @@
 import Image from "next/image";
 import NeuralSphere from "./neural-sphere";
 import { scroller } from "react-scroll";
+import NeuralHero from "./neural-sphere-fix";
 
 export default function HeroSection({data}) {
    const { title, subtitle, toptitle } = data;   
@@ -52,7 +53,7 @@ export default function HeroSection({data}) {
           </p>
           <button
             onClick={() => scrollToSection("contact")}
-            className="primaryButton w-fit mt-10 px-8 py-1 tracking-wider "
+            className="primaryButton w-fit md:mt-10 px-8 py-1 tracking-wider "
           >
             {" "}
             Get Started
@@ -66,7 +67,7 @@ export default function HeroSection({data}) {
         >
           <div className="relative w-full h-full flex items-center justify-end max:md:justify-center">
             {/* Replaced Image with NeuralSphere component */}
-            <NeuralSphere />
+            <NeuralHero />
           </div>
         </div>
       </div>

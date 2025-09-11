@@ -82,9 +82,9 @@ export default function CaseStudies({ headerData, cards }) {
                       }
                       alt={item.title}
                       fill
-                      className="object-cover transition-all duration-500 transform filter grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 bg-secondaryColor"
+                      className="object-cover transition-all duration-500 transform  bg-secondaryColor"
                     />
-                    <div className="absolute inset-0 opacity-100 group-hover:opacity-0 transition-opacity duration-500 ease-out"></div>
+                    {/* <div className="absolute inset-0 opacity-100 group-hover:opacity-0 transition-opacity duration-500 ease-out"></div> */}
                   </div>
 
                   {/* Content */}
