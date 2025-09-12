@@ -1,3 +1,4 @@
+// lib/technologies.js
 
 import { getStrapiMedia } from "./api";
 

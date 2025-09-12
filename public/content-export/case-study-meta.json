@@ -1,15 +1,15 @@
 {
   "data": {
-    "id": 8,
+    "id": 7,
     "documentId": "f8u9s3s55m2zmkzb5fcm4ec8",
     "createdAt": "2025-07-14T10:54:14.223Z",
-    "updatedAt": "2025-08-22T15:07:54.934Z",
-    "publishedAt": "2025-08-22T15:07:54.947Z",
+    "updatedAt": "2025-07-25T12:24:31.507Z",
+    "publishedAt": "2025-07-25T12:24:31.530Z",
     "caseStudiesMetaData": {
-      "id": 38,
-      "metaTitle": "Case Studies | Gigantech - AI, App Development, Cloud & Web Solutions",
-      "metaDescription": "Explore Gigantech’s case studies showcasing real-world projects in AI, App Development, Cloud Computing, and Web Development. See how we help businesses innovate and grow with intelligent solutions.",
-      "keyWords": "Gigantech case studies, AI projects, App development success, Cloud computing solutions, Web development examples, software transformation, business innovation",
+      "id": 29,
+      "metaTitle": "Case Studies | SmachStack - Innovative Software Solutions",
+      "metaDescription": "Explore how Smach Stack delivers cutting-edge software solutions through real-world case studies. Discover our client success stories in app development, AI, cloud services, and enterprise software.",
+      "keyWords": "Smach Stack case studies, software development success stories, app development projects, AI solutions, cloud software case studies, client success stories, tech company portfolio, custom software development",
       "metaImage": {
         "id": 170,
         "documentId": "xljzfku6ph96gr56lb2iye6v",
@@ -28,7 +28,7 @@
         "provider": "local",
         "provider_metadata": null,
         "createdAt": "2025-07-14T10:53:57.165Z",
-        "updatedAt": "2025-08-22T15:07:41.801Z",
+        "updatedAt": "2025-07-25T12:22:47.410Z",
         "publishedAt": "2025-07-14T10:53:57.165Z"
       }
     }

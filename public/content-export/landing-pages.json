@@ -1,288 +1,313 @@
 {
   "data": [
     {
-      "id": 13,
+      "id": 12,
       "documentId": "oqa7198bt1uxwd6aoec07a1v",
       "createdAt": "2025-07-18T10:54:04.646Z",
-      "updatedAt": "2025-08-20T15:06:17.682Z",
-      "publishedAt": "2025-08-20T15:06:17.718Z",
+      "updatedAt": "2025-07-20T21:06:49.576Z",
+      "publishedAt": "2025-07-20T21:06:49.656Z",
       "hero_sections": [
         {
-          "id": 6,
-          "documentId": "x9zej0tvbxma5erg7riad8w6",
-          "title": " Transforming Businesses with AI & Next-Gen Technology",
-          "subtitle": "Turning ideas into intelligent digital realities",
-          "createdAt": "2025-08-22T09:18:21.540Z",
-          "updatedAt": "2025-08-26T14:53:03.948Z",
-          "publishedAt": "2025-08-26T14:53:03.968Z",
-          "toptitle": "Innovating with Technology & Intelligence",
-          "landing_page": {
-            "id": 13,
-            "documentId": "oqa7198bt1uxwd6aoec07a1v",
-            "createdAt": "2025-07-18T10:54:04.646Z",
-            "updatedAt": "2025-08-20T15:06:17.682Z",
-            "publishedAt": "2025-08-20T15:06:17.718Z"
-          }
-        }
-      ],
-      "ai_technologies": [
-        {
-          "id": 24,
-          "documentId": "mj7k3wfkhe5gcfjo6hrgcbwm",
-          "name": "Edge AI",
-          "slug": "edge-ai",
-          "description": "Our Edge AI offerings bring intelligence closer to the source, enabling secure, real-time, and multilingual processing on mobile and offline devices.\n",
-          "createdAt": "2025-08-27T13:06:52.900Z",
-          "updatedAt": "2025-09-09T12:00:04.647Z",
-          "publishedAt": "2025-09-09T12:00:04.661Z",
-          "order": 2,
-          "backgroundImage": {
-            "id": 218,
-            "documentId": "sdmybputi5ka48h2slyjtzah",
-            "url": "/uploads/blockchain_bg_2f19bd9b63.png"
+          "id": 14,
+          "documentId": "s64rwscujt8ud1t5mewldp65",
+          "title": "Intelligence Redefined with Artificial Intelligence.",
+          "subtitle": "Bringing your ideas to life with cutting-edge AI technology.",
+          "order": 1,
+          "createdAt": "2025-05-28T11:07:09.798Z",
+          "updatedAt": "2025-07-25T11:56:21.731Z",
+          "publishedAt": "2025-07-25T11:56:21.753Z",
+          "image": null,
+          "video": {
+            "id": 173,
+            "documentId": "n2c5wd0upwqi264e2slseyx0",
+            "url": "/uploads/Blue_Tech_Futuristic_Artificial_Intelligence_Video_688614124f.mp4",
+            "formats": {}
           },
-          "icon": {
-            "id": 217,
-            "documentId": "rbgvm8pfuxtiyzj9pn89ueso",
-            "url": "/uploads/edge_ai_51bc56eb04.png"
-          },
-          "bullets": [
-            {
-              "id": 117,
-              "description": "Multilingual on-device meeting apps with offline transcription, summarization, and task extraction in over 90 languages."
-            },
-            {
-              "id": 118,
-              "description": "Mobile-deployed AI tools for private, secure, and real-time processing of multimodal data."
-            },
-            {
-              "id": 119,
-              "description": "Edge-optimized inference for custom neural networks and vision AI models with low latency."
-            },
-            {
-              "id": 120,
-              "description": "Online and offline multilingual document-based chatbots with private knowledge bases, supporting diverse file types (Word, PDF, Excel sheets, transcripts, etc.) as well as online resources (websites, Google Docs/Sheets, etc.)."
-            }
-          ]
+          "Button": null
         },
         {
-          "id": 25,
-          "documentId": "gb7lgpzfg8jcr0dmqxm7j5iu",
-          "name": "Predictive Analytics",
-          "slug": "predictive-analytics",
-          "description": "We develop predictive models that help organizations anticipate events, detect anomalies, and extract valuable insights — even in challenging environments.",
-          "createdAt": "2025-08-27T12:38:53.387Z",
-          "updatedAt": "2025-09-09T12:00:34.495Z",
-          "publishedAt": "2025-09-09T12:00:34.511Z",
-          "order": 1,
-          "backgroundImage": {
-            "id": 216,
-            "documentId": "i02f19vcb99fh2n8wg2o51ty",
-            "url": "/uploads/ai_background_5c4ea31476.png"
-          },
-          "icon": {
-            "id": 215,
-            "documentId": "grfz2qocqwmvbxog0ktmis4d",
-            "url": "/uploads/predctive_analytics_icon_0acfc2707b.png"
-          },
-          "bullets": [
-            {
-              "id": 121,
-              "description": "Anomaly detection in audio signals, including beep/bell monitoring at train grade crossings."
-            },
-            {
-              "id": 122,
-              "description": "Robotic arm anomaly prediction and proactive alerting using near real-time data streams in remote areas and production floors."
-            },
-            {
-              "id": 123,
-              "description": "Multilingual extraction of action items, requirements, and ideas from meeting transcripts for seamless project tracking."
-            },
-            {
-              "id": 124,
-              "description": "Predictive modeling for anomaly detection and event forecasting in sensor networks."
+          "id": 23,
+          "documentId": "kbeiexr5sfnu76p8peg7kpfq",
+          "title": "Where technology meets innovation.",
+          "subtitle": "Seamlessly integrating innovation, strategy, and technology to redefine the future.",
+          "order": 3,
+          "createdAt": "2025-05-28T11:05:32.396Z",
+          "updatedAt": "2025-08-26T12:02:26.524Z",
+          "publishedAt": "2025-08-26T12:02:26.544Z",
+          "image": {
+            "id": 174,
+            "documentId": "djnorelq8w7r0cozhs9shxre",
+            "url": "/uploads/team_government_spies_meeting_cia_headquarters_monitor_surveillance_ed777e1b78.jpg",
+            "formats": {
+              "thumbnail": {
+                "name": "thumbnail_team-government-spies-meeting-cia-headquarters-monitor-surveillance.jpg",
+                "hash": "thumbnail_team_government_spies_meeting_cia_headquarters_monitor_surveillance_ed777e1b78",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "path": null,
+                "width": 245,
+                "height": 138,
+                "size": 5.6,
+                "sizeInBytes": 5602,
+                "url": "/uploads/thumbnail_team_government_spies_meeting_cia_headquarters_monitor_surveillance_ed777e1b78.jpg"
+              },
+              "large": {
+                "name": "large_team-government-spies-meeting-cia-headquarters-monitor-surveillance.jpg",
+                "hash": "large_team_government_spies_meeting_cia_headquarters_monitor_surveillance_ed777e1b78",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "path": null,
+                "width": 1000,
+                "height": 563,
+                "size": 42.7,
+                "sizeInBytes": 42702,
+                "url": "/uploads/large_team_government_spies_meeting_cia_headquarters_monitor_surveillance_ed777e1b78.jpg"
+              },
+              "medium": {
+                "name": "medium_team-government-spies-meeting-cia-headquarters-monitor-surveillance.jpg",
+                "hash": "medium_team_government_spies_meeting_cia_headquarters_monitor_surveillance_ed777e1b78",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "path": null,
+                "width": 750,
+                "height": 422,
+                "size": 27.4,
+                "sizeInBytes": 27396,
+                "url": "/uploads/medium_team_government_spies_meeting_cia_headquarters_monitor_surveillance_ed777e1b78.jpg"
+              },
+              "small": {
+                "name": "small_team-government-spies-meeting-cia-headquarters-monitor-surveillance.jpg",
+                "hash": "small_team_government_spies_meeting_cia_headquarters_monitor_surveillance_ed777e1b78",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "path": null,
+                "width": 500,
+                "height": 281,
+                "size": 15.35,
+                "sizeInBytes": 15349,
+                "url": "/uploads/small_team_government_spies_meeting_cia_headquarters_monitor_surveillance_ed777e1b78.jpg"
+              }
             }
-          ]
+          },
+          "video": null,
+          "Button": null
+        },
+        {
+          "id": 24,
+          "documentId": "idayhsct224dcj8lp0wuc5tu",
+          "title": "Empowering Innovation through Digital Transformation",
+          "subtitle": "Modernize your business with smart, scalable digital solutions tailored for the future.",
+          "order": 2,
+          "createdAt": "2025-07-25T11:55:57.619Z",
+          "updatedAt": "2025-08-26T12:02:57.677Z",
+          "publishedAt": "2025-08-26T12:02:57.689Z",
+          "image": {
+            "id": 177,
+            "documentId": "oj6w3qhterwstuwss6jhv0st",
+            "url": "/uploads/Modern_Minimal_Technology_Background_Banner_b19dd39a27.png",
+            "formats": {
+              "thumbnail": {
+                "name": "thumbnail_Modern Minimal Technology Background Banner.png",
+                "hash": "thumbnail_Modern_Minimal_Technology_Background_Banner_b19dd39a27",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 245,
+                "height": 139,
+                "size": 27.59,
+                "sizeInBytes": 27592,
+                "url": "/uploads/thumbnail_Modern_Minimal_Technology_Background_Banner_b19dd39a27.png"
+              },
+              "small": {
+                "name": "small_Modern Minimal Technology Background Banner.png",
+                "hash": "small_Modern_Minimal_Technology_Background_Banner_b19dd39a27",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 500,
+                "height": 283,
+                "size": 99.88,
+                "sizeInBytes": 99881,
+                "url": "/uploads/small_Modern_Minimal_Technology_Background_Banner_b19dd39a27.png"
+              },
+              "medium": {
+                "name": "medium_Modern Minimal Technology Background Banner.png",
+                "hash": "medium_Modern_Minimal_Technology_Background_Banner_b19dd39a27",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 750,
+                "height": 424,
+                "size": 214.23,
+                "sizeInBytes": 214227,
+                "url": "/uploads/medium_Modern_Minimal_Technology_Background_Banner_b19dd39a27.png"
+              },
+              "large": {
+                "name": "large_Modern Minimal Technology Background Banner.png",
+                "hash": "large_Modern_Minimal_Technology_Background_Banner_b19dd39a27",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 1000,
+                "height": 565,
+                "size": 381.17,
+                "sizeInBytes": 381166,
+                "url": "/uploads/large_Modern_Minimal_Technology_Background_Banner_b19dd39a27.png"
+              }
+            }
+          },
+          "video": null,
+          "Button": null
         },
         {
           "id": 20,
-          "documentId": "fzvec04o43kfxb0pihvm6gla",
-          "name": "Generative AI",
-          "slug": "generative-ai",
-          "description": "Our Generative AI solutions are built with multilingual capabilities by design, enabling seamless interaction across diverse audiences and industries.\n",
-          "createdAt": "2025-08-27T13:09:02.714Z",
-          "updatedAt": "2025-08-29T12:47:39.087Z",
-          "publishedAt": "2025-08-29T12:47:39.105Z",
-          "order": 3,
-          "backgroundImage": {
-            "id": 220,
-            "documentId": "x6hj578wv4vka50n0d9u0he9",
-            "url": "/uploads/generative_ai_bg_4a96af9581.png"
-          },
-          "icon": {
-            "id": 219,
-            "documentId": "fyiaovlkns2gok7u1wi6suzc",
-            "url": "/uploads/generative_ai_icon_01ae8eaffd.png"
-          },
-          "bullets": [
-            {
-              "id": 92,
-              "description": "Multimodal chatbot integrating text, audio, and images across web, SMS, WhatsApp, and Telegram."
-            },
-            {
-              "id": 93,
-              "description": "AI-based qualitative assessment and auto-grading for various exam formats — long/short answers, essays, and case studies."
-            },
-            {
-              "id": 94,
-              "description": "Meeting intelligence agents that generate structured outputs such as tasks, ideas, and requirements from raw conversations."
-            },
-            {
-              "id": 95,
-              "description": "Actionable role-specific insights and recommendations from transcripts, documents, and events."
-            }
-          ]
-        },
-        {
-          "id": 21,
-          "documentId": "p3myo0d3bx8tw24u2uovldzh",
-          "name": "Machine Learning",
-          "slug": "machine-learning",
-          "description": "We design and optimize machine learning models that power intelligent systems across industries.\n",
-          "createdAt": "2025-08-27T13:10:12.030Z",
-          "updatedAt": "2025-08-29T12:48:21.898Z",
-          "publishedAt": "2025-08-29T12:48:21.919Z",
+          "documentId": "g5nf98iynbz0kie7kgtvxxmd",
+          "title": "Unlock Insights with Data Analytics",
+          "subtitle": "Transform raw data into powerful decisions with advanced analytics and visualizations.",
           "order": 4,
-          "backgroundImage": {
-            "id": 222,
-            "documentId": "ha9vg4ftpurgvnvrhrhc196d",
-            "url": "/uploads/machine_learning_bg_5b3a1aba7d.png"
-          },
-          "icon": {
-            "id": 221,
-            "documentId": "wscg31t0gvvdjg32dj4xl8f4",
-            "url": "/uploads/ml_icon_4e14775ebc.png"
-          },
-          "bullets": [
-            {
-              "id": 100,
-              "description": "Custom neural network design, training, and deployment for specialized applications."
-            },
-            {
-              "id": 101,
-              "description": "Fine-tuning and optimization of LLMs using production-grade VLLM frameworks."
-            },
-            {
-              "id": 102,
-              "description": "Data-driven feature engineering and model building across structured and unstructured datasets."
-            },
-            {
-              "id": 103,
-              "description": "Adaptive ML pipelines supporting diverse industry use cases with continuous improvement."
+          "createdAt": "2025-07-25T12:18:21.376Z",
+          "updatedAt": "2025-07-25T12:18:33.266Z",
+          "publishedAt": "2025-07-25T12:18:33.286Z",
+          "image": {
+            "id": 178,
+            "documentId": "c01w9v3u3fc2he02xnqrzqhh",
+            "url": "/uploads/Modern_Minimal_Technology_Background_Banner_1_dc042ddbad.png",
+            "formats": {
+              "thumbnail": {
+                "name": "thumbnail_Modern Minimal Technology Background Banner (1).png",
+                "hash": "thumbnail_Modern_Minimal_Technology_Background_Banner_1_dc042ddbad",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 245,
+                "height": 141,
+                "size": 77.65,
+                "sizeInBytes": 77653,
+                "url": "/uploads/thumbnail_Modern_Minimal_Technology_Background_Banner_1_dc042ddbad.png"
+              },
+              "small": {
+                "name": "small_Modern Minimal Technology Background Banner (1).png",
+                "hash": "small_Modern_Minimal_Technology_Background_Banner_1_dc042ddbad",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 500,
+                "height": 289,
+                "size": 291.64,
+                "sizeInBytes": 291644,
+                "url": "/uploads/small_Modern_Minimal_Technology_Background_Banner_1_dc042ddbad.png"
+              },
+              "medium": {
+                "name": "medium_Modern Minimal Technology Background Banner (1).png",
+                "hash": "medium_Modern_Minimal_Technology_Background_Banner_1_dc042ddbad",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 750,
+                "height": 433,
+                "size": 607.79,
+                "sizeInBytes": 607789,
+                "url": "/uploads/medium_Modern_Minimal_Technology_Background_Banner_1_dc042ddbad.png"
+              },
+              "large": {
+                "name": "large_Modern Minimal Technology Background Banner (1).png",
+                "hash": "large_Modern_Minimal_Technology_Background_Banner_1_dc042ddbad",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 1000,
+                "height": 577,
+                "size": 1027.14,
+                "sizeInBytes": 1027138,
+                "url": "/uploads/large_Modern_Minimal_Technology_Background_Banner_1_dc042ddbad.png"
+              }
             }
-          ]
+          },
+          "video": null,
+          "Button": null
         },
         {
-          "id": 28,
-          "documentId": "k58bw43o2aef8u2x5wy0lyzo",
-          "name": "Computer Vision",
-          "slug": "computer-vision",
-          "description": "Our computer vision expertise enables automated monitoring, recognition, and anomaly detection in complex real-world scenarios.\n",
-          "createdAt": "2025-08-27T13:11:05.184Z",
-          "updatedAt": "2025-09-10T12:53:53.958Z",
-          "publishedAt": "2025-09-10T12:53:53.981Z",
+          "id": 22,
+          "documentId": "qd3tytjiv4ya4s2xa74v2ila",
+          "title": "Build Seamless Experiences Across Web and Mobile",
+          "subtitle": "Craft user-centric, high-performance apps that drive engagement and deliver results.",
           "order": 5,
-          "backgroundImage": {
-            "id": 224,
-            "documentId": "hn14b4r0rtlmuxs1bzdjahqv",
-            "url": "/uploads/computer_vision_bg_a239b2a9ad.png"
-          },
-          "icon": {
-            "id": 223,
-            "documentId": "l3i4y1go01y8waw17vwfvcf6",
-            "url": "/uploads/computer_vision_icon_03705d15a5.png"
-          },
-          "bullets": [
-            {
-              "id": 125,
-              "description": "Vision AI–based anomaly detection and tracking (e.g., YOLO, custom CNNs)."
-            },
-            {
-              "id": 126,
-              "description": "Near real-time video analytics for safety monitoring at critical infrastructure."
-            },
-            {
-              "id": 127,
-              "description": "Human tracking and face recognition in near real time for security and operational insights."
-            },
-            {
-              "id": 128,
-              "description": "Integration of multi-sensor inputs (video, lidar, radar) for robust scene understanding."
-            },
-            {
-              "id": 129,
-              "description": "Advanced computer vision pipelines optimized for edge devices and low-latency applications."
+          "createdAt": "2025-07-25T12:19:30.086Z",
+          "updatedAt": "2025-07-25T12:19:30.086Z",
+          "publishedAt": "2025-07-25T12:19:30.099Z",
+          "image": {
+            "id": 179,
+            "documentId": "wnmjp1igy46qh7mcwoc0szs3",
+            "url": "/uploads/Untitled_design_26_8ec62a3e86.png",
+            "formats": {
+              "thumbnail": {
+                "name": "thumbnail_Untitled design (26).png",
+                "hash": "thumbnail_Untitled_design_26_8ec62a3e86",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 234,
+                "height": 156,
+                "size": 69.27,
+                "sizeInBytes": 69272,
+                "url": "/uploads/thumbnail_Untitled_design_26_8ec62a3e86.png"
+              },
+              "small": {
+                "name": "small_Untitled design (26).png",
+                "hash": "small_Untitled_design_26_8ec62a3e86",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 500,
+                "height": 334,
+                "size": 277.07,
+                "sizeInBytes": 277071,
+                "url": "/uploads/small_Untitled_design_26_8ec62a3e86.png"
+              },
+              "medium": {
+                "name": "medium_Untitled design (26).png",
+                "hash": "medium_Untitled_design_26_8ec62a3e86",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 750,
+                "height": 501,
+                "size": 586.93,
+                "sizeInBytes": 586930,
+                "url": "/uploads/medium_Untitled_design_26_8ec62a3e86.png"
+              },
+              "large": {
+                "name": "large_Untitled design (26).png",
+                "hash": "large_Untitled_design_26_8ec62a3e86",
+                "ext": ".png",
+                "mime": "image/png",
+                "path": null,
+                "width": 1000,
+                "height": 668,
+                "size": 999.38,
+                "sizeInBytes": 999379,
+                "url": "/uploads/large_Untitled_design_26_8ec62a3e86.png"
+              }
             }
-          ]
-        },
-        {
-          "id": 30,
-          "documentId": "lu5usefhp1xicnid4l5crtt0",
-          "name": "IoT & Industry 4.0",
-          "slug": "io-t-and-industry-4-0",
-          "description": "We build intelligent IoT ecosystems aligned with Industry 4.0, combining connectivity, automation, and AI-driven insights.\n",
-          "createdAt": "2025-08-27T13:12:24.648Z",
-          "updatedAt": "2025-09-10T13:07:21.669Z",
-          "publishedAt": "2025-09-10T13:07:21.690Z",
-          "order": 6,
-          "backgroundImage": {
-            "id": 226,
-            "documentId": "qe4r4llu6kx5839at5vcv40n",
-            "url": "/uploads/iot_bg_9c18a1ed1e.png"
           },
-          "icon": {
-            "id": 225,
-            "documentId": "jizxnu4nqt5ul5sbm7sznkbe",
-            "url": "/uploads/iot_icon_5b127dc70d.png"
-          },
-          "bullets": [
-            {
-              "id": 135,
-              "description": "Connected crossing monitoring using audio, video, light, and motion sensors."
-            },
-            {
-              "id": 136,
-              "description": "Fusion of LiDAR, RADAR, and image sensors for enhanced situational awareness."
-            },
-            {
-              "id": 137,
-              "description": "Near real-time IoT telemetry integration with AI models for predictive safety applications."
-            },
-            {
-              "id": 138,
-              "description": "Scalable IoT architectures linking edge devices with cloud-based AI dashboards."
-            },
-            {
-              "id": 139,
-              "description": "Industry 4.0–enabled IoT solutions driving automation, connectivity, and smart analytics."
-            }
-          ]
+          "video": null,
+          "Button": null
         }
       ],
       "industries_section": {
-        "id": 37,
+        "id": 13,
         "documentId": "rzxn390nc1j7eltr3twcj0zn",
         "createdAt": "2025-05-28T11:16:05.911Z",
-        "updatedAt": "2025-09-08T15:48:57.202Z",
-        "publishedAt": "2025-09-08T15:48:57.222Z",
+        "updatedAt": "2025-07-24T13:51:57.335Z",
+        "publishedAt": "2025-07-24T13:51:57.350Z",
         "title": "Industries We Work with",
         "description": "We have collaborated with diverse industries, providing innovative & safety critical solutions that enhance safety, efficiency, and reliability.",
         "industryCard": [
           {
-            "id": 482,
-            "title": "Rail & Transportation",
-            "subtitle": " Smart Rail Automation & AI-based Maintenance",
-            "description": "We deliver modern rail solutions that combine automation, real-time monitoring, and AI-powered maintenance. Our platforms use operational data for predictive, prescriptive, and preventive maintenance, helping operators reduce downtime, improve safety, and ensure efficient, compliant rail operations.",
+            "id": 184,
+            "title": "Rail Automation",
+            "subtitle": "Advanced Rail Automation Solutions",
+            "description": "We deliver smart automation solutions for rail safety, efficiency & compliance, enabling predictive maintenance, real-time signal monitoring, worker safety, and optimized operations while minimizing downtime and ensuring compliance.",
             "image": {
               "id": 4,
               "documentId": "x6werkzd333vo24qm6mp8jlj",
@@ -296,8 +321,8 @@
                   "path": null,
                   "width": 234,
                   "height": 156,
-                  "size": 100.88,
-                  "sizeInBytes": 100877,
+                  "size": 86.49,
+                  "sizeInBytes": 86493,
                   "url": "/uploads/thumbnail_rail_automation_a826a3e425.jpg"
                 },
                 "small": {
@@ -308,8 +333,8 @@
                   "path": null,
                   "width": 500,
                   "height": 333,
-                  "size": 440.36,
-                  "sizeInBytes": 440364,
+                  "size": 361.66,
+                  "sizeInBytes": 361655,
                   "url": "/uploads/small_rail_automation_a826a3e425.jpg"
                 },
                 "medium": {
@@ -320,8 +345,8 @@
                   "path": null,
                   "width": 750,
                   "height": 500,
-                  "size": 973.71,
-                  "sizeInBytes": 973710,
+                  "size": 788.12,
+                  "sizeInBytes": 788118,
                   "url": "/uploads/medium_rail_automation_a826a3e425.jpg"
                 },
                 "large": {
@@ -331,19 +356,19 @@
                   "mime": "image/png",
                   "path": null,
                   "width": 1000,
-                  "height": 666,
-                  "size": 1706.91,
-                  "sizeInBytes": 1706911,
+                  "height": 667,
+                  "size": 1359.15,
+                  "sizeInBytes": 1359152,
                   "url": "/uploads/large_rail_automation_a826a3e425.jpg"
                 }
               }
             }
           },
           {
-            "id": 483,
-            "title": "Enterprise Productivity & Collaboration",
-            "subtitle": "AI-Powered Workflows & Meeting Intelligence",
-            "description": "We enable enterprises to work smarter with AI-driven tools that transform meetings and workflows into actionable outcomes. From automated note-taking and task generation to intelligent workflow automation and knowledge management, our solutions enhance collaboration, reduce inefficiencies, and drive better decision-making across teams.",
+            "id": 185,
+            "title": "Energy and Utilities",
+            "subtitle": "Next-Gen Energy Management",
+            "description": "Delivering real-time energy management for power generation and distribution. Our systems enable proactive maintenance and efficient resource use, ensuring reliable operation across utility networks.",
             "image": {
               "id": 5,
               "documentId": "or52fur6s8kev6nblukx81xc",
@@ -357,8 +382,8 @@
                   "path": null,
                   "width": 234,
                   "height": 156,
-                  "size": 87.48,
-                  "sizeInBytes": 87481,
+                  "size": 89.45,
+                  "sizeInBytes": 89453,
                   "url": "/uploads/thumbnail_energy_and_utility_338ae605a6.jpg"
                 },
                 "small": {
@@ -369,8 +394,8 @@
                   "path": null,
                   "width": 500,
                   "height": 333,
-                  "size": 337.52,
-                  "sizeInBytes": 337524,
+                  "size": 352.67,
+                  "sizeInBytes": 352671,
                   "url": "/uploads/small_energy_and_utility_338ae605a6.jpg"
                 },
                 "medium": {
@@ -381,8 +406,8 @@
                   "path": null,
                   "width": 750,
                   "height": 500,
-                  "size": 701.19,
-                  "sizeInBytes": 701189,
+                  "size": 760.74,
+                  "sizeInBytes": 760740,
                   "url": "/uploads/medium_energy_and_utility_338ae605a6.jpg"
                 },
                 "large": {
@@ -393,18 +418,18 @@
                   "path": null,
                   "width": 1000,
                   "height": 667,
-                  "size": 1164.58,
-                  "sizeInBytes": 1164580,
+                  "size": 1320.23,
+                  "sizeInBytes": 1320234,
                   "url": "/uploads/large_energy_and_utility_338ae605a6.jpg"
                 }
               }
             }
           },
           {
-            "id": 484,
-            "title": "Customer Support & Engagement",
-            "subtitle": "Intelligent Chatbots & Virtual Assistants",
-            "description": "We build AI-powered, multilingual chatbots and virtual assistants for customer support and engagement.\n They work across web, mobile, WhatsApp, Telegram, SMS, and enterprise systems—supporting text, audio, and image interactions. By automating routine queries, escalating complex cases, and providing real-time analytics, they ensure 24/7 availability, lower costs, and stronger customer relationships.",
+            "id": 186,
+            "title": "Surveillance Systems",
+            "subtitle": "AI-Driven Assets Security",
+            "description": "Enhancing your assets' theft detection and surveillance with AI-driven systems. Leveraging advanced computer vision, we deliver scalable solutions that protect assets and improve safety in dynamic environments.",
             "image": {
               "id": 6,
               "documentId": "qncwd615pk5ddzkx3u3w567d",
@@ -416,10 +441,10 @@
                   "ext": ".jpg",
                   "mime": "image/png",
                   "path": null,
-                  "width": 233,
+                  "width": 234,
                   "height": 156,
-                  "size": 56.3,
-                  "sizeInBytes": 56296,
+                  "size": 61.04,
+                  "sizeInBytes": 61044,
                   "url": "/uploads/thumbnail_automotive_7e8cc08973.jpg"
                 },
                 "small": {
@@ -429,9 +454,9 @@
                   "mime": "image/png",
                   "path": null,
                   "width": 500,
-                  "height": 335,
-                  "size": 194.88,
-                  "sizeInBytes": 194878,
+                  "height": 333,
+                  "size": 246.75,
+                  "sizeInBytes": 246747,
                   "url": "/uploads/small_automotive_7e8cc08973.jpg"
                 },
                 "medium": {
@@ -441,9 +466,9 @@
                   "mime": "image/png",
                   "path": null,
                   "width": 750,
-                  "height": 503,
-                  "size": 420.95,
-                  "sizeInBytes": 420951,
+                  "height": 500,
+                  "size": 536.07,
+                  "sizeInBytes": 536070,
                   "url": "/uploads/medium_automotive_7e8cc08973.jpg"
                 },
                 "large": {
@@ -453,19 +478,19 @@
                   "mime": "image/png",
                   "path": null,
                   "width": 1000,
-                  "height": 670,
-                  "size": 756.58,
-                  "sizeInBytes": 756577,
+                  "height": 667,
+                  "size": 928.77,
+                  "sizeInBytes": 928771,
                   "url": "/uploads/large_automotive_7e8cc08973.jpg"
                 }
               }
             }
           },
           {
-            "id": 485,
-            "title": "Retail & E-Commerce",
-            "subtitle": "Smarter Commerce & Customer Experiences",
-            "description": "We design digital commerce platforms and property tech solutions that leverage AI and data intelligence to personalize shopping, forecast demand, and optimize inventory. From consumer apps to marketplace and delivery platforms, our technology helps businesses improve efficiency, prevent disruptions, and deliver seamless, engaging customer journeys at scale.",
+            "id": 187,
+            "title": "Consumer Products",
+            "subtitle": "Smart Digital Consumer Experiences",
+            "description": "Creating engaging digital experiences for consumer brands through cross-platform solutions, offering e-commerce and delivery apps with intuitive design and scalable backend technology for a seamless customer experience.",
             "image": {
               "id": 7,
               "documentId": "eedb8laohj6ggw95bl8tv6il",
@@ -479,8 +504,8 @@
                   "path": null,
                   "width": 234,
                   "height": 156,
-                  "size": 64.53,
-                  "sizeInBytes": 64529,
+                  "size": 113.05,
+                  "sizeInBytes": 113049,
                   "url": "/uploads/thumbnail_consumer_products_81b63997af.jpg"
                 },
                 "small": {
@@ -491,8 +516,8 @@
                   "path": null,
                   "width": 500,
                   "height": 333,
-                  "size": 239.75,
-                  "sizeInBytes": 239752,
+                  "size": 473.07,
+                  "sizeInBytes": 473066,
                   "url": "/uploads/small_consumer_products_81b63997af.jpg"
                 },
                 "medium": {
@@ -503,8 +528,8 @@
                   "path": null,
                   "width": 750,
                   "height": 500,
-                  "size": 508.67,
-                  "sizeInBytes": 508667,
+                  "size": 1023.82,
+                  "sizeInBytes": 1023816,
                   "url": "/uploads/medium_consumer_products_81b63997af.jpg"
                 },
                 "large": {
@@ -514,19 +539,19 @@
                   "mime": "image/png",
                   "path": null,
                   "width": 1000,
-                  "height": 666,
-                  "size": 860.18,
-                  "sizeInBytes": 860180,
+                  "height": 667,
+                  "size": 1767.76,
+                  "sizeInBytes": 1767755,
                   "url": "/uploads/large_consumer_products_81b63997af.jpg"
                 }
               }
             }
           },
           {
-            "id": 486,
-            "title": "Education & EdTech",
-            "subtitle": " AI-Driven Learning & Student Management",
-            "description": "We revolutionize education with AI-powered solutions for automated grading, student information systems, and intelligent test preparation platforms. Our solutions simplify academic management, support global exam readiness, and deliver personalized learning experiences—empowering institutions, teachers, and students alike.",
+            "id": 188,
+            "title": "Education",
+            "subtitle": "Innovative Digital Learning",
+            "description": "Transforming education with smart digital solutions for automated grading, management, and interactive learning. Our solutions streamline academic processes and enhance teaching and administration for modern institutions.",
             "image": {
               "id": 8,
               "documentId": "xuhhls061sumtjccahu1gtcf",
@@ -540,8 +565,8 @@
                   "path": null,
                   "width": 234,
                   "height": 156,
-                  "size": 69.07,
-                  "sizeInBytes": 69074,
+                  "size": 77.65,
+                  "sizeInBytes": 77648,
                   "url": "/uploads/thumbnail_education_3304f7564e.jpg"
                 },
                 "small": {
@@ -552,8 +577,8 @@
                   "path": null,
                   "width": 500,
                   "height": 333,
-                  "size": 256.83,
-                  "sizeInBytes": 256832,
+                  "size": 307.5,
+                  "sizeInBytes": 307500,
                   "url": "/uploads/small_education_3304f7564e.jpg"
                 },
                 "medium": {
@@ -564,8 +589,8 @@
                   "path": null,
                   "width": 750,
                   "height": 500,
-                  "size": 532.96,
-                  "sizeInBytes": 532964,
+                  "size": 658.32,
+                  "sizeInBytes": 658322,
                   "url": "/uploads/medium_education_3304f7564e.jpg"
                 },
                 "large": {
@@ -576,18 +601,18 @@
                   "path": null,
                   "width": 1000,
                   "height": 667,
-                  "size": 828.99,
-                  "sizeInBytes": 828989,
+                  "size": 1136.77,
+                  "sizeInBytes": 1136768,
                   "url": "/uploads/large_education_3304f7564e.jpg"
                 }
               }
             }
           },
           {
-            "id": 487,
-            "title": "Agriculture & AgriTech",
-            "subtitle": " Intelligent Farming & Sustainable Growth",
-            "description": "We enable smarter agriculture with IoT and data-powered platforms that improve crop yields, optimize resource use, and promote sustainable practices. From smart sensors and automated monitoring to AI-enabled yield forecasting and farm management, our solutions help farmers and agribusinesses make better decisions, reduce waste, and build resilient, future-ready operations.",
+            "id": 189,
+            "title": "Agriculture",
+            "subtitle": "Innovative AgriTech Solutions",
+            "description": "Revolutionizing agriculture with cutting-edge solutions. Using IoT, AI, and data analytics, we optimize farming operations, boost yields, and promote sustainable practices for a future-ready sector.",
             "image": {
               "id": 9,
               "documentId": "nhq0at4ilhvtpo58barbdrwm",
@@ -601,8 +626,8 @@
                   "path": null,
                   "width": 234,
                   "height": 156,
-                  "size": 100.57,
-                  "sizeInBytes": 100568,
+                  "size": 100.64,
+                  "sizeInBytes": 100644,
                   "url": "/uploads/thumbnail_agriculture_548e501fbf.jpg"
                 },
                 "small": {
@@ -613,8 +638,8 @@
                   "path": null,
                   "width": 500,
                   "height": 333,
-                  "size": 441.34,
-                  "sizeInBytes": 441342,
+                  "size": 430.93,
+                  "sizeInBytes": 430928,
                   "url": "/uploads/small_agriculture_548e501fbf.jpg"
                 },
                 "medium": {
@@ -625,8 +650,8 @@
                   "path": null,
                   "width": 750,
                   "height": 500,
-                  "size": 960.21,
-                  "sizeInBytes": 960212,
+                  "size": 937.54,
+                  "sizeInBytes": 937543,
                   "url": "/uploads/medium_agriculture_548e501fbf.jpg"
                 },
                 "large": {
@@ -637,8 +662,8 @@
                   "path": null,
                   "width": 1000,
                   "height": 667,
-                  "size": 1649.1,
-                  "sizeInBytes": 1649104,
+                  "size": 1622.97,
+                  "sizeInBytes": 1622968,
                   "url": "/uploads/large_agriculture_548e501fbf.jpg"
                 }
               }
@@ -647,19 +672,19 @@
         ]
       },
       "services_section": {
-        "id": 29,
+        "id": 16,
         "documentId": "mkn5zw5de424v1tvqcmrgaj2",
         "createdAt": "2025-05-28T11:21:56.484Z",
-        "updatedAt": "2025-09-09T09:45:31.243Z",
-        "publishedAt": "2025-09-09T09:45:31.273Z",
+        "updatedAt": "2025-07-25T13:46:20.506Z",
+        "publishedAt": "2025-07-25T13:46:20.592Z",
         "title": "Our Services",
         "description": "We provide a comprehensive range of services to help businesses secure their operations, streamline workflows, drive efficiency and support sustainable growth.",
         "serviceCard": [
           {
-            "id": 488,
-            "title": "AI & Data Engineering",
-            "subtitle": "Build intelligent products from data to decision.",
-            "description": "We design, train, and deploy ML and AI systems that solve real business problems — from predictive models and recommendation engines to scalable data pipelines and edge ML. Integrates model ops, data engineering, and explainability best practices.",
+            "id": 220,
+            "title": "AI Solutions & Machine Learning Development",
+            "subtitle": null,
+            "description": "Enhance automation, decision-making, and efficiency with AI-powered, data-driven solutions tailored to your business.",
             "image": {
               "id": 16,
               "documentId": "wjcwegnua3bpr937gzo7d490",
@@ -673,54 +698,18 @@
                   "path": null,
                   "width": 156,
                   "height": 156,
-                  "size": 9.32,
-                  "sizeInBytes": 9324,
+                  "size": 5.77,
+                  "sizeInBytes": 5774,
                   "url": "/uploads/thumbnail_ai_solution_5fe4a8f36b.png"
-                },
-                "small": {
-                  "name": "small_ai-solution.png",
-                  "hash": "small_ai_solution_5fe4a8f36b",
-                  "ext": ".png",
-                  "mime": "image/png",
-                  "path": null,
-                  "width": 500,
-                  "height": 500,
-                  "size": 33.69,
-                  "sizeInBytes": 33687,
-                  "url": "/uploads/small_ai_solution_5fe4a8f36b.png"
-                },
-                "medium": {
-                  "name": "medium_ai-solution.png",
-                  "hash": "medium_ai_solution_5fe4a8f36b",
-                  "ext": ".png",
-                  "mime": "image/png",
-                  "path": null,
-                  "width": 750,
-                  "height": 750,
-                  "size": 56.76,
-                  "sizeInBytes": 56761,
-                  "url": "/uploads/medium_ai_solution_5fe4a8f36b.png"
-                },
-                "large": {
-                  "name": "large_ai-solution.png",
-                  "hash": "large_ai_solution_5fe4a8f36b",
-                  "ext": ".png",
-                  "mime": "image/png",
-                  "path": null,
-                  "width": 1000,
-                  "height": 1000,
-                  "size": 82.64,
-                  "sizeInBytes": 82644,
-                  "url": "/uploads/large_ai_solution_5fe4a8f36b.png"
                 }
               }
             }
           },
           {
-            "id": 489,
-            "title": "Cloud & DevOps Engineering",
-            "subtitle": "Fast, scalable infrastructure that just works.",
-            "description": "Architect, migrate, and operate cloud platforms with automated pipelines, IaC, and observability. We reduce time-to-market and operational risk using repeatable DevOps practices.",
+            "id": 221,
+            "title": "Cloud Engineering, DevOps & Infrastructure",
+            "subtitle": null,
+            "description": "Streamline operations with scalable cloud solutions, automated deployments, and seamless integration.",
             "image": {
               "id": 17,
               "documentId": "koumeh9s1zw103vnryrc3rxi",
@@ -734,54 +723,18 @@
                   "path": null,
                   "width": 156,
                   "height": 156,
-                  "size": 5.38,
-                  "sizeInBytes": 5383,
+                  "size": 6.12,
+                  "sizeInBytes": 6118,
                   "url": "/uploads/thumbnail_cloud_23034475c9.png"
-                },
-                "medium": {
-                  "name": "medium_cloud.png",
-                  "hash": "medium_cloud_23034475c9",
-                  "ext": ".png",
-                  "mime": "image/png",
-                  "path": null,
-                  "width": 750,
-                  "height": 750,
-                  "size": 30.15,
-                  "sizeInBytes": 30146,
-                  "url": "/uploads/medium_cloud_23034475c9.png"
-                },
-                "small": {
-                  "name": "small_cloud.png",
-                  "hash": "small_cloud_23034475c9",
-                  "ext": ".png",
-                  "mime": "image/png",
-                  "path": null,
-                  "width": 500,
-                  "height": 500,
-                  "size": 18.07,
-                  "sizeInBytes": 18072,
-                  "url": "/uploads/small_cloud_23034475c9.png"
-                },
-                "large": {
-                  "name": "large_cloud.png",
-                  "hash": "large_cloud_23034475c9",
-                  "ext": ".png",
-                  "mime": "image/png",
-                  "path": null,
-                  "width": 1000,
-                  "height": 1000,
-                  "size": 45.37,
-                  "sizeInBytes": 45371,
-                  "url": "/uploads/large_cloud_23034475c9.png"
                 }
               }
             }
           },
           {
-            "id": 490,
-            "title": "Embedded AI & IoT Solutions",
-            "subtitle": "Real-time, reliable embedded systems and secure connectivity.",
-            "description": "Develop safety-critical firmware, real-time controllers, and IoT platforms that connect devices to value. We handle hardware integration, OTA, edge computing, and secure device fleets.",
+            "id": 222,
+            "title": "Data Analytics",
+            "subtitle": null,
+            "description": "Unlock insights through advanced analytics, enabling smarter decisions and strategic growth.",
             "image": {
               "id": 18,
               "documentId": "njsgiu81oq6k4s7evagiz0lf",
@@ -793,56 +746,20 @@
                   "ext": ".png",
                   "mime": "image/png",
                   "path": null,
-                  "width": 168,
+                  "width": 156,
                   "height": 156,
-                  "size": 8.75,
-                  "sizeInBytes": 8751,
+                  "size": 3.11,
+                  "sizeInBytes": 3105,
                   "url": "/uploads/thumbnail_embeded_6fb02d6f88.png"
-                },
-                "large": {
-                  "name": "large_embeded.png",
-                  "hash": "large_embeded_6fb02d6f88",
-                  "ext": ".png",
-                  "mime": "image/png",
-                  "path": null,
-                  "width": 1000,
-                  "height": 930,
-                  "size": 65.08,
-                  "sizeInBytes": 65085,
-                  "url": "/uploads/large_embeded_6fb02d6f88.png"
-                },
-                "small": {
-                  "name": "small_embeded.png",
-                  "hash": "small_embeded_6fb02d6f88",
-                  "ext": ".png",
-                  "mime": "image/png",
-                  "path": null,
-                  "width": 500,
-                  "height": 465,
-                  "size": 27.25,
-                  "sizeInBytes": 27251,
-                  "url": "/uploads/small_embeded_6fb02d6f88.png"
-                },
-                "medium": {
-                  "name": "medium_embeded.png",
-                  "hash": "medium_embeded_6fb02d6f88",
-                  "ext": ".png",
-                  "mime": "image/png",
-                  "path": null,
-                  "width": 750,
-                  "height": 697,
-                  "size": 44.57,
-                  "sizeInBytes": 44573,
-                  "url": "/uploads/medium_embeded_6fb02d6f88.png"
                 }
               }
             }
           },
           {
-            "id": 491,
-            "title": "Product Engineering — Web & Mobile",
-            "subtitle": "Build secure, high-performance apps customers love.",
-            "description": " End-to-end product development for web and mobile — UX to backend, APIs to observability. We focus on secure, scalable, maintainable code that accelerates growth.",
+            "id": 223,
+            "title": "Custom Web Application Development",
+            "subtitle": null,
+            "description": "Build secure, scalable, and high-performance web applications designed for optimal business growth and digital transformation.",
             "image": {
               "id": 19,
               "documentId": "vxwc1f78mj2icn3djn6pybg0",
@@ -856,54 +773,18 @@
                   "path": null,
                   "width": 156,
                   "height": 156,
-                  "size": 6.97,
-                  "sizeInBytes": 6972,
+                  "size": 4.74,
+                  "sizeInBytes": 4739,
                   "url": "/uploads/thumbnail_web_development_6335ba26e0.png"
-                },
-                "small": {
-                  "name": "small_web-development.png",
-                  "hash": "small_web_development_6335ba26e0",
-                  "ext": ".png",
-                  "mime": "image/png",
-                  "path": null,
-                  "width": 500,
-                  "height": 500,
-                  "size": 24.56,
-                  "sizeInBytes": 24563,
-                  "url": "/uploads/small_web_development_6335ba26e0.png"
-                },
-                "medium": {
-                  "name": "medium_web-development.png",
-                  "hash": "medium_web_development_6335ba26e0",
-                  "ext": ".png",
-                  "mime": "image/png",
-                  "path": null,
-                  "width": 750,
-                  "height": 750,
-                  "size": 40.86,
-                  "sizeInBytes": 40860,
-                  "url": "/uploads/medium_web_development_6335ba26e0.png"
-                },
-                "large": {
-                  "name": "large_web-development.png",
-                  "hash": "large_web_development_6335ba26e0",
-                  "ext": ".png",
-                  "mime": "image/png",
-                  "path": null,
-                  "width": 1000,
-                  "height": 1000,
-                  "size": 58.49,
-                  "sizeInBytes": 58490,
-                  "url": "/uploads/large_web_development_6335ba26e0.png"
                 }
               }
             }
           },
           {
-            "id": 492,
-            "title": "Digital Transformation & Managed Services",
-            "subtitle": "Strategy, sustainment and continuous business reinvention.",
-            "description": "Strategy-to-execution programs that modernize operations, improve customer experience and embed sustainability. We also offer managed services to operate your platforms.",
+            "id": 224,
+            "title": "Mobile App Development & Optimization",
+            "subtitle": null,
+            "description": "Deliver fast, user-friendly mobile experiences with custom-built, performance-optimized, and feature-rich applications.",
             "image": {
               "id": 20,
               "documentId": "lzfjm3dlyxuxa0dod3m9p5e9",
@@ -917,42 +798,18 @@
                   "path": null,
                   "width": 156,
                   "height": 156,
-                  "size": 5.55,
-                  "sizeInBytes": 5549,
+                  "size": 3.66,
+                  "sizeInBytes": 3663,
                   "url": "/uploads/thumbnail_mobile_app_development_3c396a108f.png"
-                },
-                "small": {
-                  "name": "small_mobile-app-development.png",
-                  "hash": "small_mobile_app_development_3c396a108f",
-                  "ext": ".png",
-                  "mime": "image/png",
-                  "path": null,
-                  "width": 500,
-                  "height": 500,
-                  "size": 19.01,
-                  "sizeInBytes": 19014,
-                  "url": "/uploads/small_mobile_app_development_3c396a108f.png"
-                },
-                "medium": {
-                  "name": "medium_mobile-app-development.png",
-                  "hash": "medium_mobile_app_development_3c396a108f",
-                  "ext": ".png",
-                  "mime": "image/png",
-                  "path": null,
-                  "width": 750,
-                  "height": 750,
-                  "size": 32.74,
-                  "sizeInBytes": 32738,
-                  "url": "/uploads/medium_mobile_app_development_3c396a108f.png"
                 }
               }
             }
           },
           {
-            "id": 493,
-            "title": " Security, Compliance & ISO Consulting",
-            "subtitle": "Risk-managed systems that meet standards and build trust.",
-            "description": "GDPR/ISO/industry compliance, security assessments, and remediation plans delivered with pragmatic engineering. We prepare you for certification and strengthen your security posture.",
+            "id": 225,
+            "title": "ISO Certification & Compliance Consulting",
+            "subtitle": null,
+            "description": "Achieve industry compliance with expert consulting, tailored solutions, and end-to-end regulatory certification support.",
             "image": {
               "id": 21,
               "documentId": "shhk1v7w5qools9i4154swba",
@@ -966,45 +823,9 @@
                   "path": null,
                   "width": 156,
                   "height": 156,
-                  "size": 13.02,
-                  "sizeInBytes": 13024,
+                  "size": 5.72,
+                  "sizeInBytes": 5719,
                   "url": "/uploads/thumbnail_iso_ae030407a2.png"
-                },
-                "small": {
-                  "name": "small_iso.png",
-                  "hash": "small_iso_ae030407a2",
-                  "ext": ".png",
-                  "mime": "image/png",
-                  "path": null,
-                  "width": 500,
-                  "height": 500,
-                  "size": 52.61,
-                  "sizeInBytes": 52606,
-                  "url": "/uploads/small_iso_ae030407a2.png"
-                },
-                "medium": {
-                  "name": "medium_iso.png",
-                  "hash": "medium_iso_ae030407a2",
-                  "ext": ".png",
-                  "mime": "image/png",
-                  "path": null,
-                  "width": 750,
-                  "height": 750,
-                  "size": 90.3,
-                  "sizeInBytes": 90295,
-                  "url": "/uploads/medium_iso_ae030407a2.png"
-                },
-                "large": {
-                  "name": "large_iso.png",
-                  "hash": "large_iso_ae030407a2",
-                  "ext": ".png",
-                  "mime": "image/png",
-                  "path": null,
-                  "width": 1000,
-                  "height": 1000,
-                  "size": 131.53,
-                  "sizeInBytes": 131534,
-                  "url": "/uploads/large_iso_ae030407a2.png"
                 }
               }
             }
@@ -1031,13 +852,13 @@
         }
       },
       "about_section": {
-        "id": 14,
+        "id": 6,
         "documentId": "l8smlvfsird8w8dxv0s9uzqb",
         "createdAt": "2025-05-28T11:09:21.482Z",
-        "updatedAt": "2025-08-26T15:02:11.138Z",
-        "publishedAt": "2025-08-26T15:02:11.148Z",
-        "title": "Drive Innovation with a Partner You can Trust",
-        "description": "At Gigantech, we’re transforming businesses with AI & next-gen technology. As a global technology partner, we empower organizations across North America, the UK, and the Middle East with AI-powered solutions across diverse platforms. With a team averaging over 10 years of experience—including top AI specialists and DevOps architects—we bring precision to projects ranging from safety-critical systems to scalable enterprise platforms. With globally connected teams, we combine technical mastery with a client-first approach, delivering technology that solves complex challenges while driving growth. Turning ideas into intelligent digital realities—let’s build what’s next, together.",
+        "updatedAt": "2025-08-25T11:55:30.055Z",
+        "publishedAt": "2025-08-25T11:55:30.082Z",
+        "title": " Drive Innovation with a Partner You can Trust",
+        "description": "At SmachStack, we’re a global technology partner empowering businesses across North America, Europe, and beyond with future-ready solutions in web development, mobile applications, AI, and embedded systems. With a team averaging over 10 years of experience—including top AI specialists and DevOps architects—we bring precision to projects ranging from safety-critical systems to scalable enterprise platforms. Strategically located in UK and Pakistan, our globally connected teams combine technical mastery with a client-first approach, delivering technology that solves complex challenges while driving growth. Let’s build what’s next—together.",
         "aboutImage": {
           "id": 3,
           "documentId": "ojpionzws7z0rce7wa1slh7n",
@@ -1088,19 +909,19 @@
           }
         },
         {
-          "id": 710,
+          "id": 692,
           "documentId": "tlzr2pt6srjslzd096fb3oac",
           "name": "Ansible",
           "category": "DevOps",
           "slug": "ansible",
           "createdAt": "2025-07-04T07:07:55.458Z",
-          "updatedAt": "2025-08-12T13:54:02.306Z",
-          "publishedAt": "2025-08-12T13:54:02.319Z",
+          "updatedAt": "2025-08-28T15:18:15.059Z",
+          "publishedAt": "2025-08-28T15:18:15.076Z",
           "tooltip": "Agentless automation tool for configuration management and orchestration",
           "logo": {
             "id": 144,
             "documentId": "jt2dp2v60vw3zeibgrntwvq0",
-            "url": "/uploads/ansblepng"
+            "url": "/uploads/ansble.png"
           }
         },
         {
@@ -1120,19 +941,19 @@
           }
         },
         {
-          "id": 709,
+          "id": 693,
           "documentId": "z9tcwfncd501351qb8h0lnqn",
           "name": "Azure",
           "category": "DevOps",
           "slug": "azure",
           "createdAt": "2025-07-04T07:07:55.543Z",
-          "updatedAt": "2025-08-12T13:29:00.465Z",
-          "publishedAt": "2025-08-12T13:29:00.479Z",
+          "updatedAt": "2025-08-28T15:18:31.399Z",
+          "publishedAt": "2025-08-28T15:18:31.412Z",
           "tooltip": "Microsoft Azure DevOps",
           "logo": {
             "id": 147,
             "documentId": "n50b1qjhtia5squtm9yjms22",
-            "url": "/uploads/azuresvg"
+            "url": "/uploads/azure.png"
           }
         },
         {
@@ -1152,19 +973,19 @@
           }
         },
         {
-          "id": 714,
+          "id": 532,
           "documentId": "f2wq0y6s6ezsdviasnjfxk1k",
           "name": "Claude",
           "category": "Artificial Intelligence",
           "slug": "claude",
           "createdAt": "2025-07-04T06:57:53.180Z",
-          "updatedAt": "2025-08-12T14:02:34.568Z",
-          "publishedAt": "2025-08-12T14:02:34.577Z",
+          "updatedAt": "2025-07-04T06:57:53.180Z",
+          "publishedAt": "2025-07-04T06:57:53.185Z",
           "tooltip": "models by Anthropic",
           "logo": {
             "id": 96,
             "documentId": "dfls2p6f0uhlr1b8jtt8tt8f",
-            "url": "/uploads/claudepng"
+            "url": "/uploads/claude.png"
           }
         },
         {
@@ -1200,19 +1021,19 @@
           }
         },
         {
-          "id": 712,
+          "id": 694,
           "documentId": "pme3uip2khmb640nkeckw5ty",
           "name": "Docker",
           "category": "DevOps",
           "slug": "docker",
           "createdAt": "2025-07-04T07:07:55.374Z",
-          "updatedAt": "2025-08-12T13:59:42.993Z",
-          "publishedAt": "2025-08-12T13:59:43.002Z",
+          "updatedAt": "2025-08-28T15:18:58.214Z",
+          "publishedAt": "2025-08-28T15:18:58.228Z",
           "tooltip": "Containerization platform for packaging and deploying applications",
           "logo": {
             "id": 141,
             "documentId": "vf0d8i5a7k30naucuuj0ffiz",
-            "url": "/uploads/dockerpng"
+            "url": "/uploads/docker.png"
           }
         },
         {
@@ -1264,19 +1085,19 @@
           }
         },
         {
-          "id": 716,
+          "id": 528,
           "documentId": "a600bhftfemap4ozr0kkfvzt",
           "name": "Gemini",
           "category": "Artificial Intelligence",
           "slug": "gemini",
           "createdAt": "2025-07-04T06:57:53.128Z",
-          "updatedAt": "2025-08-12T14:06:50.356Z",
-          "publishedAt": "2025-08-12T14:06:50.364Z",
+          "updatedAt": "2025-07-04T06:57:53.128Z",
+          "publishedAt": "2025-07-04T06:57:53.131Z",
           "tooltip": "Models by Google",
           "logo": {
             "id": 94,
             "documentId": "pufvcsazaygvlb1q3vjcjc8p",
-            "url": "/uploads/geminipng"
+            "url": "/uploads/gemini.png"
           }
         },
         {
@@ -1292,7 +1113,7 @@
           "logo": {
             "id": 146,
             "documentId": "xejeuwe2ahehcl8zqmrb4zts",
-            "url": "/uploads/grafanapng"
+            "url": "/uploads/grafana.png"
           }
         },
         {
@@ -1504,19 +1325,19 @@
           }
         },
         {
-          "id": 715,
+          "id": 498,
           "documentId": "hitvnha6j4k94c8syplgmzsg",
           "name": "Matplotlib",
           "category": "Artificial Intelligence",
           "slug": "matplotlib",
           "createdAt": "2025-07-04T06:57:52.503Z",
-          "updatedAt": "2025-08-12T14:05:04.715Z",
-          "publishedAt": "2025-08-12T14:05:04.726Z",
+          "updatedAt": "2025-07-04T06:57:52.503Z",
+          "publishedAt": "2025-07-04T06:57:52.506Z",
           "tooltip": "Plotting library",
           "logo": {
             "id": 79,
             "documentId": "fn485i2wjeeejoy19zyhlq4m",
-            "url": "/uploads/matplotlibsvg"
+            "url": "/uploads/matplotlib.svg"
           }
         },
         {
@@ -1760,19 +1581,19 @@
           }
         },
         {
-          "id": 711,
+          "id": 695,
           "documentId": "uulq01hudd6ke0m54xb2b3so",
           "name": "Prometheus",
           "category": "DevOps",
           "slug": "prometheus",
           "createdAt": "2025-07-04T07:07:55.481Z",
-          "updatedAt": "2025-08-12T13:57:53.331Z",
-          "publishedAt": "2025-08-12T13:57:53.345Z",
+          "updatedAt": "2025-08-28T15:19:50.028Z",
+          "publishedAt": "2025-08-28T15:19:50.044Z",
           "tooltip": "Open-source monitoring and alerting toolkit for metrics collection",
           "logo": {
             "id": 145,
             "documentId": "xpn667qergvnivfg54jebciz",
-            "url": "/uploads/Prometheus-iconpng"
+            "url": "/uploads/Prometheus-icon.png"
           }
         },
         {
@@ -2000,19 +1821,19 @@
           }
         },
         {
-          "id": 713,
+          "id": 696,
           "documentId": "i0fsfkmuc0mui4k4lkmoowkq",
           "name": "Terraform",
           "category": "DevOps",
           "slug": "terraform",
           "createdAt": "2025-07-04T07:07:55.435Z",
-          "updatedAt": "2025-08-12T14:01:14.973Z",
-          "publishedAt": "2025-08-12T14:01:14.982Z",
+          "updatedAt": "2025-08-28T15:20:48.205Z",
+          "publishedAt": "2025-08-28T15:20:48.214Z",
           "tooltip": "Infrastructure-as-Code (IaC) tool for provisioning multi-cloud resources",
           "logo": {
             "id": 143,
             "documentId": "y1djohg2otofqbnyu17z4n8m",
-            "url": "/uploads/terraformpng"
+            "url": "/uploads/terraform.png"
           }
         },
         {
@@ -2094,556 +1915,108 @@
             "documentId": "ems6fl97r3pz9d9bodun4090",
             "url": "/uploads/ios.svg"
           }
-        },
-        {
-          "id": 693,
-          "documentId": "zq8wm6t4gy48u1icmhyuirxw",
-          "name": "Firebase",
-          "category": "Web Development",
-          "slug": "firebase",
-          "createdAt": "2025-08-12T12:41:34.452Z",
-          "updatedAt": "2025-08-12T12:41:34.452Z",
-          "publishedAt": "2025-08-12T12:41:34.470Z",
-          "tooltip": "Backend tools by Google",
-          "logo": {
-            "id": 196,
-            "documentId": "y4i3otxgfzv8ydeihqua00gy",
-            "url": "/uploads/firebase_e62b0d53dd.png"
-          }
-        },
-        {
-          "id": 696,
-          "documentId": "de3nwbkw96ke7wrq27q7bxc6",
-          "name": "Strapi ",
-          "category": "Web Development",
-          "slug": "strapi",
-          "createdAt": "2025-08-12T12:43:05.165Z",
-          "updatedAt": "2025-08-12T12:43:48.216Z",
-          "publishedAt": "2025-08-12T12:43:48.240Z",
-          "tooltip": "Headless CMS",
-          "logo": {
-            "id": 197,
-            "documentId": "dsjnq9pmeyv3jsynjnl1a08f",
-            "url": "/uploads/vite_be5b65f7d3.png"
-          }
-        },
-        {
-          "id": 698,
-          "documentId": "gq9fotcf6zyexwlv5dp2ttbz",
-          "name": "Vite",
-          "category": "Web Development",
-          "slug": "technology",
-          "createdAt": "2025-08-12T12:45:06.261Z",
-          "updatedAt": "2025-08-12T12:45:06.261Z",
-          "publishedAt": "2025-08-12T12:45:06.274Z",
-          "tooltip": "Fast web build tool",
-          "logo": {
-            "id": 198,
-            "documentId": "fllzd0iigeugjv5wyo2jmtsv",
-            "url": "/uploads/vite_e7867b205d.png"
-          }
-        },
-        {
-          "id": 720,
-          "documentId": "fzg16txe873dfm4irye3ql9g",
-          "name": "Figma",
-          "category": "Web Development",
-          "slug": "ui-ux-design-tool",
-          "createdAt": "2025-08-12T12:45:59.702Z",
-          "updatedAt": "2025-08-22T11:22:26.802Z",
-          "publishedAt": "2025-08-22T11:22:26.811Z",
-          "tooltip": "UI/UX design tool",
-          "logo": {
-            "id": 199,
-            "documentId": "i97o2uwp91akoehyxzrrt9nn",
-            "url": "/uploads/figma_0598ffe662.png"
-          }
-        },
-        {
-          "id": 702,
-          "documentId": "d2u856j23a3merwd5pcs0jqg",
-          "name": "Vercel ",
-          "category": "Web Development",
-          "slug": "vercel",
-          "createdAt": "2025-08-12T12:46:38.980Z",
-          "updatedAt": "2025-08-12T12:46:38.980Z",
-          "publishedAt": "2025-08-12T12:46:38.996Z",
-          "tooltip": "Frontend hosting",
-          "logo": {
-            "id": 200,
-            "documentId": "agp1qh099dvgzekkiw04a7xk",
-            "url": "/uploads/vercel_86bb43c4e1.png"
-          }
-        },
-        {
-          "id": 704,
-          "documentId": "r97d1bzew6zcvjxjc6x6g4bq",
-          "name": "Prisma ORM",
-          "category": "Web Development",
-          "slug": "prisma-orm",
-          "createdAt": "2025-08-12T12:47:35.652Z",
-          "updatedAt": "2025-08-12T12:47:35.652Z",
-          "publishedAt": "2025-08-12T12:47:35.665Z",
-          "tooltip": "Type-safe DB ORM",
-          "logo": {
-            "id": 201,
-            "documentId": "qp8p9jo3vq6u4xracieb9285",
-            "url": "/uploads/prisma_orm_d90904ceb9.png"
-          }
-        },
-        {
-          "id": 706,
-          "documentId": "e7ogyicgzsvmu57wyxi9e91v",
-          "name": "Bootstrap ",
-          "category": "Web Development",
-          "slug": "bootstrap",
-          "createdAt": "2025-08-12T12:48:19.668Z",
-          "updatedAt": "2025-08-12T12:48:19.668Z",
-          "publishedAt": "2025-08-12T12:48:19.676Z",
-          "tooltip": "CSS framework",
-          "logo": {
-            "id": 202,
-            "documentId": "dc3i07tmes4s6dazcdy41if0",
-            "url": "/uploads/bootstrap_83168e206c.png"
-          }
-        },
-        {
-          "id": 708,
-          "documentId": "mx8d1tc6lbw9yiq9rbp3dbrd",
-          "name": "Angular ",
-          "category": "Web Development",
-          "slug": "angular",
-          "createdAt": "2025-08-12T12:49:25.439Z",
-          "updatedAt": "2025-08-12T12:49:25.439Z",
-          "publishedAt": "2025-08-12T12:49:25.454Z",
-          "tooltip": "Web app framework",
-          "logo": {
-            "id": 203,
-            "documentId": "k8wznwo87sxk45qp6wbl3el5",
-            "url": "/uploads/angular_5a5e53ddb7.png"
-          }
-        },
-        {
-          "id": 719,
-          "documentId": "mqf16zwttappcd48s5ishs3m",
-          "name": "Supabase",
-          "category": "Web Development",
-          "slug": "technology-1",
-          "createdAt": "2025-08-22T11:18:34.388Z",
-          "updatedAt": "2025-08-22T11:20:49.893Z",
-          "publishedAt": "2025-08-22T11:20:49.910Z",
-          "tooltip": null,
-          "logo": {
-            "id": 210,
-            "documentId": "l9jlwck5ey0e0ugat82muk2d",
-            "url": "/uploads/supabase_02662d3705.png"
-          }
-        },
-        {
-          "id": 723,
-          "documentId": "uyxdbkr1c3dx12b46vgrebpz",
-          "name": "Jetpack Compose",
-          "category": "Mobile App Development",
-          "slug": "jetpack-compose",
-          "createdAt": "2025-09-08T15:58:37.983Z",
-          "updatedAt": "2025-09-08T15:58:41.363Z",
-          "publishedAt": "2025-09-08T15:58:41.381Z",
-          "tooltip": "Declarative UI for Android",
-          "logo": {
-            "id": 243,
-            "documentId": "qtfhhpzbr57y9gpfm4ktxgbr",
-            "url": "/uploads/Modern_Minimal_Technology_Background_Banner_1_e199e02420.png"
-          }
-        },
-        {
-          "id": 738,
-          "documentId": "sxfbs2foc3gvvl0gj8xac4ts",
-          "name": "ARM",
-          "category": "Embedded AI",
-          "slug": "arm",
-          "createdAt": "2025-07-25T13:38:25.448Z",
-          "updatedAt": "2025-09-09T10:27:47.014Z",
-          "publishedAt": "2025-09-09T10:27:47.030Z",
-          "tooltip": "Advanced RISC Machine architecture",
-          "logo": {
-            "id": 183,
-            "documentId": "c62g9wbkzzpcdybnab7wicu8",
-            "url": "/uploads/arm.png"
-          }
-        },
-        {
-          "id": 739,
-          "documentId": "k9dbopunv9qmlxwgjsc48qdj",
-          "name": "BLE",
-          "category": "Embedded AI",
-          "slug": "ble",
-          "createdAt": "2025-07-25T13:38:25.699Z",
-          "updatedAt": "2025-09-09T10:27:55.221Z",
-          "publishedAt": "2025-09-09T10:27:55.232Z",
-          "tooltip": "Bluetooth Low Energy for IoT",
-          "logo": {
-            "id": 192,
-            "documentId": "vktvrdjy9d7d1n2pvozhj3cp",
-            "url": "/uploads/ble.png"
-          }
-        },
-        {
-          "id": 740,
-          "documentId": "rkqrr7ysbyd77ccusrfody79",
-          "name": "Beaglebone",
-          "category": "Embedded AI",
-          "slug": "beaglebone",
-          "createdAt": "2025-07-25T13:38:25.591Z",
-          "updatedAt": "2025-09-09T10:28:00.620Z",
-          "publishedAt": "2025-09-09T10:28:00.631Z",
-          "tooltip": "Low-power open-source single-board computer",
-          "logo": {
-            "id": 188,
-            "documentId": "t3o2gijgiytgbatxksw8w7qe",
-            "url": "/uploads/beaglebaord-embedded.svg"
-          }
-        },
-        {
-          "id": 742,
-          "documentId": "vfp1b1ix2o8bq18u80ozl0l3",
-          "name": "C",
-          "category": "Embedded AI",
-          "slug": "c",
-          "createdAt": "2025-07-25T13:38:25.384Z",
-          "updatedAt": "2025-09-09T10:28:13.529Z",
-          "publishedAt": "2025-09-09T10:28:13.539Z",
-          "tooltip": "Programming language for embedded systems",
-          "logo": {
-            "id": 181,
-            "documentId": "v8bj9nypyzhpotbm1vvw8ulm",
-            "url": "/uploads/c.png"
-          }
-        },
-        {
-          "id": 741,
-          "documentId": "w7mly257savej7azsidop9qq",
-          "name": "C++",
-          "category": "Embedded AI",
-          "slug": "c-plus-plus",
-          "createdAt": "2025-07-25T13:38:25.416Z",
-          "updatedAt": "2025-09-09T10:28:07.856Z",
-          "publishedAt": "2025-09-09T10:28:07.865Z",
-          "tooltip": "Object-oriented programming language for systems programming",
-          "logo": {
-            "id": 182,
-            "documentId": "ybl8a4024nja37boop6re4ci",
-            "url": "/uploads/cpp-icon.png"
-          }
-        },
-        {
-          "id": 743,
-          "documentId": "k4nmrwsp3jeaz1qcjxnsbpkz",
-          "name": "FreeRTOS",
-          "category": "Embedded AI",
-          "slug": "freertos",
-          "createdAt": "2025-07-25T13:38:25.809Z",
-          "updatedAt": "2025-09-09T10:28:31.025Z",
-          "publishedAt": "2025-09-09T10:28:31.035Z",
-          "tooltip": "Real-Time Operating System for embedded devices",
-          "logo": {
-            "id": 195,
-            "documentId": "notsaofvyn9l0vgkmbs4v4yd",
-            "url": "/uploads/rtos.png"
-          }
-        },
-        {
-          "id": 744,
-          "documentId": "oatewaw64o5p1qn81umd3u43",
-          "name": "Microchip",
-          "category": "Embedded AI",
-          "slug": "microchip",
-          "createdAt": "2025-07-25T13:38:25.476Z",
-          "updatedAt": "2025-09-09T10:28:54.653Z",
-          "publishedAt": "2025-09-09T10:28:54.660Z",
-          "tooltip": "Microcontroller solutions provider",
-          "logo": {
-            "id": 184,
-            "documentId": "r4zjh1gqwl49kmw6e2m1vzr1",
-            "url": "/uploads/microchip-icon.png"
-          }
-        },
-        {
-          "id": 745,
-          "documentId": "wu51yghqoky56j7qqkjbb8a2",
-          "name": "Motorolla",
-          "category": "Embedded AI",
-          "slug": "motorolla",
-          "createdAt": "2025-07-25T13:38:25.623Z",
-          "updatedAt": "2025-09-09T10:29:01.500Z",
-          "publishedAt": "2025-09-09T10:29:01.509Z",
-          "tooltip": "Telecommunication and embedded solutions provider",
-          "logo": {
-            "id": 189,
-            "documentId": "xvwu8mv002y5t7nbedregaiz",
-            "url": "/uploads/motorola.jpg"
-          }
-        },
-        {
-          "id": 749,
-          "documentId": "paw00ijt5jbf91gsn1supmuw",
-          "name": "TinyML",
-          "category": "Embedded AI",
-          "slug": "tiny-ml",
-          "createdAt": "2025-09-09T08:45:29.904Z",
-          "updatedAt": "2025-09-09T10:29:39.326Z",
-          "publishedAt": "2025-09-09T10:29:39.334Z",
-          "tooltip": "ML for edge devices",
-          "logo": {
-            "id": 245,
-            "documentId": "dxqvdexdj5vfvpk2f83y35kn",
-            "url": "/uploads/Blockchain_48_a38f130c95.png"
-          }
-        },
-        {
-          "id": 750,
-          "documentId": "d3ws4hqlbrrtrh45wb0hlg3z",
-          "name": "TensorFlow Lite",
-          "category": "Embedded AI",
-          "slug": "tensor-flow-lite",
-          "createdAt": "2025-09-09T08:29:07.648Z",
-          "updatedAt": "2025-09-09T10:29:49.653Z",
-          "publishedAt": "2025-09-09T10:29:49.662Z",
-          "tooltip": "Google ML framework",
-          "logo": {
-            "id": 244,
-            "documentId": "qahny4m7s4vh701ios2uahwj",
-            "url": "/uploads/icons8_tensorflow_96_f372c2aa43.png"
-          }
-        },
-        {
-          "id": 747,
-          "documentId": "k5vrunq3ofv63niwptd8o6q0",
-          "name": "Renesas",
-          "category": "Embedded AI",
-          "slug": "renesas",
-          "createdAt": "2025-07-25T13:38:25.503Z",
-          "updatedAt": "2025-09-09T10:29:18.829Z",
-          "publishedAt": "2025-09-09T10:29:18.845Z",
-          "tooltip": "Manufacturer of semiconductors",
-          "logo": {
-            "id": 185,
-            "documentId": "mqagoibaipzvyt2kuwp6cmza",
-            "url": "/uploads/renesas.png"
-          }
-        },
-        {
-          "id": 748,
-          "documentId": "v6o15o267il2ngpmvjps6zqk",
-          "name": "STM",
-          "category": "Embedded AI",
-          "slug": "stm",
-          "createdAt": "2025-07-25T13:38:25.561Z",
-          "updatedAt": "2025-09-09T10:29:31.204Z",
-          "publishedAt": "2025-09-09T10:29:31.216Z",
-          "tooltip": "STMicroelectronics - semiconductor solutions",
-          "logo": {
-            "id": 187,
-            "documentId": "ce41s229bq2qzo4ogjzbj7wn",
-            "url": "/uploads/stm.png"
-          }
-        },
-        {
-          "id": 752,
-          "documentId": "guq3s6i5p9gusb1m6sjjnbjw",
-          "name": "ZigBee",
-          "category": "Embedded AI",
-          "slug": "zigbee",
-          "createdAt": "2025-07-25T13:38:25.725Z",
-          "updatedAt": "2025-09-09T10:30:14.202Z",
-          "publishedAt": "2025-09-09T10:30:14.213Z",
-          "tooltip": "Wireless technology for IoT",
-          "logo": {
-            "id": 193,
-            "documentId": "zeu43gjd9qpyml76ctb9wrgg",
-            "url": "/uploads/zigbee.png"
-          }
-        },
-        {
-          "id": 756,
-          "documentId": "edvql1652bp1zy0hvmlfe889",
-          "name": "PlatformIO",
-          "category": "Embedded AI",
-          "slug": "platform-io",
-          "createdAt": "2025-09-09T10:38:22.090Z",
-          "updatedAt": "2025-09-09T10:38:22.090Z",
-          "publishedAt": "2025-09-09T10:38:22.112Z",
-          "tooltip": "IoT development platform",
-          "logo": {
-            "id": 247,
-            "documentId": "nfdg9chs5uppzammos2ygiw9",
-            "url": "/uploads/Platform_I_963fc92619.png"
-          }
-        },
-        {
-          "id": 764,
-          "documentId": "vso5o1rpqg5oo2rpvvgxrwfe",
-          "name": "Arduino",
-          "category": "Embedded AI",
-          "slug": "arduino",
-          "createdAt": "2025-07-25T13:38:25.673Z",
-          "updatedAt": "2025-09-09T10:52:20.869Z",
-          "publishedAt": "2025-09-09T10:52:20.888Z",
-          "tooltip": "Open-source electronics platform",
-          "logo": {
-            "id": 191,
-            "documentId": "du5qxsnf0h1a26qxcc792ctu",
-            "url": "/uploads/ardinopng"
-          }
-        },
-        {
-          "id": 758,
-          "documentId": "m68adbrc6fmxjb5jzvxo6zse",
-          "name": "MQTT",
-          "category": "Embedded AI",
-          "slug": "mqtt",
-          "createdAt": "2025-09-09T10:36:49.248Z",
-          "updatedAt": "2025-09-09T10:39:49.613Z",
-          "publishedAt": "2025-09-09T10:39:49.628Z",
-          "tooltip": "Lightweight IoT messaging",
-          "logo": {
-            "id": 246,
-            "documentId": "id7iluwb7psabvgdtlnujdqg",
-            "url": "/uploads/Blockchain_49_d0a67d3d06.png"
-          }
-        },
-        {
-          "id": 762,
-          "documentId": "v548e64hy417yjb4wvbwnnzq",
-          "name": "Keil",
-          "category": "Embedded AI",
-          "slug": "keil",
-          "createdAt": "2025-09-09T10:46:36.157Z",
-          "updatedAt": "2025-09-09T10:46:36.157Z",
-          "publishedAt": "2025-09-09T10:46:36.170Z",
-          "tooltip": "ARM microcontroller IDE",
-          "logo": {
-            "id": 249,
-            "documentId": "xl0epyiv92t45o67r8hecj2y",
-            "url": "/uploads/Keil_company_Logo_wine_0b1958bfc7.png"
-          }
-        },
-        {
-          "id": 763,
-          "documentId": "rn17ze31dn2g3lo6erryt168",
-          "name": "Segger",
-          "category": "Embedded AI",
-          "slug": "technology-2",
-          "createdAt": "2025-09-09T10:45:42.201Z",
-          "updatedAt": "2025-09-09T10:46:56.906Z",
-          "publishedAt": "2025-09-09T10:46:56.928Z",
-          "tooltip": "Embedded debugging tools",
-          "logo": {
-            "id": 248,
-            "documentId": "w1fbvb7e3egqf7aouudgsl9u",
-            "url": "/uploads/SEGGER_Logo_the_embedded_experts_RGB_svg_ef745fd4ed.png"
-          }
         }
       ],
       "contact_section": {
-        "id": 7,
+        "id": 6,
         "documentId": "oufmpfk024nj9mtlu6me5t8i",
         "createdAt": "2025-05-28T11:33:42.635Z",
-        "updatedAt": "2025-09-05T08:19:12.895Z",
-        "publishedAt": "2025-09-05T08:19:12.923Z",
+        "updatedAt": "2025-07-25T10:15:45.668Z",
+        "publishedAt": "2025-07-25T10:15:45.688Z",
         "title": "Let’s Build Your Digital Success Story",
-        "description": "With decades of expertise and hundreds of future-ready solutions delivered globally, Gigantech combines technical mastery and industry insights to turn complex challenges into growth. Partner with a team trusted by enterprises worldwide—where technology meets innovation.",
+        "description": "With decades of expertise and hundreds of future-ready solutions delivered globally, Smach Stack combines technical mastery and industry insights to turn complex challenges into growth. Partner with a team trusted by enterprises worldwide—where technology meets innovation.",
         "contactForm": {
-          "id": 7,
+          "id": 6,
           "Input": [
             {
-              "id": 49,
+              "id": 41,
               "label": "First Name"
             },
             {
-              "id": 50,
+              "id": 42,
               "label": "Last Name"
             },
             {
-              "id": 51,
+              "id": 43,
               "label": "Email Address"
             },
             {
-              "id": 52,
+              "id": 44,
               "label": "Company Name"
             },
             {
-              "id": 53,
+              "id": 45,
               "label": "Country"
             },
             {
-              "id": 54,
+              "id": 46,
               "label": "How did you hear about us?"
             },
             {
-              "id": 55,
+              "id": 47,
               "label": "Which service interests you?"
             },
             {
-              "id": 56,
+              "id": 48,
               "label": "How can we help?"
             }
           ],
           "inputOptions": [
             {
-              "id": 31,
+              "id": 26,
               "label": "Advertisement",
               "value": "Ads"
             },
             {
-              "id": 32,
+              "id": 27,
               "label": "Search Engine",
               "value": "SE"
             },
             {
-              "id": 33,
+              "id": 28,
               "label": "Social Media",
               "value": "SM"
             },
             {
-              "id": 34,
+              "id": 29,
               "label": "Email Marketing",
               "value": "EM"
             },
             {
-              "id": 35,
+              "id": 30,
               "label": "Other",
               "value": "Ot"
             }
           ],
           "serviceTitles": [
             {
-              "id": 37,
+              "id": 31,
               "title": "AI & ML Development"
             },
             {
-              "id": 38,
+              "id": 32,
               "title": "Cloud Engineering"
             },
             {
-              "id": 39,
+              "id": 33,
               "title": "Data Analytics."
             },
             {
-              "id": 40,
+              "id": 34,
               "title": "Web Development"
             },
             {
-              "id": 41,
+              "id": 35,
               "title": "Mobile App Development"
             },
             {
-              "id": 42,
+              "id": 36,
               "title": "ISO Certification"
             }
           ]
         },
         "footerSteps": {
-          "id": 7,
+          "id": 6,
           "firstStep": "An expert contacts you after having analyzed your requirements",
           "secondStep": "If needed, we sign an NDA to ensure the highest privacy level",
           "thirdStep": "We submit a comprehensive project proposal with estimates, timelines, CVs, etc."
@@ -2720,11 +2093,11 @@
         ]
       },
       "case_studies_hero": {
-        "id": 5,
+        "id": 3,
         "documentId": "zep9ifdcigkhxppymk8ghmve",
         "createdAt": "2025-06-30T11:08:07.938Z",
-        "updatedAt": "2025-08-18T13:13:18.795Z",
-        "publishedAt": "2025-08-18T13:13:18.808Z",
+        "updatedAt": "2025-06-30T11:55:11.143Z",
+        "publishedAt": "2025-06-30T11:55:11.157Z",
         "title": "Case Studies",
         "description": "Discover how our technology solutions have propelled businesses to new heights. Through collaboration, innovation, and a tailored approach, we’ve helped our clients overcome complex challenges, streamline operations, and unlock new opportunities for growth.",
         "image": {
@@ -2736,70 +2109,71 @@
               "name": "thumbnail_case-studies-bg.jpg",
               "hash": "thumbnail_case_studies_bg_cfe0184754",
               "ext": ".jpg",
-              "mime": "image/png",
+              "mime": "image/jpeg",
               "path": null,
-              "width": 245,
-              "height": 147,
-              "size": 25.58,
-              "sizeInBytes": 25583,
+              "width": 234,
+              "height": 156,
+              "size": 5.55,
+              "sizeInBytes": 5546,
               "url": "/uploads/thumbnail_case_studies_bg_cfe0184754.jpg"
-            },
-            "small": {
-              "name": "small_case-studies-bg.jpg",
-              "hash": "small_case_studies_bg_cfe0184754",
-              "ext": ".jpg",
-              "mime": "image/png",
-              "path": null,
-              "width": 500,
-              "height": 301,
-              "size": 60.21,
-              "sizeInBytes": 60207,
-              "url": "/uploads/small_case_studies_bg_cfe0184754.jpg"
-            },
-            "medium": {
-              "name": "medium_case-studies-bg.jpg",
-              "hash": "medium_case_studies_bg_cfe0184754",
-              "ext": ".jpg",
-              "mime": "image/png",
-              "path": null,
-              "width": 750,
-              "height": 451,
-              "size": 102.38,
-              "sizeInBytes": 102380,
-              "url": "/uploads/medium_case_studies_bg_cfe0184754.jpg"
             },
             "large": {
               "name": "large_case-studies-bg.jpg",
               "hash": "large_case_studies_bg_cfe0184754",
               "ext": ".jpg",
-              "mime": "image/png",
+              "mime": "image/jpeg",
               "path": null,
               "width": 1000,
-              "height": 601,
-              "size": 152.97,
-              "sizeInBytes": 152969,
+              "height": 667,
+              "size": 41.55,
+              "sizeInBytes": 41545,
               "url": "/uploads/large_case_studies_bg_cfe0184754.jpg"
+            },
+            "medium": {
+              "name": "medium_case-studies-bg.jpg",
+              "hash": "medium_case_studies_bg_cfe0184754",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "path": null,
+              "width": 750,
+              "height": 500,
+              "size": 27.95,
+              "sizeInBytes": 27954,
+              "url": "/uploads/medium_case_studies_bg_cfe0184754.jpg"
+            },
+            "small": {
+              "name": "small_case-studies-bg.jpg",
+              "hash": "small_case_studies_bg_cfe0184754",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "path": null,
+              "width": 500,
+              "height": 333,
+              "size": 15.8,
+              "sizeInBytes": 15801,
+              "url": "/uploads/small_case_studies_bg_cfe0184754.jpg"
             }
           }
         }
       },
       "case_study_cards": [
         {
-          "id": 269,
+          "id": 158,
           "documentId": "tvrwhikn9qq81rgvjvsill8c",
-          "title": "AI-Powered Multimodal & Multilingual Chatbot",
-          "description": "We developed an AI-powered multimodal chatbot that enables organizations to provide\n24/7, scalable, and intelligent digital engagement. The solution works across web, SMS, \nWe developed an AI-powered multimodal chatbot that enables organizations to deliver 24/7, scalable, and intelligent digital engagement. ",
+          "title": "Building a Cloud-Based BI System",
+          "description": "We created a roaming analytics solution with the most comprehensive features in the market for Yaana, a worldwide provider of smart compliance and national security solutions.",
           "createdAt": "2025-07-04T13:18:23.682Z",
-          "updatedAt": "2025-09-08T14:14:12.609Z",
-          "publishedAt": "2025-09-08T14:14:12.698Z",
-          "slug": "ai-powered-multimodal-and-multilingual-chatbot",
+          "updatedAt": "2025-08-26T11:54:34.424Z",
+          "publishedAt": "2025-08-26T11:54:34.453Z",
+          "slug": "building-a-cloud-based-bi-system-1",
           "region": "UK",
+          "technologies": "Microsoft Orleans Docker Azure Terraform",
           "caseStudyStatus": "Ongoing",
           "aboutClient": "SaaS for hotels",
           "order": 3,
           "showOnTop": false,
-          "category": "Customer Support",
-          "content": "## Overview\n\nWe developed an **AI-powered multimodal chatbot** that enables organizations to provide \n**24/7, scalable, and intelligent digital engagement.** The solution works across web, SMS, \nWe developed an AI-powered multimodal chatbot that enables organizations to deliver 24/7, scalable, and intelligent digital engagement. The solution works across **web, SMS, WhatsApp, Telegram, and any API-enabled platform,** supporting **text, audio, and image interactions.** It is **fully multilingual**, automatically responding in the same language as the user for natural and inclusive communication.\n\n![Dashboard](/case-studies-image/chatbot-1.png)\n\n\n---\n\n## Key Challenges\n\n- Large volumes of repetitive queries consuming staff time.\n- Users engaging from multiple platforms with varied preferences.\n- Knowledge bases fragmented across documents and chat logs. \n- Lack of real-time visibility into user satisfaction and service trends.\n- Overhead of every new staff training\n\n\n---\n\n## The Solution\n- **Multi-Platform & Multimodal:** Works on web, messaging apps, and APIs; supports text, audio, and images.\n- **Multilingual** Detects and responds in the user’s language, ensuring accessibility for diverse audiences.  \n- **Intelligent Intent Recognition:** Classifies queries and escalates complex ones.\n- **Knowledge Base Integration:** Converts documents and logs into FAQs with semantic search.  \n- **Human Escalation:** Routes sensitive or unresolved cases to live agents.\n- **Rapid Onboarding:** Deployable within 24 hours.\n- **Analytics Dashboard:** Tracks volumes, satisfaction, and trends for continuous improvement. \n\n---\n\n## Business Impact\n- **Always Available:** 24/7 support without dependency on shifts.  \n- **Operational Efficiency:** Automates repetitive queries, freeing staff for high-value tasks.  \n- **Scalability:** Seamlessly supports thousands of concurrent users.  \n- **Continuous Improvement:** Real-time analytics highlight areas for improvement.\n\n## Example Cost Savings:\n In one deployment handling ~5,000 monthly queries, the chatbot resolved ~70% automatically. This reduced the need for **three full-time agents,** saving approximately **$50,000 annually.**\n\n## Conclusion\nThe **AI-powered multimodal and multilingual chatbot** sets a new standard for customer engagement. By combining **multi-platform support, multilingual responses, rapid deployment, human escalation, and enterprise analytics, it delivers higher satisfaction, measurable cost savings, and scalable growth** for organizations across industries.\n\n![Dashboard](/case-studies-image/chatbot-2.png)\n\n",
+          "category": "Hospitality",
+          "content": "Yaana Technologies had the possibility to become a leader in the European market, but their newly acquired legacy system didn't let the company meet its ambitious goal. The desktop solution had some important limitations that prevented the company’s growth. For example, it was impossible to create deals, compare several budgets or work in parallel. Rigid architecture and the lack of functionality blocked Yaana from attracting global clients such as Orange Group, a multinational telecom corporation.\n\n## The Challenge\n\nThe client was facing issues with a traditional monolithic CMS.  \nContent updates were slow, scaling required heavy infrastructure investment, and the frontend performance was not meeting user expectations.  \nThey needed a modern stack that could handle dynamic product updates while delivering a fast and engaging shopping experience.\n\nTo acquire the world’s leading enterprises, Yaana needed to switch from the desktop NeuString system to a web-based solution and enhance the existing functionality specifically for mobile operator groups. To achieve it, they reached out to Flyaps. \n\n## Exceptional calculation skills and focus on UX\n\n\nTo build telecom solutions – or any tech-driven products – you need two things: implementing the features that fully respond to the clients’ needs and creating an interface that would deliver a seamless experience. At Flyaps, we do both: with a focus on user-centered interfaces and advanced functionality, we are able to implement the most complex algorithms and wrap them in a sleek design that even non-tech users can understand.\n\n![Team Working](https://images.unsplash.com/photo-1667372283536-a832e74401c2?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)\n\n---\n\n## Seamless transition to a new system\n\nEntirely replacing the legacy system means that all business processes will be disrupted. For the existing clients, it translates into inconveniences and delays that would impact their workflows. That’s why we suggested the evolutionary approach – instead of instantly switching off the old system, we decided to keep it while building a new solution and enabling access to both systems. Gradually replacing an old system with a new one, we avoided radical changes and disrupting the ongoing processes.\n",
           "image": {
             "id": 151,
             "documentId": "okvsuef15x11ah8qa8641mpt",
@@ -2809,278 +2183,233 @@
                 "name": "thumbnail_thumbnail_case_studies_3f5653d8aa.jpg",
                 "hash": "thumbnail_thumbnail_case_studies_3f5653d8aa_a8d78d8737",
                 "ext": ".jpg",
-                "mime": "image/png",
+                "mime": "image/jpeg",
                 "path": null,
                 "width": 245,
                 "height": 138,
-                "size": 11.55,
-                "sizeInBytes": 11554,
+                "size": 6.53,
+                "sizeInBytes": 6534,
                 "url": "/uploads/thumbnail_thumbnail_case_studies_3f5653d8aa_a8d78d8737.jpg"
-              },
-              "medium": {
-                "name": "medium_thumbnail_case_studies_3f5653d8aa.jpg",
-                "hash": "medium_thumbnail_case_studies_3f5653d8aa_a8d78d8737",
-                "ext": ".jpg",
-                "mime": "image/png",
-                "path": null,
-                "width": 750,
-                "height": 422,
-                "size": 41.12,
-                "sizeInBytes": 41124,
-                "url": "/uploads/medium_thumbnail_case_studies_3f5653d8aa_a8d78d8737.jpg"
               },
               "small": {
                 "name": "small_thumbnail_case_studies_3f5653d8aa.jpg",
                 "hash": "small_thumbnail_case_studies_3f5653d8aa_a8d78d8737",
                 "ext": ".jpg",
-                "mime": "image/png",
+                "mime": "image/jpeg",
                 "path": null,
                 "width": 500,
                 "height": 281,
-                "size": 25.77,
-                "sizeInBytes": 25770,
+                "size": 19.72,
+                "sizeInBytes": 19719,
                 "url": "/uploads/small_thumbnail_case_studies_3f5653d8aa_a8d78d8737.jpg"
               },
-              "large": {
-                "name": "large_thumbnail_case_studies_3f5653d8aa.jpg",
-                "hash": "large_thumbnail_case_studies_3f5653d8aa_a8d78d8737",
+              "medium": {
+                "name": "medium_thumbnail_case_studies_3f5653d8aa.jpg",
+                "hash": "medium_thumbnail_case_studies_3f5653d8aa_a8d78d8737",
                 "ext": ".jpg",
-                "mime": "image/png",
+                "mime": "image/jpeg",
                 "path": null,
-                "width": 1000,
-                "height": 562,
-                "size": 57.55,
-                "sizeInBytes": 57553,
-                "url": "/uploads/large_thumbnail_case_studies_3f5653d8aa_a8d78d8737.jpg"
+                "width": 750,
+                "height": 422,
+                "size": 34.6,
+                "sizeInBytes": 34605,
+                "url": "/uploads/medium_thumbnail_case_studies_3f5653d8aa_a8d78d8737.jpg"
               }
             }
           }
         },
         {
-          "id": 268,
-          "documentId": "a4xaqhkjnvqryz7dfgyi54tk",
-          "title": "Secure, Multilingual Conversations with Sensitive Documents",
-          "description": "ChatWithDocs is a multilingual and multimodal knowledge interaction platform that allows organizations to communicate with their private documents and online resources in real time. It supports both text and audio queries, enabling seamless interaction with diverse content such as PDFs, Word files, Excel sheets, PowerPoint presentations, transcripts, websites, and even scanned documents. By combining Retrieval-Augmented Generation (RAG) with intelligent chunking and a vector database, ChatWithDocs ensures fast, accurate, and reference-backed responses. Its ability to work both online and offline makes it ideal for businesses requiring data privacy and reliability.",
-          "createdAt": "2025-08-20T15:05:39.228Z",
-          "updatedAt": "2025-09-08T14:12:09.661Z",
-          "publishedAt": "2025-09-08T14:12:09.758Z",
-          "slug": "chat-with-docs",
-          "region": null,
-          "caseStudyStatus": null,
-          "aboutClient": null,
+          "id": 167,
+          "documentId": "w7zh6bze84a2qrcqml49y6vk",
+          "title": "Automating Business Processes to Speed Up Project Delivery",
+          "description": "Smach Stack created a custom CRM/ERP solution for a leading telecom consulting firm. Automating their back-office processes and streamlining calculations for suitable tariff plans for clients.",
+          "createdAt": "2025-07-16T08:19:27.644Z",
+          "updatedAt": "2025-08-26T13:25:56.497Z",
+          "publishedAt": "2025-08-26T13:25:56.543Z",
+          "slug": "development-of-hybrid-events-software",
+          "region": "Germany",
+          "technologies": "Angular, Vue.js, Svelte",
+          "caseStudyStatus": "Delivered",
+          "aboutClient": "meta-fusion GmbH",
           "order": 1,
           "showOnTop": false,
-          "category": "Legal & Compliance, Banking, Education",
-          "content": "## Executive Summary\nChatWithDocs is a multilingual and multimodal knowledge interaction platform that allows organizations to communicate with their private documents and online resources in real time. It supports both text and audio queries, enabling seamless interaction with diverse content such as PDFs, Word files, Excel sheets, PowerPoint presentations, transcripts, websites, and even scanned documents. By combining Retrieval-Augmented Generation (RAG) with intelligent chunking and a vector database, ChatWithDocs ensures fast, accurate, and reference-backed responses. Its ability to work both online and offline makes it ideal for businesses requiring data privacy and reliability.\n![Dashboard](/case-studies-image/chat-docs-overview.png)\n\n## Challenges\nOrganizations often face significant challenges when working with unstructured and diverse information sources:\n- **Fragmented Knowledge:** Documents and online resources are scattered across formats and systems, making retrieval slow and inefficient.\n- **Multilingual Barriers:** Global teams struggle when information is available only in limited languages.\n- **Complex Data Types:**  Interacting with Excel sheets, scanned documents, and \ntranscripts often requires manual effort and domain expertise.\n- **Data Privacy Concerns:** Many solutions require cloud-only hosting, raising risks \naround sensitive data.\n- **Limited Accessibility:** Most tools lack multimodal support, excluding users who \nprefer or require audio interaction.\n\n## Solution\nChatWithDocs addresses these challenges through a **secure, scalable, and user-friendly platform**:\n- **RAG-Powered Intelligence**: Breaks documents into structured chunks, stores them in Milvus (vector database), and retrieves only the most relevant context for precise answers.\n- **Multilingual & Multimodal**: Supports queries in multiple languages through text or audio, enabling inclusive access.\n- **Diverse File Support**: Works seamlessly with PDFs, Word, Excel, PowerPoint, scanned files, and transcripts, as well as online resources like Google Docs, Sheets, and websites.\n- **Reference Transparency**: Every answer includes clickable references that link directly to the source page and highlighted section, ensuring trust and verification.\n- **Offline & Online Flexibility**: Deployable in cloud, hybrid, or fully offline environments to protect sensitive information.\n- **Enhanced Productivity Tools:** Document summarization, Excel query resolution, and audio-based Q&A accelerate decision-making.\n\n![Dashboard](/case-studies-image/chat-docs-files.png)\n\n## Example Applications\nChatWithDocs is designed to be **industry-agnostic**, supporting a variety of use cases:\n- **Handling General Inquiries:** Quickly retrieving answers from large knowledge bases without manual searching.\n- **Managing Repetitive Requests:** Automating responses to FAQs or internal policy queries.\n- **Document Summarization**: Turning lengthy reports, contracts, or meeting transcripts into concise summaries.\n- **Data Extraction from Complex Files:** Querying Excel spreadsheets or scanned \nreports directly, without manual review.\n- **Escalating Unresolved Issues:** Providing contextual references to human staff when \nfurther action is required.\n\n## Business Impact\nOrganizations adopting ChatWithDocs experience measurable benefits:\n- **Efficiency Gains:** Reduces time spent searching across files by up to 70%.\n- **Cost Savings:** Automates routine queries, reducing dependency on support staff and saving thousands annually.\n- **Scalability:** Supports a small team or thousands of users without performance degradation.\n- **Improved Satisfaction:** Delivers fast, accurate, multilingual answers that enhance user experience.\n- **Data Security:** Offline deployment options ensure sensitive documents never leave the organization’s environment.\n\n*Example:*\nA mid-sized company reduced its support team workload by 40%, saving approximately $50,000 annually while improving response accuracy and speed.\n\n## Conclusion\nChatWithDocs provides a **next-generation knowledge interaction platform** that transforms how organizations engage with their documents and online resources. By combining multilingual support, multimodal interaction, offline privacy, and reference-backed transparency, it delivers a unique blend of reliability, scalability, and trust. Businesses using ChatWithDocs can expect not only cost and time savings but also improved accessibility and decision-making across teams.\n\n",
+          "category": "Entertainment",
+          "content": "\nNetSpark IP & Telecom provides two types of services – wireline engagement and mobility engagement. \nWireline engagement involves configuring network equipment and IT infrastructure for various organizations. For instance, they may enhance mobile network coverage in metro stations or install GPS tracking systems for delivery companies.\n\n## We know telecom, so we fit the bill\nOur team has significant experience in the telecom industry and understands the specific details of tariff plans, including discounts, special offers, and more. We know that accuracy is crucial in this field. NetSpark was seeking a partner with these qualities, and we were the perfect fit.\n\n![Team Working](https://images.unsplash.com/photo-1669023414162-5bb06bbff0ec?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)\n\n## Collaborative business process mapping\nDuring the discovery phase, we collaborated with the leaders of various company departments to perform business process mapping and create tech specifications. We analyzed the client’s business requirements and converted them into technical tasks for our engineers. Once the technical documentation was ready, we got down to software development.\n\n## Developing custom CRM/ERP software\nSince our client didn’t have in-house technical experts, the software development process was entirely on us. We used Python (Django), React, and Material UI for fast and cost-effective product development. Our DevOps engineer set up CI/CD pipelines to automate the release process so that we could deliver high-quality builds frequently.\n",
           "image": {
-            "id": 207,
-            "documentId": "wnwnegvfoe60n1dgj8t1zgel",
-            "url": "/uploads/main_desktop_346db9b5_a1dba26290.png",
+            "id": 171,
+            "documentId": "fc6v16qvapnw62rgo58t9ztg",
+            "url": "/uploads/last_case_study_6929d5eead.jpg",
             "formats": {
               "thumbnail": {
-                "name": "thumbnail_main-desktop.346db9b5.png",
-                "hash": "thumbnail_main_desktop_346db9b5_a1dba26290",
-                "ext": ".png",
-                "mime": "image/png",
+                "name": "thumbnail_last-case-study.jpg",
+                "hash": "thumbnail_last_case_study_6929d5eead",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
                 "path": null,
                 "width": 245,
-                "height": 138,
-                "size": 23.85,
-                "sizeInBytes": 23845,
-                "url": "/uploads/thumbnail_main_desktop_346db9b5_a1dba26290.png"
+                "height": 140,
+                "size": 82.86,
+                "sizeInBytes": 82863,
+                "url": "/uploads/thumbnail_last_case_study_6929d5eead.jpg"
               },
               "small": {
-                "name": "small_main-desktop.346db9b5.png",
-                "hash": "small_main_desktop_346db9b5_a1dba26290",
-                "ext": ".png",
-                "mime": "image/png",
+                "name": "small_last-case-study.jpg",
+                "hash": "small_last_case_study_6929d5eead",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
                 "path": null,
                 "width": 500,
-                "height": 281,
-                "size": 72.2,
-                "sizeInBytes": 72197,
-                "url": "/uploads/small_main_desktop_346db9b5_a1dba26290.png"
+                "height": 286,
+                "size": 313.91,
+                "sizeInBytes": 313907,
+                "url": "/uploads/small_last_case_study_6929d5eead.jpg"
               },
               "medium": {
-                "name": "medium_main-desktop.346db9b5.png",
-                "hash": "medium_main_desktop_346db9b5_a1dba26290",
-                "ext": ".png",
-                "mime": "image/png",
+                "name": "medium_last-case-study.jpg",
+                "hash": "medium_last_case_study_6929d5eead",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
                 "path": null,
                 "width": 750,
-                "height": 422,
-                "size": 138.28,
-                "sizeInBytes": 138276,
-                "url": "/uploads/medium_main_desktop_346db9b5_a1dba26290.png"
+                "height": 429,
+                "size": 680.17,
+                "sizeInBytes": 680170,
+                "url": "/uploads/medium_last_case_study_6929d5eead.jpg"
               },
               "large": {
-                "name": "large_main-desktop.346db9b5.png",
-                "hash": "large_main_desktop_346db9b5_a1dba26290",
-                "ext": ".png",
-                "mime": "image/png",
+                "name": "large_last-case-study.jpg",
+                "hash": "large_last_case_study_6929d5eead",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
                 "path": null,
                 "width": 1000,
-                "height": 563,
-                "size": 227.43,
-                "sizeInBytes": 227430,
-                "url": "/uploads/large_main_desktop_346db9b5_a1dba26290.png"
+                "height": 571,
+                "size": 1184.29,
+                "sizeInBytes": 1184291,
+                "url": "/uploads/large_last_case_study_6929d5eead.jpg"
               }
             }
           }
         },
         {
-          "id": 276,
-          "documentId": "dmwzddu5ec6optugjiumnjxi",
-          "title": "AI-Powered Meeting Intelligence Platform",
-          "description": "The AI-Powered Meeting Intelligence Platform is a comprehensive solution that automatically transcribes, analyzes, and extracts valuable insights from meeting recordings. By leveraging advanced natural language processing and intent recognition technology, the platform transforms unstructured meeting content into organized, actionable outputs including meeting minutes, summaries, requirements documentation, and follow-up tasks. Designed for individual professionals, small teams, and growing organizations, this solution eliminates manual meeting documentation overhead while ensuring critical information is captured and distributed efficiently.",
-          "createdAt": "2025-09-05T12:08:32.390Z",
-          "updatedAt": "2025-09-08T15:08:22.688Z",
-          "publishedAt": "2025-09-08T15:08:22.717Z",
-          "slug": "ai-powered-meeting-intelligence-platform",
-          "region": null,
-          "caseStudyStatus": null,
+          "id": 168,
+          "documentId": "cwlodzy0171l1cte8rtrjm0s",
+          "title": "Setting Up DevOps Infrastructure on AWS",
+          "description": "Global talent-matching platform, faced scalability issues due to its outdated infrastructure and turned to Smach Stack for help. We moved their system from a legacy setup to a modern, scalable platform powered by Kubernetes on AWS.",
+          "createdAt": "2025-07-13T21:35:32.996Z",
+          "updatedAt": "2025-08-26T13:26:41.959Z",
+          "publishedAt": "2025-08-26T13:26:41.981Z",
+          "slug": "software-outsourcing-company",
+          "region": "Pakistan",
+          "technologies": "Azure",
+          "caseStudyStatus": "Ongoing",
           "aboutClient": null,
-          "order": 1,
+          "order": 6,
           "showOnTop": false,
-          "category": "Customer Support & Engagement",
-          "content": "## Executive Summary\nThe AI-Powered Meeting Intelligence Platform is a comprehensive solution that automatically transcribes, analyzes, and extracts valuable insights from meeting recordings. By leveraging advanced natural language processing and intent recognition technology, the platform transforms unstructured meeting content into organized, actionable outputs including meeting minutes, summaries, requirements documentation, and follow-up tasks. Designed for individual professionals, small teams, and growing organizations, this solution eliminates manual meeting documentation overhead while ensuring critical information is captured and distributed efficiently.\n\n---\n\n## Challenges\n\nOrganizations across industries struggle with several recurring challenges in meeting management:\n\n**Information Loss:** Critical decisions, action items, and requirements discussed in meetings are often lost or poorly documented, leading to miscommunication and project delays.\n\n**Manual Documentation Overhead:** Traditional meeting documentation requires dedicated personnel to attend meetings solely for note-taking, consuming valuable resources and creating bottlenecks.\n\n**Inconsistent Documentation Standards:** Different team members produce varying quality and format of meeting records, making it difficult to maintain organizational knowledge consistency.\n\n**Time-Consuming Follow-ups:** Converting meeting discussions into actionable items like requirements documents, task lists, or project summaries requires significant post-meeting effort.\n\n**Limited Accessibility:** Meeting insights remain trapped in recordings or scattered notes, making them difficult to search, reference, or share with stakeholders who couldn't attend.\n\n---\n## Solution\nThe AI-Powered Meeting Intelligence Platform addresses these challenges through a four-tier approach that combines automation with user flexibility:\n### Core Features\n#### Automated Transcription & Analysis\n- High-accuracy speech-to-text conversion for meeting recordings\n- Multi-language support with specialized handling for regional dialects\n- Automatic speaker identification and timeline mapping\n\n#### Intelligent Content Extraction\n- Standardized meeting minutes generation with agenda tracking\n- Professional meeting summaries with key decision points\n- Automated action item identification and assignment tracking\n#### Intent-Based Smart Suggestions\n- AI-powered analysis of meeting content to identify discussion themes\n- Dynamic generation of relevant output options based on meeting context\n- Top 3-5 intent-based suggestions with expandable options for comprehensive coverage\n#### Flexible Output Generation\n- Fixed templates for standard outputs (meeting minutes, summaries)\n- Intent-recognition driven suggestions for specialized needs (requirements documentation, idea lists, project plans)\n- Exhaustive option library covering 40-50 different output formats\n- Custom prompt capability for unique organizational needs\n#### Knowledge Management Integration\n- Hierarchical folder structure for organized storage\n- Multi-meeting analysis capability for combined insights\n- Tagging and categorization system for easy retrieval\n#### Export & Distribution\n- Multiple format support (Word, PDF, plain text)\n- Direct email integration for stakeholder distribution\n- Seamless sharing capabilities across team collaboration tools\n---\n## Example Applications\n**Project Management Teams:** Automatically convert project discussion recordings into structured requirements documents, task assignments, and milestone tracking reports.\n\n**Product Development:** Transform feature planning sessions into comprehensive product roadmaps, user story documentation, and development task breakdowns.\n\n**Client Consultation:** Generate professional client meeting summaries, proposal outlines, and follow-up action plans for improved customer relationship management.\n\n**Strategic Planning:** Consolidate multiple planning session recordings into unified strategic documents, decision logs, and implementation roadmaps.\n## Business Impact\n### Operational Efficiency\n- **75% reduction** in manual documentation time, allowing team members to focus on core responsibilities rather than note-taking\n- **Immediate availability** of meeting outputs, eliminating delays in decision implementation and task assignment\n### Cost Optimization\n- **Eliminates dedicated note-taker roles:** A typical organization spending $40,000 annually on part-time documentation support can redirect these resources to higher-value activities\n- **Reduces meeting overhead:** 30-50% decrease in time spent clarifying missed points or searching for previous discussion details\n### Quality & Consistency\n- **Standardized documentation formats** ensure consistent quality across all organizational meetings\n- **Comprehensive capture** eliminates information loss common in manual note-taking processes\n- **Searchable knowledge** base improves organizational memory and decision traceability\n### Scalability & Accessibility\n- **Handles unlimited concurrent meetings** without additional resource allocation\n- **Mobile-first design** enables on-the-go meeting management and review\n- **Multi-user collaboration** supports team-based review and editing of generated content\n### Decision Making Enhancement\n- **Faster implementation cycles** through immediate availability of action items and requirements\n- **Improved accountability** with clear assignment tracking and follow-up mechanisms\n- **Better stakeholder alignment** through consistent communication of meeting outcomes\n---\n\n## Conclusion\nThe AI-Powered Meeting Intelligence Platform represents a fundamental shift from reactive meeting documentation to proactive meeting intelligence. By combining advanced AI capabilities with intuitive user experience, the solution delivers immediate operational benefits while building long-term organizational knowledge assets.\n\nThe platform's flexible architecture scales seamlessly from individual professionals managing personal meetings to small teams coordinating complex projects. Its intent-based suggestion system ensures that users receive relevant, actionable outputs without being overwhelmed by unnecessary features.\n\nThe platform's flexible architecture scales seamlessly from individual professionals managing personal meetings to small teams coordinating complex projects. Its intent-based suggestion system ensures that users receive relevant, actionable outputs without being overwhelmed by unnecessary features.\n### Key Differentiators:\n- Four-tier flexibility system accommodating diverse organizational needs\n- Intent-recognition technology that learns and adapts to user patterns\n- Comprehensive export and integration capabilities\nMobile-optimized experience for modern workforce requirements\n- Scalable architecture supporting growth from individual to enterprise use\n\n\n",
+          "category": "Automotive",
+          "content": "TechHire is a leading talent-matching platform that connects employers with over 50,000 vetted candidates from 500+ top agencies in Latin America and Europe. Founded in 2014, TechHire quickly became a global hit and surpassed $1 million in sales within two years without any external investment. It was shortly accepted by a well-known American venture fund for promising startups.\n\nThe secret behind TechHire’s success is that it offers a safe and stress-free solution to the common problem of team scaling. Here’s how it works: the TechHire platform features developer profiles from the software development agencies that passed TechHire's multistep vetting process. Clients set up a quick call with one of the Matching Experts at TechHire, build a candidate list, and conduct pre-interviews to ensure the candidates perfectly fit their needs. Finally, they sign a contract with the chosen talent. TechHire provides a 1-month free trial and candidate replacements if needed.\n\nAs their customer base grew, TechHire faced the scalability problem. Their legacy platform's internal issues prevented it from scaling, impacting performance, time to market, and deployment speed. To solve this problem, TechHire reached out to CodeWorks for ongoing support and DevOps services.\n\nRead on to learn how we overhauled the platform’s architecture and allowed TechHire to evolve their platform further, taking full control of their solution.\n\n## The need for a complete infrastructure overhaul\n\nBefore starting the project, our team conducted a thorough DevOps assessment to identify the root cause of the problem and come up with the best strategy to tackle it. We discovered that the key issue was the chaotic infrastructure that had already reached a dead-end level and started to tamper with the development pace and time-to-market.\n\nAnother key problem was that the platform was at constant risk of data loss, as there was no backup storage or plan B in case of a system crash.",
           "image": {
-            "id": 229,
-            "documentId": "apjh35mnw589ff250oslz3yz",
-            "url": "/uploads/ai_meeting_case_studies_095e7dacdc.png",
+            "id": 169,
+            "documentId": "yqfb39kmf6vv9c3dtuzwdj9t",
+            "url": "/uploads/img24_1af3604f78.jpg",
             "formats": {
               "thumbnail": {
-                "name": "thumbnail_ai-meeting-case-studies.png",
-                "hash": "thumbnail_ai_meeting_case_studies_095e7dacdc",
-                "ext": ".png",
-                "mime": "image/png",
+                "name": "thumbnail_img24.jpg",
+                "hash": "thumbnail_img24_1af3604f78",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
                 "path": null,
                 "width": 245,
                 "height": 138,
-                "size": 31.3,
-                "sizeInBytes": 31301,
-                "url": "/uploads/thumbnail_ai_meeting_case_studies_095e7dacdc.png"
-              },
-              "small": {
-                "name": "small_ai-meeting-case-studies.png",
-                "hash": "small_ai_meeting_case_studies_095e7dacdc",
-                "ext": ".png",
-                "mime": "image/png",
-                "path": null,
-                "width": 500,
-                "height": 281,
-                "size": 82.21,
-                "sizeInBytes": 82205,
-                "url": "/uploads/small_ai_meeting_case_studies_095e7dacdc.png"
+                "size": 7.25,
+                "sizeInBytes": 7250,
+                "url": "/uploads/thumbnail_img24_1af3604f78.jpg"
               },
               "medium": {
-                "name": "medium_ai-meeting-case-studies.png",
-                "hash": "medium_ai_meeting_case_studies_095e7dacdc",
-                "ext": ".png",
-                "mime": "image/png",
+                "name": "medium_img24.jpg",
+                "hash": "medium_img24_1af3604f78",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
                 "path": null,
                 "width": 750,
                 "height": 422,
-                "size": 144.01,
-                "sizeInBytes": 144013,
-                "url": "/uploads/medium_ai_meeting_case_studies_095e7dacdc.png"
+                "size": 39.13,
+                "sizeInBytes": 39133,
+                "url": "/uploads/medium_img24_1af3604f78.jpg"
               },
-              "large": {
-                "name": "large_ai-meeting-case-studies.png",
-                "hash": "large_ai_meeting_case_studies_095e7dacdc",
-                "ext": ".png",
-                "mime": "image/png",
+              "small": {
+                "name": "small_img24.jpg",
+                "hash": "small_img24_1af3604f78",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
                 "path": null,
-                "width": 1000,
-                "height": 563,
-                "size": 216.95,
-                "sizeInBytes": 216948,
-                "url": "/uploads/large_ai_meeting_case_studies_095e7dacdc.png"
+                "width": 500,
+                "height": 281,
+                "size": 21.76,
+                "sizeInBytes": 21756,
+                "url": "/uploads/small_img24_1af3604f78.jpg"
               }
             }
           }
         },
         {
-          "id": 278,
-          "documentId": "mefb02xsossyq9a8mbohxow6",
-          "title": "Track, Audit & Optimize with Confidence",
-          "description": "Track, Audit & Optimize with Confidence is a comprehensive digital solution designed specifically for managing critical linear infrastructure assets across Saudi Arabia's rapidly expanding oil and gas sector. ",
-          "createdAt": "2025-09-05T14:16:32.724Z",
-          "updatedAt": "2025-09-09T11:17:01.554Z",
-          "publishedAt": "2025-09-09T11:17:01.589Z",
-          "slug": "transforming-oil-and-gas-pipeline-operations-in-saudi-arabia",
-          "region": null,
-          "caseStudyStatus": null,
+          "id": 165,
+          "documentId": "ks6x6j35wzmzt1wle9qfohwe",
+          "title": "Developing an AI-based Resume Screening Chrome Extension",
+          "description": "We helped an HR technology startup create a smart plugin that optimizes the process of resume screening.",
+          "createdAt": "2025-08-26T12:49:13.888Z",
+          "updatedAt": "2025-08-26T12:49:13.888Z",
+          "publishedAt": "2025-08-26T12:49:13.900Z",
+          "slug": "developing-an-ai-based-resume-screening-chrome-extension",
+          "region": "Pakistan",
+          "technologies": "React Js, Prisma, Nest Js",
+          "caseStudyStatus": "Delivered",
           "aboutClient": null,
-          "order": 1,
+          "order": 5,
           "showOnTop": false,
-          "category": " Oil & Gas, Transportation, Construction",
-          "content": "## Executive Summary \nTrack, Audit & Optimize with Confidence is a comprehensive digital solution designed specifically for managing critical linear infrastructure assets across Saudi Arabia's rapidly expanding oil and gas sector. With Saudi Aramco operating one of the world's largest hydrocarbon pipeline networks and mega-projects like NEOM requiring sophisticated infrastructure management, this platform addresses the unique challenges of maintaining thousands of kilometers of pipelines, refineries, and associated point assets across harsh desert environments.\nThe platform combines mobile-native applications, offline functionality, and intelligent asset monitoring to deliver measurable improvements in operational efficiency, safety compliance, and cost management for oil and gas operators in the Middle East.\n\n---\n### Industry Challenges\nSaudi Arabia's oil and gas infrastructure faces unprecedented challenges as the Kingdom pursues Vision 2030 and massive development projects:\n\n**Remote Desert Operations:** Aramco awarded $7.7 billion for major expansion of its Fadhili Gas Plant, highlighting the scale of infrastructure requiring maintenance across vast, remote desert locations with limited connectivity.\n\n**Aging Infrastructure Management:** With extensive legacy pipeline networks spanning thousands of kilometers, operators struggle to maintain comprehensive asset records and implement predictive maintenance strategies.\n\n**Safety and Compliance:** The Saudi Arabian oil and gas pipeline maintenance market is projected to reach USD 139.3 million between 2024 and 2030, driven by stringent safety requirements and the critical need for uninterrupted hydrocarbon flow.\n\n**Workforce Safety in Harsh Environments:** Desert conditions, extreme temperatures, and remote locations create unique safety challenges requiring robust pre-inspection protocols and hours-of-service monitoring.\n\n**Integration Complexity:** Legacy systems like SAP require extensive customization and lack mobile-native capabilities essential for field operations.\n\n---\n\n## Solution Overview\nThe Linear Asset Management Platform provides a unified solution for managing both linear assets (pipelines, transmission lines) and point assets (pumping stations, valve stations, refineries) within a single, integrated system.\n\n### Core Capabilities\n\n**Hybrid Asset Management:** The platform seamlessly handles linear pipeline segments and associated point infrastructure, enabling comprehensive asset lifecycle management from a single interface.\n\n**Mobile-First Architecture:** Unlike traditional desktop-based systems, field personnel access fully functional native mobile applications for all inspection, maintenance, and reporting activities.\n\n**Offline Operation:** Critical for desert environments, the platform operates completely offline, synchronizing data when connectivity is restored.\n\n**Intelligent Defect Management:** Automated defect detection combined with manual inspection reporting creates comprehensive asset condition monitoring.\n\n**Geographic Positioning:** Linear assets are managed using geographic coordinates and industry-standard milepost terminology, enabling precise location-based maintenance planning.\n\n---\n## Saudi Arabia Implementation Example\n\nConsider Saudi Aramco's East-West Pipeline system, a critical 1,200-kilometer network transporting crude oil from eastern oil fields to Red Sea terminals. This infrastructure exemplifies the platform's application:\n\n#### Linear Asset Configuration\n- **Pipeline Segments:** Each section defined by start/end geographic coordinates\n\n- **Milepost References:** Industry-standard positioning using percentage-based location markers\n\n- **Hierarchical Structure:** Network → Line → Segment → Subsection for granular maintenance planning\n\n#### Point Asset Integration\n- **Pumping Stations:** Located at regular intervals requiring routine maintenance\n- **Valve Stations:** Critical control points needing periodic inspection\n- **Meter Stations:** Flow measurement facilities with complex instrumentation\n\n#### Operational Workflow\n1. **Scheduled Inspections:** Mobile teams receive automated work orders based on asset criticality and maintenance schedules\n2. **Defect Reporting:** Field personnel report issues using precise geographic positioning and standardized classification\n3. **Work Order Generation:** System automatically creates maintenance requests with priority assignment and resource allocation\n4. **Safety Compliance:** Mandatory pre-inspection safety checklists ensure regulatory compliance\n\n\n\n## Business Impact\n\n### Operational Efficiency\n- **Streamlined Inspection Process**: Mobile applications eliminate paperwork and enable real-time data capture  \n- **Faster Response Times**: Automated work order generation and mobile notifications accelerate issue resolution  \n- **Enhanced Asset Visibility**: Comprehensive digital records replace fragmented legacy documentation  \n\n### Cost Management\n- **Reduced Emergency Repairs**: Predictive maintenance strategies help prevent costly unplanned downtime  \n- **Lower Administrative Overhead**: Automated reporting and workflow management eliminate manual processes  \n- **Improved Data Accuracy**: Mobile applications with validation rules minimize data entry errors  \n\n### Safety and Compliance\n- **Enforced Safety Protocols**: Mandatory pre-inspection checklists prevent workflow initiation until compliance verification  \n- **Hours of Service Monitoring**: Automated tracking prevents worker fatigue-related incidents  \n- **Simplified Regulatory Reporting**: Automated compliance documentation streamlines audit preparation \n\n### Scalability and Reliability\n- **Enterprise-Grade Performance:-** Supports thousands of concurrent users across distributed operations\n- **High System Availability:** Cloud-native architecture ensures continuous availability\n- **Seamless Integration:** Pre-built connectors for SAP and other enterprise systems\n![Dashboard](/case-studies-image/oil-technology-image.png)\n\n## Technology Differentiators\n\n### AI-Powered Intelligence\nUnlike traditional asset management systems that rely on reactive maintenance approaches, the Linear Asset Management Platform leverages advanced artificial intelligence to provide predictive insights, automated defect detection, and intelligent resource optimization—capabilities essential for Saudi Arabia's complex energy infrastructure.\n\n### Computer Vision Integration\n\nThe platform's on-device computer vision capabilities enable inspectors to receive instant feedback and guidance during field inspections, ensuring consistent quality standards across diverse teams and challenging environmental conditions typical of Middle Eastern operations.\n\n### Predictive Analytics Engine\n\nAdvanced machine learning algorithms analyze patterns across asset performance, environmental conditions, and maintenance history to predict failures before they occur—transforming maintenance from reactive to proactive across Saudi Arabia's extensive pipeline networks.\n\n### Institutional Knowledge Management\n\nThe automated lessons management system captures and preserves critical operational knowledge, ensuring continuity as Saudi Arabia's energy sector expands and workforce composition evolves through major projects like NEOM.\n\n## Conclusion\n\nAs Saudi Arabia continues expanding its hydrocarbon infrastructure through Vision 2030 and projects like NEOM, the Linear Asset Management Platform provides the digital foundation necessary for world-class asset management. The platform's unique combination of mobile-first design, offline capability, and intelligent workflows delivers immediate operational benefits while providing the scalability needed for future growth.\nThe solution addresses critical challenges specific to Middle Eastern operations—from extreme desert conditions to complex regulatory environments—while offering the flexibility to adapt to emerging technologies and changing business requirements. For organizations managing linear infrastructure assets across Saudi Arabia's vast landscape, this platform represents the next generation of asset management technology.\n\n",
+          "category": "Artificial Intelligence",
+          "content": "## Project highlights\n\nBuilt an AI-based Chrome extension that analyzes resumes and provides definitions of IT terms\n\nImplemented a natural language processing algorithm to correctly extract critical data\n\nCreated our own tokenizer to speed up the analysis and enhance the accuracy\n\n## Chrome extension to automatically analyze and evaluate candidate CVs\n\nThe IT industry is developing at an insane pace. EJB, JSF, JPA, JBoss – new libraries and tools emerge every month, creating new tech terms. This makes candidate screening a complicated process – even for experienced recruiters, it becomes more and more difficult to keep all the technical terms in mind.\n\nThis is why GlossaryTech was built – the extension is designed to help recruitment managers with the resume screening process. Within seconds of analyzing a web page, this tool automatically sorts the technologies mentioned by a developer, highlights them in the resume, and provides their definitions. This significantly simplifies and speeds up the process for recruiters to evaluate whether a candidate is suitable for the role.\n\n## Implementing an NLP algorithm to correctly extract critical data\n\nThe main challenge in automatic text analysis is developing an algorithm capable of extracting crucial data and accurately interpreting it. Algorithms may miss important information because of unstructured documents and variations in meaning. With tech terms, the data analysis becomes even harder – for example, how do you define if the word \"go\" used in a developer's resume is a verb or a programming language?\n\nTo tackle these challenges, we developed an NLP algorithm that uses our tech glossary as a reference to precisely comprehend the meaning and context of language. By relying on machine learning, NLP can quickly identify the necessary information and categorize it correctly, thus expediting the resume screening process.\n\n## Building our own tokenizer for faster analysis of multi-word expressions\n\nAlthough open-source libraries can work great in certain cases, they don’t allow full control over the analyzing process. To make GlossaryTech faster and more accurate in terms of data extraction, we decided to build our own tokenizer.\n\nThis tokenizer is designed for general purpose and works perfectly for the ICT domain. It is optimized for identifying particular entities or phrases, and it performs well not only with single words but also with multi-word phrases, such as \"Ruby on Rails\".",
           "image": {
-            "id": 230,
-            "documentId": "h4qz3gppbwnfa202rogl51sv",
-            "url": "/uploads/Blockchain_47_903f0dc5b3.png",
+            "id": 196,
+            "documentId": "lr0sbnjwulacqgsme7zw49bn",
+            "url": "/uploads/glossary_tech_case_1x_aad578c2c58c_37b04055d0.png",
             "formats": {
               "thumbnail": {
-                "name": "thumbnail_Blockchain (47).png",
-                "hash": "thumbnail_Blockchain_47_903f0dc5b3",
+                "name": "thumbnail_glossary-tech-case@1x.aad578c2c58c.png",
+                "hash": "thumbnail_glossary_tech_case_1x_aad578c2c58c_37b04055d0",
                 "ext": ".png",
                 "mime": "image/png",
                 "path": null,
-                "width": 245,
-                "height": 138,
-                "size": 24.21,
-                "sizeInBytes": 24207,
-                "url": "/uploads/thumbnail_Blockchain_47_903f0dc5b3.png"
+                "width": 191,
+                "height": 156,
+                "size": 29.58,
+                "sizeInBytes": 29579,
+                "url": "/uploads/thumbnail_glossary_tech_case_1x_aad578c2c58c_37b04055d0.png"
               },
               "small": {
-                "name": "small_Blockchain (47).png",
-                "hash": "small_Blockchain_47_903f0dc5b3",
+                "name": "small_glossary-tech-case@1x.aad578c2c58c.png",
+                "hash": "small_glossary_tech_case_1x_aad578c2c58c_37b04055d0",
                 "ext": ".png",
                 "mime": "image/png",
                 "path": null,
                 "width": 500,
-                "height": 281,
-                "size": 67.08,
-                "sizeInBytes": 67078,
-                "url": "/uploads/small_Blockchain_47_903f0dc5b3.png"
-              },
-              "medium": {
-                "name": "medium_Blockchain (47).png",
-                "hash": "medium_Blockchain_47_903f0dc5b3",
-                "ext": ".png",
-                "mime": "image/png",
-                "path": null,
-                "width": 750,
-                "height": 422,
-                "size": 114.12,
-                "sizeInBytes": 114116,
-                "url": "/uploads/medium_Blockchain_47_903f0dc5b3.png"
-              },
-              "large": {
-                "name": "large_Blockchain (47).png",
-                "hash": "large_Blockchain_47_903f0dc5b3",
-                "ext": ".png",
-                "mime": "image/png",
-                "path": null,
-                "width": 1000,
-                "height": 563,
-                "size": 166.67,
-                "sizeInBytes": 166665,
-                "url": "/uploads/large_Blockchain_47_903f0dc5b3.png"
+                "height": 408,
+                "size": 127.85,
+                "sizeInBytes": 127846,
+                "url": "/uploads/small_glossary_tech_case_1x_aad578c2c58c_37b04055d0.png"
               }
             }
           }
         }
       ],
       "news_blogs_and_event": {
-        "id": 7,
+        "id": 3,
         "documentId": "obs8bn239949n0j0u436qbt8",
-        "title": "What’s New at Gigantech",
+        "title": "News Blogs & Events",
         "description": "We love reading, researching, and writing a lot of stuff about technology, current trends, and other technology-related things. Explore our writings where we have shared our technological insights.",
         "createdAt": "2025-07-14T07:57:03.327Z",
-        "updatedAt": "2025-08-20T15:39:48.872Z",
-        "publishedAt": "2025-08-20T15:39:48.885Z",
+        "updatedAt": "2025-07-23T08:46:54.781Z",
+        "publishedAt": "2025-07-23T08:46:54.793Z",
         "image": {
           "id": 167,
           "documentId": "pac87bw2e2yy678ph1h3sowu",
@@ -3092,10 +2421,10 @@
               "ext": ".jpg",
               "mime": "image/png",
               "path": null,
-              "width": 156,
-              "height": 156,
-              "size": 12.64,
-              "sizeInBytes": 12636,
+              "width": 245,
+              "height": 138,
+              "size": 81.75,
+              "sizeInBytes": 81754,
               "url": "/uploads/thumbnail_custom_software_b37894096e.jpg"
             },
             "small": {
@@ -3105,9 +2434,9 @@
               "mime": "image/png",
               "path": null,
               "width": 500,
-              "height": 500,
-              "size": 97.19,
-              "sizeInBytes": 97190,
+              "height": 281,
+              "size": 290.44,
+              "sizeInBytes": 290438,
               "url": "/uploads/small_custom_software_b37894096e.jpg"
             },
             "medium": {
@@ -3117,9 +2446,9 @@
               "mime": "image/png",
               "path": null,
               "width": 750,
-              "height": 750,
-              "size": 198.38,
-              "sizeInBytes": 198375,
+              "height": 422,
+              "size": 617.24,
+              "sizeInBytes": 617235,
               "url": "/uploads/medium_custom_software_b37894096e.jpg"
             },
             "large": {
@@ -3129,9 +2458,9 @@
               "mime": "image/png",
               "path": null,
               "width": 1000,
-              "height": 1000,
-              "size": 323.32,
-              "sizeInBytes": 323321,
+              "height": 563,
+              "size": 1079.41,
+              "sizeInBytes": 1079411,
               "url": "/uploads/large_custom_software_b37894096e.jpg"
             }
           }
@@ -3139,19 +2468,19 @@
       },
       "news_items": [
         {
-          "id": 101,
+          "id": 114,
           "documentId": "pzlfpjsy3sb4dfh1ge4kheyl",
-          "title": "Using Strapi Data Without Running the Backend (Next.js + Static Export)",
-          "slug": "ai-in-travel-industry-use-cases-example-and-benefits",
+          "title": "Python for Automation: How It Can Help Your Business Work Efficiently",
+          "slug": "python-for-automation-how-it-can-help-your-business-work-efficiently-1",
           "type": "blog",
-          "author": "Fawad Ahmad",
-          "date": "2025-07-10",
-          "content": "When building with Strapi and Next.js, you usually fetch content from the Strapi backend using API calls. That works great — but what if you don't want to keep the Strapi server running all the time?\n\nThis was the exact situation I faced. I needed my Next.js frontend to work with the same Strapi content, but without making live API requests.\n\n## The Challenge\n\nI wanted my website to load content even when the Strapi backend was **not running**. That meant I needed a way to:\n\n- Export all Strapi content (collections, single types, etc.)\n- Save related media files (images, uploads)\n- Use this exported data in my frontend instead of calling the Strapi API\n\n## The Solution\n\nWith the help of ChatGPT, I wrote a small **export script** inside my Strapi project:\n\n*backend/src/scripts/export-content.js*\n\nRun using:\nnode export-content.js\n\nThe script does two things:\n1. Exports all Strapi data into JSON files inside:\n*frontend/public/content-export/*\n\n2. Copies all media files into:\n*frontend/public/content-export/uploads*\n\n\n## Using Static Data in Next.js\n\nInstead of fetching from the Strapi API, I updated my frontend helper:\n\n*frontend/src/lib/api.js*\n\nThe fetchStrapiData() function was modified to read from the exported JSON files. Now, the website loads data instantly without hitting the backend.\n\n## Why This Is Useful\n\n- No need to run Strapi in production if content doesn't change often\n\n- Faster load times (static files served directly)\n\n- Great for hosting on platforms like Vercel or Netlify\n\n- Still flexible: you can re-run the export script anytime content updates\n\n## Final Thoughts\nThis approach gave me the best of both worlds:\n\n- A powerful CMS (Strapi) for content management\n- A fast, static frontend (Next.js) for deployment\n\nIf you’re using Strapi + Next.js and want to avoid running the backend all the time, this method is simple and effective. Just export, save, and serve your content as static JSON. 🚀\n",
+          "author": "John Smith",
+          "date": "2025-07-09",
+          "content": "Running a business often means dealing with the same repetitive tasks every day including updating spreadsheets, preparing reports, sending reminders, replying to emails, and much more. While these tasks are important, they also take away valuable time that could be spent on strategy, customers, and growth. \n\nFrom automated code generation to personalized user experiences, AI is becoming a powerful tool in web development.\n\n---\n\n## Why Businesses Need Automation\n\nThese tasks are not only time-consuming but also prone to human error. Over time, they add hidden costs and slow down business operations and growth. \n\nAutomation can take over these repetitive tasks in the background, freeing up your team to focus on serving customers and scaling your business.\n\n![AI Concept](https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80)\n\n\n---\n\n##  Top Reasons to Use Python for Automation\n\nThe integration of AI with cloud platforms is another important advancement.  \nCloud providers now offer AI-driven services that allow businesses to scale smarter while reducing infrastructure costs.\n\n\n---\n\n##  The Benefits You Can Expect with Python Automation\n\nFrameworks like Next.js, combined with headless CMS solutions like Strapi, are making it easier to integrate AI-driven APIs.  \nDevelopers can now build scalable, SEO-friendly websites while leveraging the power of machine learning models.\n",
           "createdAt": "2025-07-11T08:45:50.526Z",
-          "updatedAt": "2025-09-08T09:08:24.580Z",
-          "publishedAt": "2025-09-08T09:08:24.620Z",
-          "description": "Learn how to use Strapi content in a Next.js app without running the backend. Export data and media as static files for faster, simpler deployments.",
-          "readminutes": 4,
+          "updatedAt": "2025-08-26T11:25:44.198Z",
+          "publishedAt": "2025-08-26T11:25:44.266Z",
+          "description": "This article explores how automation and AI are transforming business operations by reducing repetitive tasks, minimizing errors, and freeing teams to focus on growth.",
+          "readminutes": 19,
           "image": {
             "id": 164,
             "documentId": "skfmubiurn3hesv4fny6iygx",
@@ -3161,112 +2490,157 @@
                 "name": "thumbnail_Chatbots.jpg",
                 "hash": "thumbnail_Chatbots_0bd37d5e4b",
                 "ext": ".jpg",
-                "mime": "image/png",
+                "mime": "image/jpeg",
                 "path": null,
                 "width": 245,
                 "height": 138,
-                "size": 9.75,
-                "sizeInBytes": 9748,
+                "size": 5.18,
+                "sizeInBytes": 5180,
                 "url": "/uploads/thumbnail_Chatbots_0bd37d5e4b.jpg"
               },
               "large": {
                 "name": "large_Chatbots.jpg",
                 "hash": "large_Chatbots_0bd37d5e4b",
                 "ext": ".jpg",
-                "mime": "image/png",
+                "mime": "image/jpeg",
                 "path": null,
                 "width": 1000,
                 "height": 562,
-                "size": 59.23,
-                "sizeInBytes": 59230,
+                "size": 23.29,
+                "sizeInBytes": 23292,
                 "url": "/uploads/large_Chatbots_0bd37d5e4b.jpg"
-              },
-              "medium": {
-                "name": "medium_Chatbots.jpg",
-                "hash": "medium_Chatbots_0bd37d5e4b",
-                "ext": ".jpg",
-                "mime": "image/png",
-                "path": null,
-                "width": 750,
-                "height": 422,
-                "size": 38.53,
-                "sizeInBytes": 38533,
-                "url": "/uploads/medium_Chatbots_0bd37d5e4b.jpg"
               },
               "small": {
                 "name": "small_Chatbots.jpg",
                 "hash": "small_Chatbots_0bd37d5e4b",
                 "ext": ".jpg",
-                "mime": "image/png",
+                "mime": "image/jpeg",
                 "path": null,
                 "width": 500,
                 "height": 281,
-                "size": 22.5,
-                "sizeInBytes": 22504,
+                "size": 11.04,
+                "sizeInBytes": 11038,
                 "url": "/uploads/small_Chatbots_0bd37d5e4b.jpg"
+              },
+              "medium": {
+                "name": "medium_Chatbots.jpg",
+                "hash": "medium_Chatbots_0bd37d5e4b",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "path": null,
+                "width": 750,
+                "height": 422,
+                "size": 16.91,
+                "sizeInBytes": 16912,
+                "url": "/uploads/medium_Chatbots_0bd37d5e4b.jpg"
               }
             }
           }
         },
         {
-          "id": 103,
+          "id": 113,
           "documentId": "s2t26pcu1nwbcyyx5jvscl5k",
-          "title": "Which LLM Really Handles Complex 3D Coding? A Stress Test You Won’t See in Demos",
-          "slug": "which-llm-really-handles-complex-3-d-coding-a-stress-test-you-won-t-see-in-demos",
-          "type": "blog",
-          "author": "Dr Mukhtiar Ahmad",
-          "date": "2025-08-22",
-          "content": "I gave GPT-5, Claude Sonnet 4, Gemini Flash 2.5, DeepSeek DeepThink (R1), and Amazon Kiro the same complex coding task: a 3D neural network simulation in Three.js. Only one model came close to production-level quality.\n\n\n##  Why I Ran This Experiment\nMost LLM reviews show simple tasks: “write a landing page” or “generate a Python script.” But those don’t really tell us how these models behave under **real production-like complexity.**\n*I wanted to see how these models perform when asked to tackle a tightly constrained, visually verifiable, and mathematically precise coding challenge — one where mistakes are immediately obvious.*\nSo I wrote a **prompt about 1,500 tokens long,** spelling out every requirement of a **3D neural network visualization in Three.js.**\n![Dashboard](/blogs-images/3d-coding-challenge.png)\n\nThe article below includes only a structured summary of those requirements (for readability). But make no mistake: the actual spec was meticulous, covering exact math formulas, timing phases, firing rules, and strict boundary enforcement.\n## The Benchmark Problem\n\n### Task (summary of original prompt):\n\nCreate a professional 3D neural network visualization using **Three.js** that demonstrates dynamic shape morphing, neural activity simulation, interactive camera controls, and perfect geometric containment of all neural elements.\n\n---\n\n## Highlights of the Requirements\n\n### 🔹 Shapes & Morphing\n- Cycle through 5 shapes in strict order: **Sphere → Cone → Cube → Pyramid → Cylinder**  \n- Smooth morphing transitions, infinite loop  \n\n### 🔹 Neurons & Connections\n- Exactly **1,200 neurons** (white wireframe spheres)  \n- At least **3 connections per neuron**, proximity-based  \n- **Zero tolerance** for neurons or links outside the shape boundary  \n\n### 🔹 Activity Simulation\n- Random neurons fire every **150ms (~1.5%)**\n- Red “meteor effect” travels along links.\n- Destination neuron glows red and scales 3x for 800ms, then resets.\n### 🔹Camera & Interaction\n- Interactive rotation with mouse; gentle auto-rotation fallback.\n- Cinematic zoom-in (3s) and zoom-out (3s), synced with morph transitions.\n- Smooth easing, no jerky movements.\n\n### 🔹Performance\n- 60fps target.\n- Memory-efficient cleanup of effects.\n- Responsive resizing.\n- Single HTML file with Three.js via CDN.\n\nIn short: **a professional-grade animation system** that would expose weaknesses in any model’s reasoning or code structure.\n\n## The Test Setup\n\nI tested five LLMs:\n\n- **Chat interfaces:** GPT-5, Claude Sonnet 4, Gemini Flash 2.5, DeepSeek DeepThink (R1)  \n- **Software development environment:** Amazon Kiro  \n\nEvery model received the same requirements. I evaluated them on **accuracy, containment, animation quality, and refinement potential**.\n\n---\n\n## Results by Model\n\n### GPT-5 (Chat UI)\n\nGPT-5 generated workable code, but with serious issues:\n\n- Neurons consistently **leaked outside shape boundaries**.  \n- Connections were extended incorrectly.  \n- Neuron firing lacked polish and synchronization.  \n- Even with multiple refinement prompts, shapes stayed messy.  \n\nUsing **GPT-5 Agents** (longer reasoning) prolonged the process but didn’t fix alignment errors — cones inverted, pyramids misplaced, neurons still out of bounds.\n\n**Verdict:** Ambitious, but ultimately unreliable for this kind of strict geometry.\n\n### Claude Sonnet 4 (Chat UI)\n\nClaude performed better than GPT-5:\n\n- More structured output and closer adherence to requirements.  \n- Shapes looked cleaner, firing slightly more naturally.  \n\nBut…\n\n- Neurons still escaped boundaries.  \n- Links didn’t always update correctly.  \n- After 5–7 refinement prompts, things improved, but never reached spec.  \n\n**Verdict:** Better discipline than GPT-5, but still not production-ready.  \n\n---\n\n### Gemini Flash 2.5 (Chat UI)\n\nWhen given the prompt, Gemini replied with:\n\n*I am unable to generate a complete and functional HTML file with the complex Three.js code you’ve requested. My capabilities are limited to providing information and generating text or images, and I cannot create a fully-coded, executable web page.*\n\n**Verdict:** Refreshingly honest, but ultimately a non-result for this test.\n### DeepSeek DeepThink (R1) (Chat UI)\n\nMarketed as a “thinking” model, DeepSeek showed the same execution gaps as GPT and Claude:\n\n- Out-of-bounds neurons.  \n- Misaligned links.  \n- Firing animations lacked precision.\n  \nReasoning ability didn’t translate into technical correctness here.  \n\n**Verdict:** Same flaws, different branding.  \n\n---\n\n### Amazon Kiro (Software Dev Environment)\n\nThis was the surprise.  \n\nUnlike the chat UIs, Kiro didn’t just dump code. It followed a structured development workflow:\n\n1. Converted my long prompt into a Markdown requirements doc.  \n2. Translated that into a design specification.  \n3. Broke it down into a task list.  \n4. Then generated the implementation.  \n\nThe first attempt missed a few requirements. But when I asked:  \n\n> Are you sure you implemented all the requirements?  \n\nKiro did something no other model did:  \n\n- It checked its work against the requirements list.  \n- Found the gaps.  \n- Fixed them in the next iteration with a single prompt.  \n\nThe final result hit about **95% of the full spec**.  \n\n**Verdict:** The only LLM-based system in this test that was able to implement all the requirements correctly.  \n## Final Rankings  \n\n🥇 **Amazon Kiro** → Clear winner. Met nearly all requirements with minimal prompting.  \n🥈 **Claude Sonnet 4.0** → Strong attempt, but too much manual refinement needed.  \n🥉 **GPT-5** → Ambitious but messy and inconsistent.  \n🎭 **DeepSeek Think (R1)** → Same flaws as GPT/Claude, despite “reasoning” claims.  \n🚫 **Gemini Flash 2.5** → Did not attempt implementation.  \n\n---\n\n## Takeaways  \n\n1. **Long, detailed prompts expose model weaknesses.**  \n   The 1,500-token spec I provided was deliberately precise, and most models struggled to stay within those constraints.  \n\n2. **Chat UIs aren’t enough for production-level tasks.**  \n   GPT, Claude, DeepSeek, and Gemini behaved like “helpers.” They don’t enforce discipline unless you spoon-feed corrections for hours.  \n\n3. **Requirement verification is the difference-maker.**  \n   Amazon Kiro stood out because it didn’t just generate code — it cross-checked requirements, found gaps, and corrected them. That’s what made it succeed where others failed.  \n\n---\n\n## Closing Thoughts  \n\nThis experiment convinced me of something bigger:  \n\nFuture LLMs won’t just be about being “smarter.” They’ll need to adopt structured engineering workflows — breaking problems down, checking against specs, and iterating systematically.  \n\nBecause in real-world coding, intelligence without verification isn’t enough.  \n\nAnd for now, **Kiro is the only LLM-based system I’ve tested that was able to implement all the requirements correctly.**  \n\n---\n\n**Note:** Some of the content is AI-generated.  \n\n",
+          "title": "ERP Logistics Integration: Benefits and Industry Use Cases",
+          "slug": "erp-logistics-integration-benefits-and-industry-use-cases",
+          "type": "event",
+          "author": "John Smith",
+          "date": "2025-06-13",
+          "content": "Running a logistics or supply chain business today is no easy job. Delays, inefficiencies, miscommunication between departments, and lack of real-time visibility can slow everything down from order processing to delivery.\n\nMany businesses try to fix these issues by using software, but often, the systems don’t talk to each other. You might be using one tool for logistics and another for managing inventory, finance, or sales. Without proper connection, these tools create silos leading to slow updates, data duplication, and poor decision-making.\n\n---\n\n## What ERP and Logistics Software Do? \n\n### Common challenges include:\n\nERP software helps manage your core business functions such as inventory, procurement, finance, sales, HR, and more. It brings different departments together by organizing data in one place and keeping everything in sync.\n\nLogistics software focuses on the day-to-day movement of goods. It manages transportation, warehousing, order tracking, and shipping, helping your team handle deliveries and stock more efficiently.\n\n---\n\n## What Happens When ERP and Logistics Software Work Together?\n\n- Your sales team closes an order, but the warehouse doesn’t get the update immediately.  \n- Inventory levels don’t sync in real time, leading to stockouts or overstocking.  \n- Shipping teams don’t get accurate order details, which leads to delivery delays.  \n\nWhen these tasks are handled through paper files, messages, and scattered spreadsheets, things slip through the cracks.  \n\n---\n\n## What is ERP-Logistics Integration?\n\n![ERP Logistics](https://images.unsplash.com/photo-1484417894907-623942c8ee29?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)\n\nERP-logistics integration means connecting your logistics management software with your Enterprise Resource Planning (ERP) system so that information can move freely between them without delays or manual entry. It brings your entire operation onto one platform, where every department can access real-time, accurate data.\n",
           "createdAt": "2025-07-11T11:48:10.779Z",
-          "updatedAt": "2025-09-08T09:11:11.427Z",
-          "publishedAt": "2025-09-08T09:11:11.460Z",
-          "description": "Testing GPT-5, Claude Sonnet 4, Gemini Flash 2.5, DeepSeek R1, and Amazon Kiro on a complex 3D neural network task in Three.js—only Kiro delivered production-ready results.",
-          "readminutes": 4,
+          "updatedAt": "2025-08-26T11:24:16.266Z",
+          "publishedAt": "2025-08-26T11:24:16.330Z",
+          "description": "Logistics and supply chain businesses face delays, inefficiencies, and poor visibility when systems don’t connect.",
+          "readminutes": 3,
           "image": {
             "id": 163,
             "documentId": "ka2ny8ll4z795ym5aaoxqu4g",
             "url": "/uploads/Chatbots_60e5e966f7.jpg",
+            "formats": null
+          }
+        },
+        {
+          "id": 108,
+          "documentId": "qklq8c1chcw52u906ni12062",
+          "title": "What Is Custom Software Development & How It Differs From Off-the-Shelf Solutions",
+          "slug": "what-is-custom-software-development-and-how-it-differs-from-off-the-shelf-solutions",
+          "type": "event",
+          "author": "John Smith",
+          "date": "2025-08-09",
+          "content": "Every business today uses software in some way whether it’s to manage their work, serve their customers, or run daily operations. But when it comes to choosing the right software, one common question comes up:\n\n## What Is Custom Software Development?\n\nCustom software is made specifically for your business. Instead of using a general solution that’s built for everyone, custom software is designed to match the way your company works. It’s like tailoring a suit to fit your body instead of buying one off the rack. \n\nLet’s say you run a growing delivery business. You may want software that matches your delivery routes, tracks your drivers in real-time, handles customer feedback, and sends custom alerts. Off-the-shelf software may not offer all of this. That’s where custom software development comes in and builds exactly what you need.\n\n![Cloud Servers](https://images.unsplash.com/photo-1463171379579-3fdfb86d6285?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)\n\n---\n\n## What Are Off-the-Shelf Solutions?\n\nOff-the-shelf software (also called ready-made or commercial software) is created for a broad audience. It comes with fixed features and is ready to install and use.\n\nThese solutions are often well-tested, quick to deploy, and relatively low-cost in the beginning. But they come with limitations. You can’t change much, and you often end up adjusting your workflow to match the software instead of the other way around.\n",
+          "createdAt": "2025-07-11T08:49:59.152Z",
+          "updatedAt": "2025-08-26T11:15:23.418Z",
+          "publishedAt": "2025-08-26T11:15:23.487Z",
+          "description": "Every business today uses software in some way whether it’s to manage their work, serve their customers, or run daily operations.",
+          "readminutes": null,
+          "image": {
+            "id": 165,
+            "documentId": "mmsrlvc1cz99dahztth807tp",
+            "url": "/uploads/news1_1b1d627477.jpg",
             "formats": {
               "thumbnail": {
-                "name": "thumbnail_Chatbots.jpg",
-                "hash": "thumbnail_Chatbots_60e5e966f7",
+                "name": "thumbnail_news1.jpg",
+                "hash": "thumbnail_news1_1b1d627477",
                 "ext": ".jpg",
-                "mime": "image/png",
+                "mime": "image/jpeg",
                 "path": null,
-                "width": 208,
-                "height": 156,
-                "size": 23.84,
-                "sizeInBytes": 23840,
-                "url": "/uploads/thumbnail_Chatbots_60e5e966f7.jpg"
+                "width": 245,
+                "height": 138,
+                "size": 5.35,
+                "sizeInBytes": 5350,
+                "url": "/uploads/thumbnail_news1_1b1d627477.jpg"
+              },
+              "large": {
+                "name": "large_news1.jpg",
+                "hash": "large_news1_1b1d627477",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "path": null,
+                "width": 1000,
+                "height": 562,
+                "size": 29.77,
+                "sizeInBytes": 29774,
+                "url": "/uploads/large_news1_1b1d627477.jpg"
               },
               "small": {
-                "name": "small_Chatbots.jpg",
-                "hash": "small_Chatbots_60e5e966f7",
+                "name": "small_news1.jpg",
+                "hash": "small_news1_1b1d627477",
                 "ext": ".jpg",
-                "mime": "image/png",
+                "mime": "image/jpeg",
                 "path": null,
                 "width": 500,
-                "height": 375,
-                "size": 88.37,
-                "sizeInBytes": 88372,
-                "url": "/uploads/small_Chatbots_60e5e966f7.jpg"
+                "height": 281,
+                "size": 13.37,
+                "sizeInBytes": 13372,
+                "url": "/uploads/small_news1_1b1d627477.jpg"
+              },
+              "medium": {
+                "name": "medium_news1.jpg",
+                "hash": "medium_news1_1b1d627477",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "path": null,
+                "width": 750,
+                "height": 422,
+                "size": 22.24,
+                "sizeInBytes": 22240,
+                "url": "/uploads/medium_news1_1b1d627477.jpg"
               }
             }
           }
         },
         {
-          "id": 58,
+          "id": 109,
           "documentId": "qfv4x7z7o6pfuq5rwe484fee",
-          "title": "Document Processing: Experience and Learnings",
-          "slug": "real-impact-with-solid-tech",
+          "title": "How AI Solves Real Business Problems and Pain Points: Top 10 Use Cases",
+          "slug": "how-ai-solves-real-business-problems-and-pain-points-top-10-use-cases",
           "type": "event",
           "author": "John Smith",
-          "date": "2025-09-25",
-          "content": "## 🧪 Project Overview\n\n![quattro research logo](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Logo_placeholder_image.png/600px-Logo_placeholder_image.png)\n\nFounded in **2004**, **quattro research** develops intuitive software that empowers digital scientific workflows. Their **Laboratory Information Management Systems (LIMS)** — such as **quattro/CM**, **quattro/LJ**, and **quattro/BR** — manage and analyze complex chemical and biological data.\n\n---\n\n![Team Collaboration](https://images.unsplash.com/photo-1632179002215-f5c8d5dcf35b)\n\nTo scale quickly and meet growing client demand, quattro research partnered with **unicrew** to strengthen their engineering team with skilled developers who could integrate seamlessly and boost project velocity.\n\n---\n\n## 🚧 Key Challenges\n\n![Challenges](https://images.unsplash.com/photo-1573164713347-df1e1f69a3f2)\n\n- **Scalability Requirements** – Needed to scale fast without lowering code quality.\n- **Complex UI Needs** – Required a responsive UI for large molecular datasets.\n- **Scientific Data Presentation** – Flexible visualization in dynamic grids and forms.\n- **Modern Security Protocols** – Needed secure access management (OAuth, JWT).\n- **High-Performance Rendering** – For complex molecule structure visualization.\n\n---\n\n## ✅ Solution\n\n### 🔹 React-Based UI\n\n![React UI](https://images.unsplash.com/photo-1581091012184-5c2bca6f3bb6)\n\nDesigned and implemented a performant, intuitive React frontend for handling complex molecule data structures.\n\n---\n\n### 🔹 Configurable Data Framework\n\n![Grid System](https://images.unsplash.com/photo-1645051915681-183d5f30ef0a)\n\nDeveloped a flexible framework allowing scientists to customize data views using dynamic **grids** and **forms**.\n\n---\n\n### 🔹 Secure Authentication\n\n![Security](https://miro.medium.com/v2/resize:fit:720/format:webp/0*PRZcNPDVe2z5n7kO)\n\nIntegrated **OAuth** and **JWT** for robust and modern authentication & authorization standards.\n\n---\n\n### 🔹 Molecule Visualization\n\n![Molecule Viewer](https://miro.medium.com/v2/resize:fit:720/format:webp/0*PRZcNPDVe2z5n7kO)\n\nDelivered advanced visualization tools for rendering large and complex molecule structures efficiently.\n\n---\n\n## 👥 Collaboration Snapshot\n\n![Unicrew Team](https://images.unsplash.com/photo-1581091870622-df42a3f9808b)\n\n**unicrew** assembled a full-stack development team with expertise in:\n- `.NET`, `Java`, `PHP`, `Laravel`\n- `JavaScript`, `React`, `Vue`\n\nThey worked in **agile sprints** alongside quattro research’s internal team to maintain alignment, speed, and flexibility.\n\n---\n\n## 🎯 Results\n\n![Success](https://images.unsplash.com/photo-1581093588401-99a6f43db2a9)\n\n- **⚡ Faster Development** – Accelerated product delivery timelines.\n- **🎨 Better Usability** – UI tailored for scientific users.\n- **🔐 Improved Security** – OAuth and JWT integration.\n- **🔬 Enhanced Visualization** – Clarity in molecule data exploration.\n- **🤝 Ongoing Partnership** – Sustained collaboration with quattro research.\n\n---\n\n> _\"unicrew's developers integrated seamlessly with our team, demonstrating professionalism and a deep understanding of our needs. Their contributions have been invaluable.\"_  \n> — **Dr. Bernhard Schirm**, Managing Director\n\n[🔗 View Full Review](https://example.com/review)\n\n---\n\n## 🛠 Related Services\n\n- ✅ Dedicated Software Development Teams  \n- ✅ White Label Web Development  \n- ✅ Legacy Software Modernization\n",
+          "date": "2025-07-25",
+          "content": "You have to deal with growing competition, rising costs, changing customer needs, and a fast-moving market. On top of that, you’re expected to make quick decisions, keep customers happy, and be at the top of the game.  \nAI (Artificial Intelligence) is the answer to all these problems.\nAI (Artificial Intelligence) is the answer to all these problems.\nLately, at Softices, we’re seeing more and more businesses coming to us for AI-based solutions. Why? Because AI helps solve real business problems faster, cheaper, and smarter.\n\n---\n\n## Practical Use Cases Where Artificial Intelligence (AI) Delivers Real Business Value\n\nBusinesses today rely heavily on digital transformation.  \n\n### 1. Customer Service & Support\nCustomer support teams are overwhelmed. As your business grows, so do the number of queries, complaints, and requests. Responding to everyone on time becomes tough, especially with a small team or outside business hours.  \nFrom startups to large enterprises, cloud platforms are the backbone of modern innovation.\n\n![Cloud Servers](https://images.unsplash.com/photo-1499750310107-5fef28a66643?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)\n\n---\n\n## Why More Businesses Are Turning to AI Now\nUntil recently, only big companies (tech giants or research labs) had the resources to explore AI. Today, even small and medium-sized businesses are using AI tools to save time, cut costs, and make better use of their resources.\n \nMost modern AI tools are designed to work with your existing website, CRM, or business system. You don’t need to rebuild everything from scratch.",
           "createdAt": "2025-07-11T08:42:46.052Z",
-          "updatedAt": "2025-08-20T11:59:04.331Z",
-          "publishedAt": "2025-08-20T11:59:04.346Z",
-          "description": "Is Android 15 released?  Various developer previews and beta versions of Android 15 have been released so far. ",
+          "updatedAt": "2025-08-26T11:16:27.688Z",
+          "publishedAt": "2025-08-26T11:16:27.755Z",
+          "description": "AI is transforming how businesses handle competition, costs, and customer demands by offering smarter, faster, and more affordable solutions.",
           "readminutes": null,
           "image": {
             "id": 156,
@@ -3277,66 +2651,66 @@
                 "name": "thumbnail_news2.jpg",
                 "hash": "thumbnail_news2_3c6c533a21",
                 "ext": ".jpg",
-                "mime": "image/png",
+                "mime": "image/jpeg",
                 "path": null,
                 "width": 245,
-                "height": 128,
-                "size": 47.44,
-                "sizeInBytes": 47439,
+                "height": 138,
+                "size": 4.44,
+                "sizeInBytes": 4438,
                 "url": "/uploads/thumbnail_news2_3c6c533a21.jpg"
+              },
+              "large": {
+                "name": "large_news2.jpg",
+                "hash": "large_news2_3c6c533a21",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "path": null,
+                "width": 1000,
+                "height": 562,
+                "size": 19.55,
+                "sizeInBytes": 19550,
+                "url": "/uploads/large_news2_3c6c533a21.jpg"
               },
               "small": {
                 "name": "small_news2.jpg",
                 "hash": "small_news2_3c6c533a21",
                 "ext": ".jpg",
-                "mime": "image/png",
+                "mime": "image/jpeg",
                 "path": null,
                 "width": 500,
-                "height": 261,
-                "size": 172.76,
-                "sizeInBytes": 172759,
+                "height": 281,
+                "size": 9.69,
+                "sizeInBytes": 9690,
                 "url": "/uploads/small_news2_3c6c533a21.jpg"
               },
               "medium": {
                 "name": "medium_news2.jpg",
                 "hash": "medium_news2_3c6c533a21",
                 "ext": ".jpg",
-                "mime": "image/png",
+                "mime": "image/jpeg",
                 "path": null,
                 "width": 750,
-                "height": 392,
-                "size": 368.6,
-                "sizeInBytes": 368602,
+                "height": 422,
+                "size": 15.01,
+                "sizeInBytes": 15012,
                 "url": "/uploads/medium_news2_3c6c533a21.jpg"
-              },
-              "large": {
-                "name": "large_news2.jpg",
-                "hash": "large_news2_3c6c533a21",
-                "ext": ".jpg",
-                "mime": "image/png",
-                "path": null,
-                "width": 1000,
-                "height": 523,
-                "size": 619.66,
-                "sizeInBytes": 619664,
-                "url": "/uploads/large_news2_3c6c533a21.jpg"
               }
             }
           }
         },
         {
-          "id": 57,
+          "id": 110,
           "documentId": "expnrtf2v1e9su6ymbk1uxyg",
-          "title": "BLA delivers quality according to world standards",
-          "slug": "this-new-ide-from-google-is-an-absolute-game-changer",
+          "title": "Property Management Software for Small Landlords and Businesses",
+          "slug": "property-management-software-for-small-landlords-and-businesses",
           "type": "news",
           "author": "John Smith",
-          "date": "2025-07-16",
-          "content": "## What’s new with Android 15?\nAndroid 15 introduces enhanced privacy controls, new APIs for better performance and user experience, and advanced camera features like **Low Light Boost**. It also deprecates older technologies like **WebSQL**, making way for more modern solutions like **IndexedDB**.\n## Is Android 15 released?\nVarious developer previews and beta versions of Android 15 have been released so far. The final launch is expected to occur sometime in the **fall of 2024**.\n\n## How does Android 15 address app compatibility and backward compatibility issues?\nAndroid 15 includes several measures to ensure app compatibility and backward compatibility, such as:\n- Detailed documentation on behavior changes\n- New feature support\n- Tools like the **Android Compatibility Test Suite (CTS)**\n\nThese ensure that apps remain functional and performant on the new platform while still supporting older versions where necessary.\n\n## What are the benefits of the improved camera APIs in Android 15 for app developers?\nThe improved camera APIs provide:\n- Greater control over camera hardware\n- Real-time effects\n- Improved HDR processing\n- Better integration with machine learning algorithms\n\nThese capabilities help developers create advanced camera experiences like:\n\n- Augmented reality applications\n- Advanced photo/video editing features\n## How does Android 15 improve app performance on older devices?\nAndroid 15 offers:\n- Optimized memory management\n- Enhanced rendering pipelines\n\nThese improvements ensure apps run smoothly even on devices with limited hardware resources.\n\n---\n\n## References\n\n- [First Android 15 Developer Preview](https://android-developers.googleblog.com/2024/02/first-developer-preview-android15.html)\n- [Android 15 Features Overview](https://developer.android.com/about/versions/15/features)\n- [Android Developers Blog](https://android-developers.googleblog.com)\n- [Android Developers Official Site](https://developer.android.com)\n",
+          "date": "2025-08-24",
+          "content": "If you are a small landlord, you probably know how much time and effort it takes to manage even a few properties. From finding tenants and collecting rent to handling repairs and keeping track of accounts, the work never seems to end.\n\n---\n\n## Challenges Small Landlords Often Face\n\n## Common challenges include:\n\n- **Late rent payments:** Chasing bank transfers or cheques takes time and delays cash flow.  \n- **Tenant screening issues:** Checking references and backgrounds manually can be slow and leave room for risky tenants.  \n- **Maintenance delays:** Calls and texts from tenants can get missed or forgotten.  \n- **Accounting errors:** Spreadsheets are easy to update incorrectly, leading to financial mistakes.  \n- **Legal risks:** Missing a compliance requirement or local regulation can result in fines.  \n\n---\n\n## Day-to-day tasks often include:\n\n- Listing properties and managing inquiries  \n- Screening and approving tenants  \n- Drafting and signing rental agreements  \n- Collecting rent and sending reminders  \n- Tracking maintenance requests and follow-ups  \n- Recording expenses and generating financial reports  \n\n---\n\nWhen these tasks are handled through paper files, messages, and scattered spreadsheets, things slip through the cracks.  \n\nProperty management software keeps everything in one secure, easy-to-use system. You can track tasks, store records, communicate with tenants, and manage finances, all from one place so you spend less time chasing updates and more time focusing on your rental business.\n\n\n![Cloud Servers](https://images.unsplash.com/photo-1526666923127-b2970f64b422?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTV8fHRlY2hub2xvZ3l8ZW58MHx8MHx8fDA%3D)\n\n---\n\n## What is Property Management Software?\n\nProperty management software is a tool that helps landlords, property owners, and managers handle all the tasks involved in renting out properties but in a simpler, more organised way.\n\nInstead of using multiple apps, paper files, and manual processes, you get a single platform where you can:\n\n- **Advertise and showcase your properties**  \n- **Screen tenants faster:** Run credit and background checks in minutes.  \n- **Manage leases digitally:** Store and sign documents online.  \n- **Collect rent online:** Tenants pay automatically, reducing late payments.  \n- **Track maintenance:** Tenants submit requests through an app, and you can assign repair jobs.  \n- **Generate financial reports:** See income, expenses, and tax-ready statements.  ",
           "createdAt": "2025-07-11T12:23:49.379Z",
-          "updatedAt": "2025-08-20T11:58:44.392Z",
-          "publishedAt": "2025-08-20T11:58:44.406Z",
-          "description": "ISTQB (International Software Testing Qualifications Board) is a globally recognized organization that provides standardized certifications for software testers.",
+          "updatedAt": "2025-08-26T11:17:21.931Z",
+          "publishedAt": "2025-08-26T11:17:21.997Z",
+          "description": "Managing rental properties is time-consuming, with challenges like late payments, tenant screening, and maintenance delays.",
           "readminutes": 8,
           "image": {
             "id": 166,
@@ -3350,9 +2724,9 @@
                 "mime": "image/png",
                 "path": null,
                 "width": 245,
-                "height": 76,
-                "size": 33.78,
-                "sizeInBytes": 33782,
+                "height": 138,
+                "size": 71.42,
+                "sizeInBytes": 71415,
                 "url": "/uploads/thumbnail_representation_user_experience_interface_design_1200x800_fedb475fc5.webp"
               },
               "small": {
@@ -3362,9 +2736,9 @@
                 "mime": "image/png",
                 "path": null,
                 "width": 500,
-                "height": 155,
-                "size": 128.58,
-                "sizeInBytes": 128578,
+                "height": 281,
+                "size": 254.74,
+                "sizeInBytes": 254742,
                 "url": "/uploads/small_representation_user_experience_interface_design_1200x800_fedb475fc5.webp"
               },
               "medium": {
@@ -3374,9 +2748,9 @@
                 "mime": "image/png",
                 "path": null,
                 "width": 750,
-                "height": 232,
-                "size": 283.66,
-                "sizeInBytes": 283661,
+                "height": 422,
+                "size": 529.29,
+                "sizeInBytes": 529288,
                 "url": "/uploads/medium_representation_user_experience_interface_design_1200x800_fedb475fc5.webp"
               },
               "large": {
@@ -3386,80 +2760,80 @@
                 "mime": "image/png",
                 "path": null,
                 "width": 1000,
-                "height": 309,
-                "size": 498.89,
-                "sizeInBytes": 498886,
+                "height": 563,
+                "size": 899.3,
+                "sizeInBytes": 899296,
                 "url": "/uploads/large_representation_user_experience_interface_design_1200x800_fedb475fc5.webp"
               }
             }
           }
         },
         {
-          "id": 102,
-          "documentId": "oe7l6ys9zwzkij9fp1ckmfvg",
-          "title": "Parsing Excel Files at Scale with Docling",
-          "slug": "parsing-excel-files-at-scale-with-docling",
+          "id": 111,
+          "documentId": "ezuxbxmwl2zrds4z62csxajm",
+          "title": "Android Jetpack Compose: Modern UI Toolkit for Android Development",
+          "slug": "leading-brands-succeed-with-digital-commerce",
           "type": "blog",
-          "author": "Muhammad Hashir Saikhani",
-          "date": "2025-09-08",
-          "content": "## Executive Summary\n\nExcel is one of the most widely used tools for managing and sharing data. Yet, extracting structured and meaningful information from `.xlsx` files is often harder than it seems. Our team set out to find a solution that could reliably parse **tables and text together**, maintain **context and formatting**, and work without relying on **paid APIs or external services**.  \n\nAfter exploring several libraries and approaches, we discovered **Docling**, a solution that balanced flexibility, scalability, and reliability, making it the best fit for our needs.\n\n---\n\n![Excel to Structured Output](general.png)\n\n---\n\n## Challenges\n\nAt first glance, parsing Excel sounds straightforward. But when we started working with real-world files, we quickly ran into roadblocks:\n\n- **Different table types**: Some files used native Excel tables, while others had only simple tabular ranges. Most tools could handle one type but not both.  \n- **Context loss**: In many cases, tables were surrounded by important explanatory text. Traditional libraries ignored this, leaving us with incomplete data.  \n- **Table boundaries**: Detecting where a table started and ended became tricky, especially when multiple tables existed in the same sheet.  \n- **Maintenance burden**: The more logic we added to patch gaps in existing libraries, the more brittle and complex the system became.  \n- **Scalability issues**: Our solution had to process thousands of files, not just a handful. Performance and reliability mattered.  \n\nThese challenges motivated us to step back and rethink our approach.\n\n---\n\n## Motivation\n\nOur motivation was simple but clear:  \n\nWe wanted to build a **robust, free, and local-first tool** that could parse Excel files while **retaining both tables and context**. Specifically, the tool needed to:  \n\n- Parse **native tables** as well as **simple tabular ranges**.  \n- Extract **tables together with text**, not in isolation.  \n- Preserve **formatting and relationships** between data and notes.  \n- Append **text alongside tables** when needed for clarity.  \n- Avoid dependency on **paid APIs** or complex external setups.  \n\nThis vision kept us grounded as we experimented with different methods.\n\n---\n\n##  Methods We Tried\n\n### 1. **Pandas**\n- **Pros:**\n  - Widely known and very easy to use.\n  - Great for loading simple tables into DataFrames.  \n- **Cons:**\n  - Could not detect **native Excel tables**.\n  - Required heavy **custom table-boundary logic**.\n  - Failed to capture surrounding context.  \n\n**Verdict:** Solid for basic jobs but not enough for complex parsing.\n\n---\n\n### 2. **OpenPyXL**\n- **Pros:**\n  - Reads **native Excel tables** and cell text.  \n- **Cons:**\n  - Missed **simple tabular ranges**.  \n  - Still demanded extra parsing logic to unify outputs.  \n\n**Verdict:** A step up from Pandas, but still incomplete.\n\n---\n\n### 3. **LlamaIndex**\n- **Pros:**\n  - Provides an **end-to-end pipeline**: parsing + querying.  \n- **Cons:**\n  - Required **two API keys** (Llama Parse + OpenAI).  \n  - Depended on **paid APIs**, against our free/local requirement.  \n\n**Verdict:** Too costly and external for our workflow.\n\n---\n\n### 4. **Marker**\n- **Pros:**\n  - Offered both **LLM-powered** and **non-LLM** modes.  \n  - The LLM version delivered impressive parsing results.  \n- **Cons:**\n  - LLM mode consumed **too many OpenAI tokens**, driving up costs.  \n  - Non-LLM mode often **hallucinated tags** and produced errors.  \n  - Required significant **post-processing**.  \n\n**Verdict:** Interesting experiment, but unstable and costly.\n\n---\n\n### 5. **Docling (Final Choice)**\n- **Pros:**\n  - Strong parsing engine capable of handling **tables + text**.  \n  - Multiple export options: **Dict, HTML, Text, Element Nodes**, and more.  \n  - Local-first, no reliance on external APIs.  \n- **Cons:**\n  - Export formats each had small quirks.  \n- **Solution:**\n  - We standardized on the **`dict` export** for flexibility.  \n  - Added custom logic to handle quirks and standardize outputs.  \n\n**Verdict:** Flexible, scalable, and powerful enough for production.\n\n---\n\n## Example Applications\n\nDocling can be applied in real-world scenarios such as:  \n\n- **Financial reporting**: Parsing monthly Excel reports into structured data for automated dashboards.  \n- **Survey analysis**: Extracting tabular responses along with explanatory notes for research insights.  \n- **Operational logs**: Capturing tables from Excel logs while retaining context from comments and footnotes.  \n- **Data migration**: Converting legacy Excel-based datasets into standardized formats for new systems.  \n- **Compliance audits**: Extracting both tables and supporting text from Excel-based audit reports for validation.  \n\n---\n\n## Business Impact\n\nSwitching to Docling delivered clear results:  \n\n- **50–70% reduction in engineering effort**: Developers no longer needed to maintain complex parsing logic.  \n- **Higher accuracy**: Tables and surrounding notes were consistently extracted, reducing manual corrections.  \n- **Cost savings**: Avoiding paid APIs removed recurring expenses.  \n- **Significant time savings**: For example, processing a batch of 500 Excel reports that previously required multiple analysts now takes a few hours on a single machine.  \n- **Improved decision-making**: Teams gained quicker access to accurate, structured data for reporting and analysis.  \n\n---\n\n## Performance Results\n\nWe also measured Docling’s performance against our needs:  \n\n**Test Case 1 – Cell values as strings**  \n![Performance Results 1](/blogs-images/excel-blog-performance1.png)\n\n**Test Case 2 – Cell values as floats**  \n![Performance Results 2](/blogs-images/excel-blog-performance2.png)\n\n---\n\n## Conclusion\n\nParsing Excel at scale is harder than it looks, most tools solve one piece of the puzzle but fall short elsewhere. Through trial and error, we found **Docling** to be the most **complete and reliable solution**, balancing accuracy, scalability, and flexibility.  \n\nBy adopting Docling, organizations can **streamline their data workflows, reduce costs, and unlock more value** from Excel-based information at scale.  ",
-          "createdAt": "2025-09-08T08:52:01.821Z",
-          "updatedAt": "2025-09-08T09:09:47.890Z",
-          "publishedAt": "2025-09-08T09:09:47.910Z",
-          "description": "How we solved the challenges of parsing complex Excel files at scale and why Docling proved to be the most reliable and scalable solution.",
-          "readminutes": 4,
+          "author": "John Smith",
+          "date": "2025-07-22",
+          "content": "Jetpack Compose is Android’s modern UI toolkit designed to simplify and accelerate the process of building native Android user interfaces. Unlike traditional Android UI development, which relies heavily on XML layouts and imperative code (like findViewById or RecyclerView.Adapter), Jetpack Compose allows you to build UI declaratively using Kotlin.\n\n---\n\n## Why Choose Jetpack Compose Over XML-Based UI?\n\n###  1. Declarative UI: Write What the UI Should Be\n\nCompose lets you describe how your UI should look based on the app’s current state. When data changes, the UI automatically updates, similar to frameworks like React or Flutter.\n\n\n###  2 . Less Boilerplate, More Productivity\nNo separate XML files or binding classes.\nUI and business logic live together in Kotlin code, making it easier to read and maintain.\n\n![Cloud Servers](https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fHRlY2hub2xvZ3l8ZW58MHx8MHx8fDA%3D)\n\n---\n\n\n\n\n",
+          "createdAt": "2025-07-23T12:16:02.826Z",
+          "updatedAt": "2025-08-26T11:22:37.546Z",
+          "publishedAt": "2025-08-26T11:22:37.611Z",
+          "description": "Jetpack Compose is Google’s modern UI toolkit for Android, enabling developers to build responsive, declarative UIs with less code.",
+          "readminutes": 8,
           "image": {
-            "id": 231,
-            "documentId": "qwcim60y7alckbc6ljpd48mu",
-            "url": "/uploads/Blockchain_50_2132bc9bf3.png",
+            "id": 174,
+            "documentId": "djnorelq8w7r0cozhs9shxre",
+            "url": "/uploads/team_government_spies_meeting_cia_headquarters_monitor_surveillance_ed777e1b78.jpg",
             "formats": {
               "thumbnail": {
-                "name": "thumbnail_Blockchain (50).png",
-                "hash": "thumbnail_Blockchain_50_2132bc9bf3",
-                "ext": ".png",
-                "mime": "image/png",
+                "name": "thumbnail_team-government-spies-meeting-cia-headquarters-monitor-surveillance.jpg",
+                "hash": "thumbnail_team_government_spies_meeting_cia_headquarters_monitor_surveillance_ed777e1b78",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
                 "path": null,
                 "width": 245,
                 "height": 138,
-                "size": 18.7,
-                "sizeInBytes": 18699,
-                "url": "/uploads/thumbnail_Blockchain_50_2132bc9bf3.png"
+                "size": 5.6,
+                "sizeInBytes": 5602,
+                "url": "/uploads/thumbnail_team_government_spies_meeting_cia_headquarters_monitor_surveillance_ed777e1b78.jpg"
               },
-              "small": {
-                "name": "small_Blockchain (50).png",
-                "hash": "small_Blockchain_50_2132bc9bf3",
-                "ext": ".png",
-                "mime": "image/png",
+              "large": {
+                "name": "large_team-government-spies-meeting-cia-headquarters-monitor-surveillance.jpg",
+                "hash": "large_team_government_spies_meeting_cia_headquarters_monitor_surveillance_ed777e1b78",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
                 "path": null,
-                "width": 500,
-                "height": 281,
-                "size": 43.65,
-                "sizeInBytes": 43651,
-                "url": "/uploads/small_Blockchain_50_2132bc9bf3.png"
+                "width": 1000,
+                "height": 563,
+                "size": 42.7,
+                "sizeInBytes": 42702,
+                "url": "/uploads/large_team_government_spies_meeting_cia_headquarters_monitor_surveillance_ed777e1b78.jpg"
               },
               "medium": {
-                "name": "medium_Blockchain (50).png",
-                "hash": "medium_Blockchain_50_2132bc9bf3",
-                "ext": ".png",
-                "mime": "image/png",
+                "name": "medium_team-government-spies-meeting-cia-headquarters-monitor-surveillance.jpg",
+                "hash": "medium_team_government_spies_meeting_cia_headquarters_monitor_surveillance_ed777e1b78",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
                 "path": null,
                 "width": 750,
                 "height": 422,
-                "size": 81.48,
-                "sizeInBytes": 81480,
-                "url": "/uploads/medium_Blockchain_50_2132bc9bf3.png"
+                "size": 27.4,
+                "sizeInBytes": 27396,
+                "url": "/uploads/medium_team_government_spies_meeting_cia_headquarters_monitor_surveillance_ed777e1b78.jpg"
               },
-              "large": {
-                "name": "large_Blockchain (50).png",
-                "hash": "large_Blockchain_50_2132bc9bf3",
-                "ext": ".png",
-                "mime": "image/png",
+              "small": {
+                "name": "small_team-government-spies-meeting-cia-headquarters-monitor-surveillance.jpg",
+                "hash": "small_team_government_spies_meeting_cia_headquarters_monitor_surveillance_ed777e1b78",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
                 "path": null,
-                "width": 1000,
-                "height": 562,
-                "size": 116.27,
-                "sizeInBytes": 116271,
-                "url": "/uploads/large_Blockchain_50_2132bc9bf3.png"
+                "width": 500,
+                "height": 281,
+                "size": 15.35,
+                "sizeInBytes": 15349,
+                "url": "/uploads/small_team_government_spies_meeting_cia_headquarters_monitor_surveillance_ed777e1b78.jpg"
               }
             }
           }

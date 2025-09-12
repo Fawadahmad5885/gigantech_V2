@@ -3,12 +3,13 @@ import React, { useState, useEffect } from "react";
 // import { IndustriesData } from "@/data/industries-data/IndustriesData";
 import IndustriesCard from "./IndustriesCard";
 
-function Industries({ headerData }) {
+function Industries({headerData}) {
+    
   const [showAll, setShowAll] = useState(false);
   const [initialDisplayCount, setInitialDisplayCount] = useState(3);
-  const { title, description } = headerData;
+  const {title, description} = headerData
   const industryCards = headerData?.industryCard || [];
-
+  
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth >= 768) {
@@ -23,25 +24,29 @@ function Industries({ headerData }) {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  const industriesToDisplay = showAll
-    ? industryCards
+  const industriesToDisplay = showAll 
+    ? industryCards 
     : industryCards.slice(0, initialDisplayCount);
 
   return (
-    <div className="h-auto  py-16 md:py-24  shadow-md bg-gradient-to-r from-white via-backgroundColor/50 to-backgroundColor" id="industries">
+    <div className="h-auto py-[5%] bg-gray-100" id="industries">
       <div className="">
         <div className="px-5 md:px-[50px] font-poppins  text-center">
-          <h2 className="heading-text text-textColor  ">{title}</h2>
-          <p className="section-description">{description}</p>
+          <h2 className="heading-text text-textColor  ">
+            {title}
+          </h2>
+          <p className="section-description">
+           {description}
+          </p>
         </div>
-        <div className="mt-10 container md:px-8 card-container">
+        <div className="mt-10 component-width card-container">
           {industriesToDisplay.map((item) => (
             <IndustriesCard
-              key={item.id}
-              img={item.image?.formats?.medium?.url}
-              title={item.title}
-              subtitle={item.subtitle}
-              desc={item.description}
+            key={item.id}
+            img={item.image?.formats?.medium?.url}
+            title={item.title}
+            subtitle={item.subtitle}
+            desc={item.description}
             />
           ))}
         </div>

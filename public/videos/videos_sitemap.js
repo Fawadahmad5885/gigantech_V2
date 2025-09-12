@@ -1,4 +1,4 @@
-import { getBaseUrl } from '../../src/utils/baseUrl';
+import { getBaseUrl } from '@/utils/baseUrl';
 import video from './carousel-video.mp4'
 export default function videoSitemap() {
   return [

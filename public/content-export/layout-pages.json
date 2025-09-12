@@ -7,11 +7,11 @@
       "updatedAt": "2025-07-21T10:53:44.419Z",
       "publishedAt": "2025-07-21T10:53:44.436Z",
       "header_section": {
-        "id": 21,
+        "id": 16,
         "documentId": "r0n4wxqv3q928g7v845yaln4",
         "createdAt": "2025-07-21T10:31:43.257Z",
-        "updatedAt": "2025-08-22T13:36:46.512Z",
-        "publishedAt": "2025-08-22T13:36:46.537Z",
+        "updatedAt": "2025-07-25T09:27:23.397Z",
+        "publishedAt": "2025-07-25T09:27:23.413Z",
         "logo": {
           "id": 175,
           "documentId": "bhsdngkd5r2qkx4rusyrzkea",
@@ -19,31 +19,31 @@
         },
         "navItems": [
           {
-            "id": 122,
+            "id": 97,
             "Label": "Industries",
             "SectionId": "industries",
             "linkType": "section"
           },
           {
-            "id": 123,
+            "id": 98,
             "Label": "Services",
             "SectionId": "services",
             "linkType": "section"
           },
           {
-            "id": 124,
+            "id": 99,
             "Label": "Case Studies",
             "SectionId": "case-studies",
             "linkType": "page"
           },
           {
-            "id": 125,
+            "id": 100,
             "Label": "News & Blogs",
             "SectionId": "news-and-blogs",
             "linkType": "page"
           },
           {
-            "id": 126,
+            "id": 101,
             "Label": "About",
             "SectionId": "about-us",
             "linkType": "page"
@@ -51,78 +51,15 @@
         ]
       },
       "footer_section": {
-        "id": 19,
+        "id": 16,
         "documentId": "nhcc3m9fqzrd5e2xw59noyt2",
         "createdAt": "2025-05-28T11:39:21.661Z",
-        "updatedAt": "2025-08-28T14:40:28.823Z",
-        "publishedAt": "2025-08-28T14:40:28.854Z",
-        "description": "GiganTech, LLC\nDelaware, USA",
+        "updatedAt": "2025-08-28T08:22:33.018Z",
+        "publishedAt": "2025-08-28T08:22:33.037Z",
+        "description": "Over a decade of expertise,\ndelivering future-ready solutions\nworldwide.",
         "officesCard": [
           {
-            "id": 43,
-            "heading": "SmachStack Technologies",
-            "subHeading": "Research & Innovation Hub",
-            "location": "Lahore",
-            "mobileNumber": "+1 (844) 539 3578",
-            "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1474.2797783535889!2d74.34112189940284!3d31.475711238440244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190427303d1d9b%3A0x98af47ff5799036e!2zQXJmYSBJVCBUb3dlciDYp9ix2YHYuSDYotim24wg2bnbjCDZudin2YjYsQ!5e0!3m2!1sen!2s!4v1741868771027!5m2!1sen!2s",
-            "flagImage": {
-              "id": 26,
-              "documentId": "k3cc77tszqxcusaiuvq3f389",
-              "url": "/uploads/pak_flag_0f0c81ced1.png",
-              "formats": {
-                "thumbnail": {
-                  "name": "thumbnail_pak-flag.png",
-                  "hash": "thumbnail_pak_flag_0f0c81ced1",
-                  "ext": ".png",
-                  "mime": "image/png",
-                  "path": null,
-                  "width": 245,
-                  "height": 123,
-                  "size": 5.4,
-                  "sizeInBytes": 5401,
-                  "url": "/uploads/thumbnail_pak_flag_0f0c81ced1.png"
-                },
-                "medium": {
-                  "name": "medium_pak-flag.png",
-                  "hash": "medium_pak_flag_0f0c81ced1",
-                  "ext": ".png",
-                  "mime": "image/png",
-                  "path": null,
-                  "width": 750,
-                  "height": 375,
-                  "size": 19.16,
-                  "sizeInBytes": 19160,
-                  "url": "/uploads/medium_pak_flag_0f0c81ced1.png"
-                },
-                "large": {
-                  "name": "large_pak-flag.png",
-                  "hash": "large_pak_flag_0f0c81ced1",
-                  "ext": ".png",
-                  "mime": "image/png",
-                  "path": null,
-                  "width": 1000,
-                  "height": 500,
-                  "size": 26.57,
-                  "sizeInBytes": 26574,
-                  "url": "/uploads/large_pak_flag_0f0c81ced1.png"
-                },
-                "small": {
-                  "name": "small_pak-flag.png",
-                  "hash": "small_pak_flag_0f0c81ced1",
-                  "ext": ".png",
-                  "mime": "image/png",
-                  "path": null,
-                  "width": 500,
-                  "height": 250,
-                  "size": 12.06,
-                  "sizeInBytes": 12062,
-                  "url": "/uploads/small_pak_flag_0f0c81ced1.png"
-                }
-              }
-            }
-          },
-          {
-            "id": 44,
+            "id": 37,
             "heading": "SmachStack Technologies",
             "subHeading": "Cloud & DevOps Center",
             "location": "London",
@@ -183,6 +120,45 @@
                 }
               }
             }
+          },
+          {
+            "id": 38,
+            "heading": "SmachStack Technologies",
+            "subHeading": "Research & Innovation Hub",
+            "location": "Lahore",
+            "mobileNumber": "+1 (844) 539 3578",
+            "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1474.2797783535889!2d74.34112189940284!3d31.475711238440244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190427303d1d9b%3A0x98af47ff5799036e!2zQXJmYSBJVCBUb3dlciDYp9ix2YHYuSDYotim24wg2bnbjCDZudin2YjYsQ!5e0!3m2!1sen!2s!4v1741868771027!5m2!1sen!2s",
+            "flagImage": {
+              "id": 197,
+              "documentId": "y0ufm5jbxoo97354qv516seu",
+              "url": "/uploads/medium_pak_flag_0f0c81ced1_ce3e6e9cb4.png",
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_medium_pak_flag_0f0c81ced1.png",
+                  "hash": "thumbnail_medium_pak_flag_0f0c81ced1_ce3e6e9cb4",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 245,
+                  "height": 123,
+                  "size": 5.44,
+                  "sizeInBytes": 5440,
+                  "url": "/uploads/thumbnail_medium_pak_flag_0f0c81ced1_ce3e6e9cb4.png"
+                },
+                "small": {
+                  "name": "small_medium_pak_flag_0f0c81ced1.png",
+                  "hash": "small_medium_pak_flag_0f0c81ced1_ce3e6e9cb4",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "path": null,
+                  "width": 500,
+                  "height": 250,
+                  "size": 12.87,
+                  "sizeInBytes": 12871,
+                  "url": "/uploads/small_medium_pak_flag_0f0c81ced1_ce3e6e9cb4.png"
+                }
+              }
+            }
           }
         ],
         "whiteLogo": {
@@ -223,12 +199,12 @@
           }
         },
         {
-          "id": 15,
+          "id": 14,
           "documentId": "hs25p5g8dpycefj9juf0k52s",
-          "shortTitle": "Embedded Systems",
+          "shortTitle": "Data Analytics",
           "createdAt": "2025-05-28T11:40:06.325Z",
-          "updatedAt": "2025-08-13T09:42:30.069Z",
-          "publishedAt": "2025-08-13T09:42:30.080Z",
+          "updatedAt": "2025-07-25T13:46:48.137Z",
+          "publishedAt": "2025-07-25T13:46:48.161Z",
           "layout_page": {
             "id": 6,
             "documentId": "m9q7a7ov77tbrzdqywhdcp35",
@@ -274,6 +250,21 @@
           "createdAt": "2025-05-28T11:40:11.534Z",
           "updatedAt": "2025-05-28T11:40:11.534Z",
           "publishedAt": "2025-05-28T11:40:11.537Z",
+          "layout_page": {
+            "id": 6,
+            "documentId": "m9q7a7ov77tbrzdqywhdcp35",
+            "createdAt": "2025-07-21T09:28:57.083Z",
+            "updatedAt": "2025-07-21T10:53:44.419Z",
+            "publishedAt": "2025-07-21T10:53:44.436Z"
+          }
+        },
+        {
+          "id": 16,
+          "documentId": "uqnyxbgf6e05beth29k4sayx",
+          "shortTitle": "Other",
+          "createdAt": "2025-08-28T15:01:55.558Z",
+          "updatedAt": "2025-08-28T15:01:55.558Z",
+          "publishedAt": "2025-08-28T15:01:55.577Z",
           "layout_page": {
             "id": 6,
             "documentId": "m9q7a7ov77tbrzdqywhdcp35",

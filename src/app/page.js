@@ -6,12 +6,10 @@ import WhyChooseUs from "./components/WhyChooseUs";
 import Technologies from "./components/technologies/Technologies";
 import Contact from "./components/contact/Contact";
 import Head from "next/head";
-import { getBaseUrl } from "../utils/baseUrl";
-import { fetchStrapi } from "../lib/api";
+import { getBaseUrl } from "@/utils/baseUrl";
+import { fetchStrapi } from "@/lib/api";
 import NewsSection from "./components/news-components/NewsSection";
 import CaseStudies from "./components/case-studies-components/caseStudies";
-import AboutUsSection from "./components/about-us-section";
-import AiTechnologiesSection from "./components/ai-technologies-section";
 
 export async function generateMetadata() {
   const HomeMeta = await fetchStrapi(
@@ -25,12 +23,14 @@ export async function generateMetadata() {
     description: metaData?.metaDescription,
     keywords: metaData?.keyWords,
     icons: {
+      icon: '/smachstack.png',
     },
     openGraph: {
       title: metaData?.metaTitle,
       description: metaData?.metaDescription,
       images: [
         {
+          url: '/smach-stack-logo.png',
           width: 1200,
           height: 630,
           alt: metaData?.metaTitle,
@@ -43,7 +43,7 @@ export async function generateMetadata() {
       description: metaData?.metaDescription,
       images: [
         {
-          // url: getStrapiMedia(metaData.openGraphImage.url),
+          url: '/smach-stack-logo.png',
           width: 1200,
           height: 630,
           alt: metaData?.metaTitle,
@@ -58,7 +58,10 @@ export async function generateMetadata() {
 
 export default async function Home() {
   const landingPageData = await fetchStrapi(
-    "landing-pages?populate[hero_sections][populate]=*" +
+    "landing-pages?populate[hero_sections][populate][image][fields]=url,formats" +
+      "&populate[hero_sections][populate][video][fields]=url,formats" +
+      "&populate[hero_sections][populate][Button][fields]=*" +
+      
       "&populate[industries_section][populate][industryCard][populate][image][fields]=url,formats" +
       "&populate[services_section][populate][serviceCard][populate][image][fields]=url,formats" +
       "&populate[services_section][populate][backgroundImage][fields]=url,formats" +
@@ -73,25 +76,18 @@ export default async function Home() {
       "&populate[case_studies_hero][populate][image][fields]=url,formats" +
       "&populate[case_study_cards][populate][image][fields]=url,formats" +
       "&populate[news_blogs_and_event][populate][image][fields]=url,formats" +
-      "&populate[news_items][populate][image][fields]=url,formats"+
-      "&populate[ai_technologies][populate][backgroundImage][fields]=url" +
-      "&populate[ai_technologies][populate][icon][fields]=url" +
-      "&populate[ai_technologies][populate][bullets][fields]=description"
+      "&populate[news_items][populate][image][fields]=url,formats"
   );
 
   const heroData = landingPageData?.[0] || {};
-  const heroSections = heroData.hero_sections || [];
-    const heroSectionData = heroSections[0] || {};
+  const heroSectionData = heroData.hero_sections;
+  const HeroSectionData = heroSectionData.sort((a, b) => a.order - b.order);
 
   const clientsdata = landingPageData?.[0] || {};
   const clients = clientsdata.clients_section;
 
   const aboutData = landingPageData?.[0] || {};
   const aboutUs = aboutData.about_section;
-
-  const aiTechnologiesData = landingPageData?.[0] || {};
-  const aiTechnologies = aiTechnologiesData.ai_technologies;
-  const aiTechnologiesSort = aiTechnologies.sort((a, b) => a.order - b.order);
 
   const industries = landingPageData?.[0] || {};
   const industriesData = industries.industries_section;
@@ -143,13 +139,13 @@ export default async function Home() {
         />
       </Head>
       <div className="w-full overflow-x-hidden">
-        <HeroSection data={heroSectionData} />
+        <HeroSection items={HeroSectionData} />
         {clients[0]?.display !== false && <OurClients clientsLogo={clients} />}
         <WhyChooseUs aboutData={aboutUs} />
-         <AiTechnologiesSection aiTechnologies = {aiTechnologiesSort} />
         <Industries headerData={industriesData} />
         <Services headerData={servicesData} />
         <Technologies headerData={techsHeader} technologies={techs} />
+        <div className="pt-[5%] bg-gray-100"></div>
         <CaseStudies headerData={caseStudiesheader} cards={caseStudiesCards} />
         <NewsSection headerData={newsAndBlogsHeader} data={newsAndBlogs} />
         <Contact headerData={contactFormData} contactForm={contactForm} />

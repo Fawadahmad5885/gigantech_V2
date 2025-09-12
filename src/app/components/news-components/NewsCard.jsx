@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { Calendar, User, ArrowRight, ExternalLink } from "lucide-react";
-import { getStrapiMedia } from "../../../lib/api";
+import { getStrapiMedia } from "@/lib/api";
 
 const NewsCard = ({ item }) => {
   const STRAPI_URL = process.env.NEXT_PUBLIC_STRAPI_API_URL;
@@ -20,15 +20,15 @@ const NewsCard = ({ item }) => {
     : imageUrl;
 
   return (
-    <Link key={item.id} href={`/news-and-blogs/${item.slug}`} className="flex h-full   ">
-      <article className="bg-white rounded-t-lg  shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 group flex flex-col h-[500px] relative">
+    <Link key={item.id} href={`/news-and-blogs/${item.slug}`} className="flex h-full  ">
+      <article className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 group flex flex-col h-[500px] relative">
         {/* Featured Image */}
-        <div className="relative h-56">
+        <div className="relative h-48">
           {item.image?.url ? (
             <img
               src={getStrapiMedia(item.image.url)}
               alt={item.title}
-              className="w-full h-full  object-cover group-hover:scale-105 transition-transform duration-500 rounded-t-lg"
+              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300 rounded-t-lg"
             />
           ) : (
             <div className="w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center rounded-t-lg">
@@ -53,7 +53,7 @@ const NewsCard = ({ item }) => {
         <div className="p-6 pb-2 flex flex-col flex-grow">
           <div className="flex flex-row justify-between">
             {/* Type & Author */}
-            {/* <div className="flex items-center gap-2 text-sm text-gray-500 mb-3">
+            <div className="flex items-center gap-2 text-sm text-gray-500 mb-3">
               <div className="flex items-center gap-1">
                 <span className="capitalize font-medium">{item.type}</span>
               </div>
@@ -66,19 +66,19 @@ const NewsCard = ({ item }) => {
                   </div>
                 </>
               )}
-            </div> */}
+            </div>
             <span className="text-gray-500 items-center">
               {formatDate(item.date)}
             </span>
           </div>
 
           {/* Title */}
-          <h3 className="font-poppins font-medium text-lg  mb-3 line-clamp-2 group-hover:text-primaryColor transition-colors duration-300">
+          <h3 className="font-poppins text-lg  mb-3 line-clamp-2 group-hover:text-primaryColor transition-colors duration-300">
             {item.title}
           </h3>
 
           {/* Tags */}
-          {/* {item.tags?.length > 0 && (
+          {item.tags?.length > 0 && (
             <div className="flex flex-wrap gap-2 mb-3">
               {item.tags.map((tag) => (
                 <span
@@ -89,7 +89,7 @@ const NewsCard = ({ item }) => {
                 </span>
               ))}
             </div>
-          )} */}
+          )}
 
           {/* Description */}
           <div className="flex-grow">
@@ -99,15 +99,15 @@ const NewsCard = ({ item }) => {
           </div>
 
           {/* Divider */}
-          {/* <div className="border-b border-gray-200 my-2" /> */}
+          <div className="border-b border-gray-200 my-2" />
 
           {/* Bottom Row: Learn More & Date */}
-          <div className="flex justify-start items-center text-sm mt-auto mb-3">
+          <div className="flex justify-center items-center text-sm mt-auto">
             <div
               // href={`/case-studies/${item.slug}`}
-              className="inline-flex items-center   text-primaryColor   rounded-lg transition-colors duration-300 group"
+              className="inline-flex items-center py-1  text-textColor group-hover:text-secondaryColor   rounded-lg transition-colors duration-300 group"
             >
-              <span className="text-base font-poppins tracking-wide font-medium">Read more</span>
+              <span>Read more</span>
               <ArrowRight className="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform duration-300" />
             </div>
           </div>

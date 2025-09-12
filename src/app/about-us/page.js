@@ -1,6 +1,6 @@
-import { getBaseUrl } from "../../utils/baseUrl";
+import { getBaseUrl } from "@/utils/baseUrl";
 import AboutUsClient from "../components/about-page-components/AboutUsClient";
-import { fetchStrapi } from "../../lib/api";
+import { fetchStrapi } from "@/lib/api";
 
 export async function generateMetadata() {
   // About page meta data  API endpoint
@@ -10,16 +10,16 @@ export async function generateMetadata() {
   const metaData = aboutMeta?.aboutMetaData;
   return {
     // Return dynamic metadata (fetched from strapi)
-    title: metaData?.metaTitle,
-    description: metaData?.metaDescription,
-    keywords: metaData?.keyWords,
+    title: metaData?.metaTitle || "About Us | Smach Stack",
+    description: metaData?.metaDescription || "Learn more about Smach Stack — a technology-driven company specializing in AI, App Development, Cloud Computing, and Web Development. We help businesses innovate, scale, and transform with intelligent digital solutions.",
+    keywords: metaData?.keyWords || "SmachStack, software solutions, technology company, top talent, client success",
     openGraph: {
-      title: metaData?.metaTitle,
-      description: metaData?.metaDescription,
+      title: metaData?.metaTitle || "About Us | Smach Stack",
+      description: metaData?.metaDescription || "Learn more about Smach Stack — a technology-driven company specializing in AI, App Development, Cloud Computing, and Web Development. We help businesses innovate, scale, and transform with intelligent digital solutions.",
       url: `${getBaseUrl()}/about`,
       images: [
         {
-          url: `${getBaseUrl()}/about-page-preview.png`,
+          url: `/smach-stack-logo.png`,
           width: 1200,
           height: 630,
           alt: metaData?.metaDescription,
@@ -32,7 +32,7 @@ export async function generateMetadata() {
       description: metaData?.metaDescription,
       images: [
         {
-          url: `${getBaseUrl()}/preview.jpg`,
+          url: '/smach-stack-logo.png',
           width: 1200,
           height: 630,
           alt: metaData?.metaDescription,
@@ -47,14 +47,13 @@ export async function generateMetadata() {
 
 export default async function AboutPage() {
   const aboutPageData = await fetchStrapi(
-    "about-pages?populate[about_hero][populate][Button]=*&populate[about_hero][populate][aboutHeroCard][populate][image][fields]=url&populate[partner_choice][populate][partnerChoiceCard][populate][image][fields]=url&populate[about_story]=*" +
+    "about-pages?populate[about_hero][populate][Button]=*&populate[about_hero][populate][styledText]=*&populate[partner_choice][populate][partnerChoiceCard][populate][image][fields]=url&populate[about_story]=*" +
       "&populate[contact_section][populate][contactForm][populate][Input][fields]=label&" +
       "&populate[contact_section][populate][contactForm][populate][inputOptions][fields]=label,value&" +
       "&populate[contact_section][populate][contactForm][populate][serviceTitles][fields]=title&" +
       "&populate[contact_section][populate][footerSteps][fields]=*&"
   );
   const aboutData = aboutPageData?.[0] || {};
-  
   const Herodata = aboutData.about_hero;
 
   const partnerChoiceData = aboutPageData?.[0] || {};

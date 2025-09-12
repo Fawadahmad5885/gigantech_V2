@@ -1,6 +1,6 @@
 // src/app/api/contact/route.js
 import { NextResponse } from "next/server";
-import { transporter, mailOption } from "../../config/nodemailer";
+import { transporter, mailOption } from "@/app/config/nodemailer";
 
 export async function POST(req) {
   const data = await req.json();
@@ -17,7 +17,7 @@ export async function POST(req) {
     Message: ${message}
 
     ----
-    Sent via your Gigantech contact form.
+    Sent via your SmachStack contact form.
   `;
 
   if (!email || !firstName || !lastName || !service || !message) {
@@ -30,13 +30,14 @@ export async function POST(req) {
   try {
     await transporter.sendMail({
       ...mailOption,
-      subject: `Contact form - ${firstName} ${lastName} (New submission)`,
+      subject: `SmachStack Contact form - ${firstName} ${lastName} (New submission)`,
       text: mailContent,
     });
     return NextResponse.json({
       success: true,
       message: "Email sent successfully!",
     });
+
   } catch (error) {
     console.log(error);
     return NextResponse.json(

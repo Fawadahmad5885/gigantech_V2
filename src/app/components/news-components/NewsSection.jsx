@@ -7,12 +7,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import NewsCard from "./NewsCard";
 
-const NewsSection = ({
-  headerData,
-  data,
-  showViewAll = true,
-  hideHeader = false,
-}) => {
+const NewsSection = ({ headerData,data, showViewAll = true, hideHeader = false }) => {
   const sortedNews = (data || []).sort(
     (a, b) => new Date(b.date) - new Date(a.date)
   );
@@ -48,18 +43,20 @@ const NewsSection = ({
       },
     ],
   };
-  const { title, description } = headerData;
+const { title, description, } = headerData
 
   return (
-    <section className="h-auto shadow-md  bg-gradient-to-r from-white via-backgroundColor/50 to-backgroundColor relative mx-auto py-16 md:py-24 ">
-      <div className="mx-auto px-4 sm:px-5 lg:px-8">
+    <section className="h-auto bg-gray-100 relative mx-auto py-[5%]">
+      <div className="mx-auto px-4 sm:px-6 lg:px-8">
         {!hideHeader && (
-          <div className=" font-poppins text-center">
+          <div className="px-5 font-poppins text-center">
             <h2 className="heading-text text-textColor">{title}</h2>
-            <p className="section-description">{description}</p>
+            <p className="section-description">
+            {description}
+            </p>
           </div>
         )}
-        <div className="mt-10 mx-auto container md:px-5 pb-24 rounded-lg relative">
+        <div className="mt-10 mx-auto component-width pb-24 rounded-lg relative">
           <Slider ref={sliderRef} {...settings}>
             {displayedNews.map((item) => (
               <div key={item.id} className="sm:px-4">
@@ -67,27 +64,27 @@ const NewsSection = ({
               </div>
             ))}
           </Slider>
-
+          
           {/* Container for both arrows and view all link */}
-          <div className="absolute bottom-4 w-full flex justify-between items-center md:px-6">
+          <div className="absolute bottom-4 w-full flex justify-between items-center px-4">
             {/* View All News link - centered */}
             <div className="absolute left-1/2 transform -translate-x-1/2">
               {showViewAll && (
                 <Link
-                  href="/news-and-blogs"
-                  className="inline-flex items-center px-8 py-3 text-primaryColor text-lg font-medium rounded-lg transition-colors duration-300 group"
-                >
-                  <span className="text-lg font-poppins tracking-wide font-medium ">View All </span>
-                  <ArrowRight className="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform duration-300" />
-                </Link>
+              href="/news-and-blogs"
+              className="inline-flex items-center px-8 py-3 text-textColor hover:text-secondaryColor text-lg font-medium rounded-lg transition-colors duration-300 group"
+            >
+              <span>View All </span>
+              <ArrowRight className="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform duration-300" />
+            </Link>
               )}
             </div>
-
+            
             {/* Arrows - pushed to the right (original position) */}
-            <div className="ml-auto right-0 justify-end md:px-5 container flex space-x-4">
+            <div className="ml-auto flex space-x-4">
               <button
                 onClick={() => sliderRef.current?.slickPrev()}
-                className="p-2  rounded-full bg-backgroundColor shadow-sm  hover:bg-primaryColor hover:text-white transition-colors"
+                className="p-2  rounded-full bg-gray-200  hover:bg-primaryColor hover:text-white transition-colors"
                 aria-label="Previous slide"
               >
                 <svg
@@ -107,7 +104,7 @@ const NewsSection = ({
               </button>
               <button
                 onClick={() => sliderRef.current?.slickNext()}
-                className="p-2 rounded-full bg-backgroundColor shadow-sm hover:bg-primaryColor hover:text-white transition-colors"
+                className="p-2 rounded-full bg-gray-200 hover:bg-primaryColor hover:text-white transition-colors"
                 aria-label="Next slide"
               >
                 <svg

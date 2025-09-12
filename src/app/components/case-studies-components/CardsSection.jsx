@@ -10,9 +10,9 @@ const CardsSection = ({ cards }) => {
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth >= 768) {
-        setInitialDisplayCount(7);
+        setInitialDisplayCount(6);
       } else {
-        setInitialDisplayCount(4);
+        setInitialDisplayCount(3);
       }
     };
 
@@ -21,7 +21,9 @@ const CardsSection = ({ cards }) => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
+  // Sort cards by order field in ascending order
   const sortedCards = [...(cards || [])].sort((a, b) => {
+    // Handle cases where order might be undefined (fallback to 0)
     const orderA = a.order ?? 0;
     const orderB = b.order ?? 0;
     return orderA - orderB;
@@ -30,25 +32,24 @@ const CardsSection = ({ cards }) => {
   const caseStudiesToDisplay = showAll
     ? sortedCards
     : sortedCards.slice(0, initialDisplayCount);
-    console.log(caseStudiesToDisplay);
-    
 
   return (
-    <div className="h-auto pb-[5%]  bg-gradient-to-r from-white via-backgroundColor/50 to-backgroundColor" >
-      <div className="container md:px-5 mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  max-lg:px-5 gap-6 ">
+    <div className="h-auto py-[5%] bg-gray-100" id="industries">
+      <div className="component-width mx-auto">
+        <div className="mt-10 grid grid-cols-1 md:grid-cols-2  max-lg:px-5 gap-6 items-stretch">
           {caseStudiesToDisplay.map((item) => (
             <div
               key={item.slug}
+              className={item.order === 1 ? "md:col-span-2  h-auto" : "h-full"}
             >
               <CaseStudyCard
+                isFeatured={item.order === 1}
                 img={item.image}
                 title={item.title}
                 category={item.category}
                 desc={item.description}
                 CardButton={item.CardButton}
                 slug={item.slug}
-                className="flex flex-col h-full" 
               />
             </div>
           ))}

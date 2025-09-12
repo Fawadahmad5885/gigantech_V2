@@ -5,7 +5,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import { scroller } from "react-scroll";
 import CustomButton from "../about-page-components/CustomButton";
 import NewsCard from "./NewsCard";
-import { getStrapiMedia } from "../../../lib/api";
+import { getStrapiMedia } from "@/lib/api";
 import Image from "next/image";
 
 const NewsClient = ({
@@ -28,14 +28,13 @@ const NewsClient = ({
       });
     }
   }, [currentPage]);
-  // console.log("Header Data", headerData);
+  console.log("Header Data",headerData);
+  
 
   // Calculate pagination data
   const { paginatedData, totalPages, hasNextPage, hasPrevPage } =
     useMemo(() => {
-      const sortedNews = (newsData || []).sort(
-        (a, b) => new Date(b.date) - new Date(a.date)
-      );
+      const sortedNews = (newsData || []).sort((a, b) => new Date(b.date) - new Date(a.date));
       const startIndex = (currentPage - 1) * itemsPerPage;
       const endIndex = startIndex + itemsPerPage;
       const paginatedData = sortedNews.slice(startIndex, endIndex) || [];
@@ -67,9 +66,9 @@ const NewsClient = ({
     }
   };
 
-  const { title, description, image } = headerData;
-  const imageUrl = getStrapiMedia(image?.url);
-
+   const { title, description, image,  } = headerData
+    const imageUrl = getStrapiMedia(image?.url);
+  
   const scrollToSection = (sectionId) => {
     scroller.scrollTo(sectionId, {
       smooth: true,
@@ -114,44 +113,41 @@ const NewsClient = ({
   };
 
   return (
-    <div className="bg-gradient-to-r from-white  via-backgroundColor/50 to-backgroundColor ">
+    <div className="bg-gray-100 ">
       {/* Hero Section for News Page */}
-      <div className="relative  w-full h-[65vh] min-h-[80vh] bg-cover  bg-center bg-no-repeat">
-        <div className="absolute md:px-5 inset-0 flex flex-row items-center justify-between container mx-auto  text-textColor max-lg:px-6 lg:mt-24">
-          <div data-aos="fade-right"
-              data-aos-duration="1000" className="text-start w-2/3 max-lg:w-full font-poppins">
-            <h3 className="text-secondaryColor text-xl font-poppins font-medium">
-              News & Blogs
-            </h3>
-            <h1 className="heading-text mt-2">{title}</h1>
-            <p className="text-lg tracking-wide font-poppins w-full text-start text-textColor mx-auto mb-4">
+     <div className="relative w-full h-[95vh] mt-[5vh] min-h-[340px] bg-cover bg-center bg-no-repeat">
+        <Image
+          src={imageUrl}
+          alt={title || "Case Study Background"}
+          fill
+          className="object-cover"
+          priority
+          sizes="100vw"
+        />
+        <div className="absolute inset-0 bg-black/50"></div>
+        <div className="absolute inset-0 flex flex-col justify-center component-width mx-auto items-start text-white max-lg:px-6 lg:mt-24">
+          <div className="text-start font-poppins">
+            <h1 className="text-[44px] align-text-top lg:text-[72px] lg:w-[70%] !leading-tight mb-[8px] md:text-6xl font-normal">
+              {title || "News Blogs & Events"}
+            </h1>
+            <p className="text-[16px] leading-[20px] mt-4 mb-[70px] font-light md:text-2xl">
               {description || "Discover our case studies"}
             </p>
-            <button
-              onClick={() => scrollToSection("contact")}
-              className="primaryButton max-lg:border-[1px]  w-fit mt-2 max-md:mb-10 px-4 lg:px-8 lg:py-1 tracking-wide"
-            >
-              {" "}
-              Get Started
-            </button>
+              <CustomButton 
+                className=" border  border-white text-white hover:bg-gray-100 hover:text-textColor duration-300   transition-colors"
+                onClick={() => scrollToSection('news-and-blogs-list')}
+              >
+                {"Learn More"}
+              </CustomButton>
           </div>
-          <Image
-            src={imageUrl}
-            alt={title || "Case Study Background"}
-            width={500}
-            height={500}
-            className="object-cover max-lg:hidden"
-          />
         </div>
       </div>
 
       {/* News Section with Pagination */}
-      <div
-       id="list" 
-      ref={newsRef} className="pb-16">
-        <div className="container mx-auto px-5  ">
+      <div id="news-and-blogs-list" ref={newsRef} className="py-16">
+        <div  className="component-width mx-auto max-lg:px-5  ">
           {/* News Cards */}
-          <div className="grid grid-cols-1 mt-10 mx-auto container md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+          <div   className="grid grid-cols-1 mt-10 mx-auto component-width  md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
             {paginatedData.map((item) => (
               <NewsCard key={item.id} item={item} />
             ))}

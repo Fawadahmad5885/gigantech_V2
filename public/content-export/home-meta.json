@@ -1,15 +1,15 @@
 {
   "data": {
-    "id": 13,
+    "id": 7,
     "documentId": "zchuekswc4702z98x9nz26el",
     "createdAt": "2025-05-28T11:26:36.790Z",
-    "updatedAt": "2025-08-22T15:04:58.869Z",
-    "publishedAt": "2025-08-22T15:04:58.881Z",
+    "updatedAt": "2025-07-25T12:24:10.876Z",
+    "publishedAt": "2025-07-25T12:24:10.894Z",
     "homeMetaData": {
-      "id": 36,
-      "metaTitle": "Gigantech | Innovative Software Solutions",
-      "metaDescription": "Gigantech empowers businesses with cutting-edge technology solutions, including App Development, Cloud Computing, Web Development, and Artificial Intelligence. Build smarter, scale faster, and innovate for the future with Gigantech.",
-      "keyWords": "\"Gigantech, AI solutions, App development, Cloud computing, Web development, Generative AI, Software development, Full-stack services, Business transformation",
+      "id": 28,
+      "metaTitle": "Smach Stack | Innovative Software Solutions",
+      "metaDescription": "SmachStack is a software company specializing in delivering innovative solutions tailored to your business needs. Explore our services and industries we serve.",
+      "keyWords": "SmachStack , software solutions, business software, custom software development, technology consulting, IT services",
       "metaImage": {
         "id": 22,
         "documentId": "l4qk50vke4loe73hp7b0wat6",
@@ -28,7 +28,7 @@
         "provider": "local",
         "provider_metadata": null,
         "createdAt": "2025-05-28T11:25:36.116Z",
-        "updatedAt": "2025-08-22T15:04:57.623Z",
+        "updatedAt": "2025-07-25T12:23:10.816Z",
         "publishedAt": "2025-05-28T11:25:36.116Z"
       },
       "openGraphImage": {
@@ -37,8 +37,8 @@
         "name": "eyratech-logo.png",
         "alternativeText": null,
         "caption": null,
-        "width": 1792,
-        "height": 423,
+        "width": 388,
+        "height": 181,
         "formats": {
           "thumbnail": {
             "name": "thumbnail_eyratech-logo.png",
@@ -47,58 +47,22 @@
             "mime": "image/png",
             "path": null,
             "width": 245,
-            "height": 58,
-            "size": 5.8,
-            "sizeInBytes": 5799,
+            "height": 114,
+            "size": 20.36,
+            "sizeInBytes": 20361,
             "url": "/uploads/thumbnail_eyratech_logo_4bac54e79f.png"
-          },
-          "small": {
-            "name": "small_eyratech-logo.png",
-            "hash": "small_eyratech_logo_4bac54e79f",
-            "ext": ".png",
-            "mime": "image/png",
-            "path": null,
-            "width": 500,
-            "height": 118,
-            "size": 12.69,
-            "sizeInBytes": 12690,
-            "url": "/uploads/small_eyratech_logo_4bac54e79f.png"
-          },
-          "medium": {
-            "name": "medium_eyratech-logo.png",
-            "hash": "medium_eyratech_logo_4bac54e79f",
-            "ext": ".png",
-            "mime": "image/png",
-            "path": null,
-            "width": 750,
-            "height": 177,
-            "size": 20.23,
-            "sizeInBytes": 20233,
-            "url": "/uploads/medium_eyratech_logo_4bac54e79f.png"
-          },
-          "large": {
-            "name": "large_eyratech-logo.png",
-            "hash": "large_eyratech_logo_4bac54e79f",
-            "ext": ".png",
-            "mime": "image/png",
-            "path": null,
-            "width": 1000,
-            "height": 236,
-            "size": 28.93,
-            "sizeInBytes": 28934,
-            "url": "/uploads/large_eyratech_logo_4bac54e79f.png"
           }
         },
         "hash": "eyratech_logo_4bac54e79f",
         "ext": ".png",
         "mime": "image/png",
-        "size": 12.81,
+        "size": 5.74,
         "url": "/uploads/eyratech_logo_4bac54e79f.png",
         "previewUrl": null,
         "provider": "local",
         "provider_metadata": null,
         "createdAt": "2025-05-28T11:26:33.701Z",
-        "updatedAt": "2025-08-22T15:03:21.098Z",
+        "updatedAt": "2025-07-25T10:16:26.721Z",
         "publishedAt": "2025-05-28T11:26:33.701Z"
       }
     }

@@ -1,3 +1,3 @@
 export const getBaseUrl = () => {
-    return "https://gigantech.io";
+    return "https://www.smachstack.com";
   };

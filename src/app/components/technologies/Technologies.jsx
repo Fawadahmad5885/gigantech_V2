@@ -10,95 +10,72 @@ import { Grid, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/grid";
 import "swiper/css/pagination";
-import { getStrapiMedia } from "../../../lib/api";
-import { getCategoryImage, categoryImages } from "../../../utils/categoryImages";
+import { getStrapiMedia } from "@/lib/api";
 
 function Technologies({ headerData, technologies }) {
-  const techData = Array.isArray(technologies) ? technologies : [];
-
+  // Process technologies data to match old structure
+  const techData = Array.isArray(technologies) ? technologies : [];  
+  
+  // Create categories by grouping technologies (similar to old getTechnologies)
   const techGroups = techData.reduce((groups, tech) => {
-    const category = tech?.category || "Uncategorized";
+    const category = tech?.category || 'Uncategorized';
     if (!groups[category]) {
       groups[category] = {
         name: category,
-        image: getCategoryImage(category),
-        tools: [],
+        tools: []
       };
     }
     groups[category].tools.push({
       name: tech.name,
-      image: getStrapiMedia(tech.logo?.url) || "/default-tech-image.png",
-      tooltip: tech.tooltip || tech.name,
+      image: getStrapiMedia(tech.logo?.url) || '/default-tech-image.png',
+      tooltip: tech.tooltip || tech.name
     });
     return groups;
   }, {});
 
-  // Define the preferred order of categories
-  const categoryOrder = Object.keys(categoryImages);
-
-  // Sort categories based on the defined order
-  const categories = Object.values(techGroups).sort((a, b) => {
-    const indexA = categoryOrder.indexOf(a.name);
-    const indexB = categoryOrder.indexOf(b.name);
-
-    return (
-      (indexA === -1 ? Number.MAX_SAFE_INTEGER : indexA) -
-      (indexB === -1 ? Number.MAX_SAFE_INTEGER : indexB)
-    );
-  });
-
+const categories = Object.values(techGroups).sort((a, b) => {
+  if (a.name === "Artificial Intelligence") return -1;
+  if (b.name === "Artificial Intelligence") return 1;
+  return 0; // maintain order for others
+});
   const [selectedCategory, setSelectedCategory] = useState("Artificial Intelligence");
 
+  
   // Set initial category if not set
   useEffect(() => {
-    const hasAI = categories.some((c) => c.name === "Artificial Intelligence");
-    if (categories.length > 0 && !selectedCategory) {
-      setSelectedCategory(
-        hasAI ? "Artificial Intelligence" : categories[0].name
-      );
-    }
-  }, [categories]);
+  const hasAI = categories.some(c => c.name === "Artificial Intelligence");
+  if (categories.length > 0 && !selectedCategory) {
+    setSelectedCategory(hasAI ? "Artificial Intelligence" : categories[0].name);
+  }
+}, [categories]);
 
-  const { title, description } = headerData;
-
+  const {title, description} = headerData
+  
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-  const toggleDropdown = () => setIsDropdownOpen((prev) => !prev);
+  const toggleDropdown = () => setIsDropdownOpen(prev => !prev);
 
   const handleSelect = (category) => {
     setSelectedCategory(category);
     setIsDropdownOpen(false);
   };
 
-  // Get current tools for selected category
-  const currentTools = selectedCategory
-    ? techGroups[selectedCategory]?.tools || []
-    : [];
+  // Get current tools for selected category (similar to old getTechCards)
+  const currentTools = selectedCategory ? techGroups[selectedCategory]?.tools || [] : [];
 
   if (!techData.length) {
     return (
-      <div className="h-auto technologies-bg-image py-16 md:py-24  bg-tertiaryColor">
+      <div className="h-auto technologies-bg-image py-[5%] bg-tertiaryColor">
         <div className="px-[20px] font-poppins text-center">
-          <h2 className="heading-text z-10 text-textColor">{title}</h2>
+          <h2 className="heading-text z-10 text-textColor">Technologies We Use</h2>
           <p className="section-description">{description}</p>
         </div>
-        <p className="text-center py-8">
-          No technologies available at this time.
-        </p>
+        <p className="text-center py-8">No technologies available at this time.</p>
       </div>
     );
   }
 
   return (
-    <div className="h-auto   relative my-[1px] py-16 md:py-24 bg-gradient-to-r from-white shadow-sm via-backgroundColor/50 to-backgroundColor">
-      <div className="absolute top-0 left-0 h-full w-auto   opacity-20 pointer-events-none">
-              <Image
-                src="/background-logo.png"
-                alt="Neural Network Background"
-                width={800}
-                height={800}
-                className="h-full object-contain object-left"
-              />
-            </div>
+    <div className="h-auto technologies-bg-image py-[5%] bg-gray-100">
       <div className="px-[20px] font-poppins text-center">
         <h2 className="heading-text z-10 text-textColor">{title}</h2>
         <p className="section-description">{description}</p>
@@ -110,7 +87,7 @@ function Technologies({ headerData, technologies }) {
           onClick={toggleDropdown}
           className="border p-2 flex mt-4 items-center justify-between pr-4 rounded w-full bg-white text-left"
         >
-          <span>{selectedCategory || "Select Category"}</span>
+          <span>{selectedCategory || 'Select Category'}</span>
           <FaAngleDown className="text-[14px] text-[#696565]" />
         </button>
         {isDropdownOpen && (
@@ -129,40 +106,25 @@ function Technologies({ headerData, technologies }) {
       </div>
 
       {/* Desktop Tabs */}
-      <div className="hidden container mx-auto  md:flex flex-row flex-wrap justify-start xl:justify-between border-b-gray-300 border-b-2 mt-10 mb-10">
+      <div className="hidden md:grid md:grid-cols-6 mt-6 p-[0.25rem] h-[2.5rem] md:max-w-[940px] lg:max-w-[940px] xl:max-w-[1346px] md:mx-auto">
         {categories.map((category) => (
           <button
             key={category.name}
             onClick={() => setSelectedCategory(category.name)}
-            className={`px-2  z-10 py-3 flex flex-row items-center justify-center gap-2 text-base font-medium cursor-pointer ${
+            className={`px-1 z-10 py-3 text-center text-lg font-medium cursor-pointer ${
               category.name === selectedCategory
-                ? " bg-white  text-textColor border-b-[3px] border-primaryColor"
-                : "text-gray-600"
+                ? "text-black border-b-[2px] border-secondaryColor"
+                : "text-black border-b-[2px]"
             }`}
           >
-            {category.image && (
-              <div className="w-9 h-9 flex items-center justify-center">
-                <Image
-                  src={category.image}
-                  alt={category.name}
-                  width={32}
-                  height={32}
-                  className={`object-contain transition-all duration-300 ${
-                    category.name === selectedCategory
-                      ? "filter-none"
-                      : "filter grayscale opacity-80"
-                  }`}
-                />
-              </div>
-            )}
-            <span className="font-medium  font-poppins">{category.name}</span>
+            {category.name}
           </button>
         ))}
       </div>
 
       {/* Technology Swiper */}
       {currentTools.length > 0 && (
-        <div className="container  max-lg:px-6 flex mx-auto flex-col mt-8 md:mt-16">
+        <div  className="component-width max-lg:px-6 flex mx-auto flex-col mt-8 md:mt-16">
           <Swiper
             key={selectedCategory}
             spaceBetween={10}
@@ -172,15 +134,14 @@ function Technologies({ headerData, technologies }) {
               512: { slidesPerView: 4 },
               768: { slidesPerView: 6 },
               1024: { slidesPerView: 8 },
-              1280: { slidesPerView: 12 },
+              1280: { slidesPerView: 10 },
             }}
             modules={[Grid, Pagination]}
             grid={{ rows: 2, fill: "row" }}
             pagination={{ clickable: true, el: ".custom-swiper-pagination" }}
-            className="w-full pb-4"
-            data-aos="fade-up"
-            data-aos-anchor-placement="top-bottom"
-            data-aos-duration="1000"
+            className="w-full pb-4" data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom"
+      data-aos-duration="1000"
           >
             {currentTools.map((tool) => (
               <SwiperSlide key={tool.name}>

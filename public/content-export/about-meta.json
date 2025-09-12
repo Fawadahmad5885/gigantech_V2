@@ -1,15 +1,15 @@
 {
   "data": {
-    "id": 11,
+    "id": 9,
     "documentId": "e8hvv2yav4g7btx08vqsw3c7",
     "createdAt": "2025-05-28T11:27:35.641Z",
-    "updatedAt": "2025-08-29T11:20:05.179Z",
-    "publishedAt": "2025-08-29T11:20:05.200Z",
+    "updatedAt": "2025-07-25T12:24:41.733Z",
+    "publishedAt": "2025-07-25T12:24:41.750Z",
     "aboutMetaData": {
-      "id": 40,
-      "metaTitle": "About Us | Gigantech - AI, App Development, Cloud & Web Solutions",
-      "metaDescription": "Learn more about Gigantech — a technology-driven company specializing in AI, App Development, Cloud Computing, and Web Development. We help businesses innovate, scale, and transform with intelligent digital solutions.",
-      "keyWords": "Gigantech, software solutions, technology company, top talent, client success",
+      "id": 30,
+      "metaTitle": "About Smach Stack | Delivering Quality Tech Solutions",
+      "metaDescription": "SmachStack  is a leading software company delivering innovative tech solutions for businesses worldwide. We are specialize in software development and IT services.",
+      "keyWords": "SmachStack , software solutions, technology company, top talent, client success",
       "metaImage": {
         "id": 24,
         "documentId": "pw8m0v9xcdyf0zczm3uxb5tx",
@@ -28,7 +28,7 @@
         "provider": "local",
         "provider_metadata": null,
         "createdAt": "2025-05-28T11:27:26.290Z",
-        "updatedAt": "2025-08-22T15:06:25.949Z",
+        "updatedAt": "2025-07-25T12:22:07.925Z",
         "publishedAt": "2025-05-28T11:27:26.290Z"
       }
     }

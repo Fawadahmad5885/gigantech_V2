@@ -2,18 +2,24 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
 import { scroller } from "react-scroll";
-import Contact from "../../../app/components/contact/Contact";
-import { Calendar, User } from "lucide-react";
+import Contact from "@/app/components/contact/Contact";
+import CustomButton from "@/app/components/about-page-components/CustomButton";
+import { Calendar, User} from "lucide-react";
 import Image from "next/image";
-import { getStrapiMedia } from "../../../lib/api";
+import { getStrapiMedia } from "@/lib/api";
 
 const NewsDetailClient = ({
   newsArticle,
   contactSectionHeader,
   contactForm,
 }) => {
-  const attributes = newsArticle.attributes || newsArticle;
-  const { image } = attributes;
+const imageUrl = 
+    newsArticle.image?.data?.attributes?.url ||  // Strapi v4 format
+    newsArticle.image?.url ||                    // Local data format
+    newsArticle.featuredImage?.data?.attributes?.url ||
+    newsArticle.featuredImage?.url;
+
+  const fullImageUrl = imageUrl ? getStrapiMedia(imageUrl) : null;
 
   const scrollToSection = (sectionId) => {
     scroller.scrollTo(sectionId, {
@@ -22,27 +28,7 @@ const NewsDetailClient = ({
       offset: -85,
     });
   };
-  const getImageUrl = () => {
-    if (!image) return "/fallback-image.jpg";
 
-    let imageUrl;
-
-    if (image.url) {
-      imageUrl = image.url;
-    } else if (image.data?.attributes?.url) {
-      imageUrl = image.data.attributes.url;
-    } else if (typeof image === "string") {
-      imageUrl = image;
-    }
-
-    if (imageUrl) {
-      return getStrapiMedia(imageUrl);
-    }
-
-    return "/fallback-image.jpg";
-  };
-
-  const imageUrl = getImageUrl();
   const formatDate = (dateString) => {
     return new Date(dateString).toLocaleDateString("en-US", {
       year: "numeric",
@@ -52,49 +38,51 @@ const NewsDetailClient = ({
   };
 
   return (
-    <div className=" relative bg-gradient-to-r from-backgroundColor/10  via-backgroundColor/50 to-backgroundColor">
-      <div className="relative max-lg:pt-12 lg:pt-44 h-full  px-5 inset-0 flex flex-col gap-6 xl:flex-row items-center justify-center lg:justify-between container mx-auto  text-textColor">
-        {/* {imageUrl && (
+    <div className="">
+      <div
+        className="relative w-full h-[95vh] mt-[5vh] min-h-[340px] bg-cover bg-center bg-no-repeat"
+      >
+          {fullImageUrl && (
           <Image
-            src={imageUrl}
+            src={fullImageUrl}
             alt={newsArticle.title || "News article"}
             fill
-            className="object-cover"
+            className="object-cover "
             priority
             sizes="100vw"
           />
-        )} */}
-        {/* <div className="absolute inset-0 bg-gradient-to-r from-white  via-backgroundColor/50 to-backgroundColor"></div> */}
+        )}
+        <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40"></div>
 
         {/* Hero Content */}
-        <div className="relative z-10 h-full max-sm:px-4 flex flex-col xl:flex-row items-center">
-          <div className="text-start w-full max-xl:mt-8 xl:w-1/2 font-poppins">
-            <h1 className="heading-text my-1">
-              {newsArticle.title || "Title not available"}
-            </h1>
-          </div>
-          <div
-            data-aos="fade-left"
-            data-aos-duration="1000"
-            className="items-center w-full  overflow-hidden md:flex-1 flex"
-          >
-            <Image
-              src={imageUrl}
-              alt="Case Study Background"
-              width={800}
-              height={500}
-              className="object-cover"
-            />
+        <div className="relative z-10 h-full max-sm:px-4 flex items-center">
+          <div className="component-width mx-auto w-full">
+            <div className="mt-16">
+              <h1 className="text-[44px] align-text-top lg:text-[72px] lg:w-[70%] !leading-tight mb-[8px] md:text-6xl text-white font-normal">
+                {newsArticle.title || "Title not available"}
+              </h1>
+
+              {/* Optional subtitle or excerpt */}
+              <div className="text-lg md:text-xl text-gray-200 leading-relaxed mb-12 drop-shadow-md">
+                {newsArticle.description || "No descripton available"}
+              </div>
+              <CustomButton
+                      className=" border  border-white text-white hover:bg-gray-100 hover:text-textColor duration-300   transition-colors"
+                onClick={() => scrollToSection("contact")}
+              >
+                {"Get Started"}
+              </CustomButton>
+            </div>
           </div>
         </div>
       </div>
 
       {/* Content Section */}
-      <div className="">
-        <div className="container sm:px-6 mx-auto max-sm:px-4 pb-12">
+      <div className="bg-gray-100">
+        <div className="component-width mx-auto max-sm:px-4 py-12">
           {/* Meta Information Cards */}
 
-          <div className="flex flex-row flex-wrap gap-6 mb-4 items-center">
+          <div className="flex flex-row gap-6 mb-4 items-center">
             <div>
               {newsArticle.type === "blog" && (
                 <div className="flex items-center gap-1">
@@ -130,7 +118,7 @@ const NewsDetailClient = ({
               </div>
             )}
           </div>
-          <div className=" py-6 rounded-lg">
+          <div className="bg-white p-6 rounded-lg">
             <div className="prose prose-lg max-w-none prose-headings:text-gray-900 prose-p:text-gray-700 prose-a:text-blue-600 prose-strong:text-gray-900 prose-blockquote:border-l-blue-500 prose-blockquote:bg-blue-50 prose-blockquote:p-4 prose-blockquote:rounded-r-lg">
               <ReactMarkdown>{newsArticle.content}</ReactMarkdown>
             </div>

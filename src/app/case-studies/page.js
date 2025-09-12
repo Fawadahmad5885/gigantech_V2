@@ -1,8 +1,8 @@
 // case-studies/page.js
 import React from "react";
-import { fetchStrapi, getStrapiMedia } from "../../lib/api";
+import { fetchStrapi, getStrapiMedia } from "@/lib/api";
 import CaseStudiesClient from "../components/case-studies-components/CaseStudiesClient";
-import { getBaseUrl } from "../../utils/baseUrl";
+import { getBaseUrl } from "@/utils/baseUrl";
 
 export async function generateMetadata() {
   const pageMetaData = await fetchStrapi(
@@ -16,7 +16,7 @@ export async function generateMetadata() {
     description: metaData?.metaDescription,
     keywords: metaData?.keyWords,
     openGraph: {
-      title: metaData?.metaTitle,
+      title: metaData?.metaTitle || "Case Studies | SmachStack",
       description: metaData?.metaDescription,
       url: imageUrl,
       images: [
@@ -41,7 +41,7 @@ export async function generateMetadata() {
         },
       ],
       card: "summary_large_image",
-      creator: "Gigantech",
+      creator: "SmachStack",
     },
     canonicalUrl: `${getBaseUrl()}/case-studies`,
   };
@@ -60,6 +60,8 @@ export default async function CaseStudies() {
   const caseStudiesCardsData = caseStudiesData.case_study_cards;
   const contactFormData = caseStudiesData.contact_section;
   const contactForm = contactFormData.contactForm;
+
+
 
   return (
     <CaseStudiesClient
