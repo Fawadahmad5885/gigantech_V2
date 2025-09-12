@@ -1,6 +1,6 @@
 // src/app/api/contact/route.js
 import { NextResponse } from "next/server";
-import { transporter, mailOption } from "@/app/config/nodemailer";
+import { transporter, mailOption } from "../../config/nodemailer";
 
 export async function POST(req) {
   const data = await req.json();

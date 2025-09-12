@@ -1,4 +1,4 @@
-import { getBaseUrl } from "@/utils/baseUrl";
+import { getBaseUrl } from "../utils/baseUrl";
 
 
 export default function sitemap() {

@@ -1,8 +1,7 @@
 // app/pages/case-studies/[slug].jsx
 import { fetchStrapi, getStrapiMedia } from "../../../lib/api";
-import CaseStudyMain from "@/app/components/case-studies-components/CaseStudyMain";
+import CaseStudyMain from "../../components/case-studies-components/CaseStudyMain";
 
-// Generate static paths for both local and Strapi data
 export async function generateStaticParams() {
   if (process.env.NEXT_PUBLIC_USE_LOCAL_DATA) {
     try {
@@ -18,8 +17,9 @@ export async function generateStaticParams() {
 
   try {
     const res = await fetchStrapi(
-      "case-study-cards?fields=slug&populate=image"
+      "case-study-cards?fields=slug&populate[image][fields]=url&populate[technologiesCard][populate][image][fields]=url"
     );
+
     return (res || []).map((item) => ({
       slug: item.attributes?.slug || item.slug,
     }));
@@ -29,44 +29,60 @@ export async function generateStaticParams() {
   }
 }
 
-// Unified data fetcher that works with both sources
 async function getCaseStudyData(slug) {
   let res;
 
-  if (process.env.USE_LOCAL) {
-    res = await fetchStrapi("case-study-cards");
-    if (!res) return null;
+  if (process.env.NEXT_PUBLIC_USE_LOCAL_DATA) {
+    try {
+      res = await fetchStrapi(
+        `case-study-cards?filters[slug][$eq]=${slug}&populate[image][fields]=url&populate[technologiesCard][populate][image][fields]=url`
+      );
 
-    // Find matching item in local data
-    const caseStudy = res.find((item) => item.slug === slug);
-    if (!caseStudy) return null;
+      if (!res) return null;
+      const caseStudy = res.find((item) => item.slug === slug);
+      if (!caseStudy) return null;
 
-    // Transform local data to match Strapi structure
-    return {
-      id: caseStudy.id,
-      attributes: {
-        ...caseStudy,
-        image: {
-          data: {
-            attributes: caseStudy.image,
-          },
+      return {
+        id: caseStudy.id,
+        attributes: {
+          ...caseStudy,
+          image: caseStudy.image || null,
         },
-      },
-    };
+      };
+    } catch (error) {
+      console.error("Local data error:", error);
+      return null;
+    }
   }
 
-  // Strapi data fetching
-  res = await fetchStrapi(
-    `case-study-cards?filters[slug][$eq]=${encodeURIComponent(
-      slug
-    )}&populate[image][fields]=url,formats&populate[caseStudyCarousel][populate]=*`
-  );
+  // Strapi data fetching - UPDATED QUERY
+  try {
+    const query = `
+      case-study-cards?
+      filters[slug][$eq]=${encodeURIComponent(slug)}
+      &populate[image]=*
+    `.replace(/\s+/g, "");
 
-  if (!res || !res.length) return null;
-  return res[0];
+    res = await fetchStrapi(query);
+
+    if (!res || !res.data || !res.data.length) return null;
+
+    const strapiCaseStudy = res.data[0];
+    return {
+      id: strapiCaseStudy.id,
+      attributes: {
+        ...strapiCaseStudy.attributes,
+        image:
+          strapiCaseStudy.attributes.image?.data?.attributes ||
+          strapiCaseStudy.attributes.image,
+      },
+    };
+  } catch (error) {
+    console.error("Strapi fetch error:", error);
+    return null;
+  }
 }
 
-// Unified contact data fetcher
 async function getContactData() {
   const endpoint =
     "case-studies-pages?populate[contact_section][populate][contactForm][populate][Input][fields]=label&" +
@@ -85,7 +101,7 @@ async function getContactData() {
     };
   }
 
-  return data?.[0]?.attributes || {};
+  return data?.[0] || {};
 }
 
 export default async function CaseStudyDetail({ params }) {
@@ -101,8 +117,8 @@ export default async function CaseStudyDetail({ params }) {
 
   // Normalize the data structure for the component
   const normalizedCaseStudy = {
-    ...caseStudy.attributes,
     id: caseStudy.id,
+    ...caseStudy,
   };
 
   return (

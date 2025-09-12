@@ -1,11 +1,12 @@
 // app/news/[slug]/page.js
 import { fetchStrapi } from "../../../lib/api";
-import NewsDetailClient from "@/app/components/news-components/NewsDetailClient";
+import NewsDetailClient from "../../../app/components/news-components/NewsDetailClient";
 
 // Generate static paths for both local and Strapi data
 export async function generateStaticParams() {
   if (process.env.NEXT_PUBLIC_USE_LOCAL_DATA) {
     try {
+
       const localData = await fetchStrapi("news-items");
       return (localData || []).map((item) => ({
         slug: item.slug,
@@ -17,7 +18,9 @@ export async function generateStaticParams() {
   }
 
   try {
-    const res = await fetchStrapi("news-items?fields=slug");
+    const res = await fetchStrapi(
+      "news-items?fields=slug&populate[image][fields]=url"
+    );
     return (res || []).map((item) => ({
       slug: item.attributes?.slug || item.slug,
     }));
@@ -31,37 +34,55 @@ export async function generateStaticParams() {
 async function getNewsData(slug) {
   let res;
 
-  if (process.env.USE_LOCAL) {
-    res = await fetchStrapi("news-items");
-    if (!res) return null;
+  if (process.env.NEXT_PUBLIC_USE_LOCAL_DATA) {
+    try {
+      res = await fetchStrapi(
+        `news-items?filters[slug][$eq]=${slug}&populate[image][fields]=url`
+      );
 
-    // Find matching item in local data
-    const newsItem = res.find((item) => item.slug === slug);
-    if (!newsItem) return null;
+      if (!res) return null;
+      const caseStudy = res.find((item) => item.slug === slug);
+      if (!caseStudy) return null;
 
-    // Transform local data to match Strapi structure
-    return {
-      id: newsItem.id,
-      attributes: {
-        ...newsItem,
-        image: newsItem.image
-          ? {
-              data: {
-                attributes: newsItem.image,
-              },
-            }
-          : null,
-      },
-    };
+      return {
+        id: caseStudy.id,
+        attributes: {
+          ...caseStudy,
+          image: caseStudy.image || null,
+        },
+      };
+    } catch (error) {
+      console.error("Local data error:", error);
+      return null;
+    }
   }
 
-  // Strapi data fetching
-  res = await fetchStrapi(
-    `news-items?filters[slug][$eq]=${encodeURIComponent(slug)}&populate=*`
-  );
+  // Strapi data fetching - UPDATED QUERY
+  try {
+    const query = `
+      news-items?
+      filters[slug][$eq]=${encodeURIComponent(slug)}
+      &populate[image]=*
+    `.replace(/\s+/g, "");
 
-  if (!res || !res.length) return null;
-  return res[0];
+    res = await fetchStrapi(query);
+
+    if (!res || !res.data || !res.data.length) return null;
+
+    const strapiCaseStudy = res.data[0];
+    return {
+      id: strapiCaseStudy.id,
+      attributes: {
+        ...strapiCaseStudy.attributes,
+        image:
+          strapiCaseStudy.attributes.image?.data?.attributes ||
+          strapiCaseStudy.attributes.image,
+      },
+    };
+  } catch (error) {
+    console.error("Strapi fetch error:", error);
+    return null;
+  }
 }
 
 // Unified contact data fetcher for news
