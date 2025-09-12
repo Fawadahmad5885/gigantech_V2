@@ -6,7 +6,7 @@ import Image from "next/image";
 import CaseStudyCarousel from "@/app/components/case-studies-components/CaseStudyCarsousel";
 import Contact from "@/app/components/contact/Contact";
 import CustomButton from "@/app/components/about-page-components/CustomButton";
-import { getStrapiMedia } from "@/lib/api";
+import { getStrapiMedia } from "../../../lib/api";
 export default function CaseStudyMain({
   caseStudy,
   contactSectionHeader,
@@ -41,7 +41,7 @@ export default function CaseStudyMain({
 
   return (
     <div className="">
-      <div className="relative w-full h-[93vh] mt-[7vh] min-h-[340px] bg-cover bg-center bg-no-repeat">
+      <div className="relative w-full h-[100vh] min-h-[340px] bg-cover bg-center bg-no-repeat">
         {/* Background Image */}
         <Image
           src={imageUrl || "/placeholder.svg?height=1080&width=1920"}
@@ -70,7 +70,7 @@ export default function CaseStudyMain({
               </ReactMarkdown>
             </div>
             <CustomButton
-                      className=" border  border-white text-white hover:bg-gray-100 hover:text-textColor duration-300   transition-colors"
+              className=" border  border-white text-white hover:bg-gray-100 hover:text-textColor duration-300   transition-colors"
               onClick={() => scrollToSection?.("contact")}
             >
               {"Get Started"}
@@ -80,9 +80,8 @@ export default function CaseStudyMain({
       </div>
       <div>
         {/* Descripition */}
-        <div className="">
+        <div className="bg-gray-100">
           <div className="flex flex-col justify-center component-width mx-auto items-start max-lg:px-6 py-14">
-
             <div className="grid grid-cols-3  md:flex md:gap-20 flex-row md:justify-start w-full items-center ">
               {/* Industry */}
               <div className="flex flex-col gap-1 lg:gap-3 w-fit">
@@ -128,7 +127,7 @@ export default function CaseStudyMain({
         </div>
 
         {/* Descripition */}
-        {/* <div className="">
+        <div className="">
           <div className="flex flex-col justify-center component-width mx-auto items-start max-lg:px-6 pt-12">
             <h1 className="font-semibold text-xl lg:text-2xl xl:text-2xl text-secondaryColor">
               Client
@@ -137,21 +136,21 @@ export default function CaseStudyMain({
               <i>{aboutClient}</i>
             </p>
           </div>
-        </div> */}
+        </div>
         {/* Sections */}
-        <div className="  rounded-lg  my-6  component-width mx-auto">
+        <div className="bg-gray-100 p-6 rounded-lg  my-6  component-width mx-auto">
           <div className="prose prose-lg max-w-none prose-headings:text-gray-900 prose-p:text-gray-700 prose-a:text-blue-600 prose-strong:text-gray-900 prose-blockquote:border-l-blue-500 prose-blockquote:bg-blue-50 prose-blockquote:p-4 prose-blockquote:rounded-r-lg">
             <ReactMarkdown>{content}</ReactMarkdown>
           </div>
         </div>
         {/* Carsousel */}
-        {/* <div className="bg-gray-100 pt-24 ">
+        <div className="bg-gray-100 pt-24 ">
           <div className="flex flex-col justify-center component-width mx-auto  items-start max-lg:px-6 overflow-x-hidden pb-24">
             {caseStudyCarousel && (
               <CaseStudyCarousel items={caseStudyCarousel} />
             )}
           </div>
-        </div> */}
+        </div>
       </div>
 
       <Contact

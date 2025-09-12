@@ -1,28 +1,28 @@
 // news/page.js
 import React from "react";
-import { fetchStrapi, getStrapiMedia } from "@/lib/api";
+import { fetchStrapi, getStrapiMedia } from "../../../lib/api";
 import NewsClient from "../components/news-components/NewsClient";
 import { getBaseUrl } from "@/utils/baseUrl";
 
 export async function generateMetadata() {
   // About page meta data  API endpoint
   const caseStudiesMetadata = await fetchStrapi(
-    "news-meta?populate[caseStudiesMetaData][populate][0]=metaImage"
+    "case-study-meta?populate[caseStudiesMetaData][populate][0]=metaImage"
   );
   const metaData = caseStudiesMetadata?.caseStudiesMetaData;
   const { mataImage } = metaData?.[0] || {};
   const imageUrl = getStrapiMedia(mataImage?.url);
   return {
-    title: metaData?.metaTitle || "News and Blogs | SmachStack",
-    description: metaData?.metaDescription || "Stay updated with the latest news, insights, and blogs from SmachStack. Explore articles on AI, App Development, Cloud Computing, Web Development, and digital transformation.",
+    title: metaData?.metaTitle,
+    description: metaData?.metaDescription,
     keywords: metaData?.keyWords,
     openGraph: {
-      title: metaData?.metaTitle || "News and Blogs | SmachStack",
-    description: metaData?.metaDescription || "Stay updated with the latest news, insights, and blogs from SmachStack. Explore articles on AI, App Development, Cloud Computing, Web Development, and digital transformation.",
-      icon: '/smach-stack-logo.png',
+      title: metaData?.metaTitle,
+      description: metaData?.metaDescription,
+      url: imageUrl,
       images: [
         {
-          url: '/smach-stack-logo.png',
+          url: imageUrl,
           width: 1200,
           height: 630,
           alt: metaData?.metaDescription,

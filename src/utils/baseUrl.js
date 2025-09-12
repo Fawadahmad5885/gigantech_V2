@@ -1,3 +1,3 @@
 export const getBaseUrl = () => {
-    return "https://www.smachstack.com";
+    return process.env.NEXT_PUBLIC_BASE_URL;
   };

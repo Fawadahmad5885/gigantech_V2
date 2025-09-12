@@ -44,7 +44,7 @@ const CardsSection = ({ cards }) => {
             >
               <CaseStudyCard
                 isFeatured={item.order === 1}
-                img={item.image}
+                img={item.image?.formats?.medium?.url}
                 title={item.title}
                 category={item.category}
                 desc={item.description}

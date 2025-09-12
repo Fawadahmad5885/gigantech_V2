@@ -1,20 +1,20 @@
 // components/case-studies-components/CaseStudiesClient.js
-'use client';
+"use client";
 
 import Image from "next/image";
-import { scroller } from 'react-scroll';
+import { scroller } from "react-scroll";
 import CustomButton from "../about-page-components/CustomButton";
 import CardsSection from "./CardsSection";
 import Contact from "../contact/Contact";
-import { getStrapiMedia } from "@/lib/api";
+import { getStrapiMedia } from "../../../lib/api";
 
-export default function CaseStudiesClient({ 
-  heroSectionData, 
-  contactSectionHeader, 
-  contactForm, 
-  caseStudiesCards 
+export default function CaseStudiesClient({
+  heroSectionData,
+  contactSectionHeader,
+  contactForm,
+  caseStudiesCards,
 }) {
-  const { title, description, image, Button } = heroSectionData
+  const { title, description, image, Button } = heroSectionData;
   const imageUrl = getStrapiMedia(image?.url);
 
   const scrollToSection = (sectionId) => {
@@ -27,12 +27,12 @@ export default function CaseStudiesClient({
 
   return (
     <div className="overflow-x-hidden">
-      <div className="relative w-full h-[95vh] mt-[5vh] min-h-[340px] bg-cover bg-center bg-no-repeat">
+      <div className="relative w-full h-[100vh] min-h-[340px] bg-cover bg-center bg-no-repeat">
         <Image
           src={imageUrl}
           alt={title || "Case Study Background"}
           fill
-          className="object-cover "
+          className="object-cover animate-zoom-loop X"
           priority
         />
         <div className="absolute inset-0 flex flex-col justify-center component-width mx-auto items-start text-white max-lg:px-6 lg:mt-24">
@@ -44,9 +44,9 @@ export default function CaseStudiesClient({
               {description || "Discover our case studies"}
             </p>
             {Button && (
-              <CustomButton 
-                      className=" border  border-white text-white hover:bg-gray-100 hover:text-textColor duration-300   transition-colors"
-                onClick={() => scrollToSection('cards-section')}
+              <CustomButton
+                className=" border  border-white text-white hover:bg-gray-100 hover:text-textColor duration-300   transition-colors"
+                onClick={() => scrollToSection("cards-section")}
               >
                 {"Learn More"}
               </CustomButton>
@@ -55,7 +55,7 @@ export default function CaseStudiesClient({
         </div>
       </div>
       <div id="cards-section">
-        <CardsSection  cards={caseStudiesCards} />
+        <CardsSection cards={caseStudiesCards} />
         <Contact
           id="contact"
           headerData={contactSectionHeader}

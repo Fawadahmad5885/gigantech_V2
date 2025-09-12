@@ -17,7 +17,7 @@ export async function POST(req) {
     Message: ${message}
 
     ----
-    Sent via your SmachStack contact form.
+    Sent via your Gigantech contact form.
   `;
 
   if (!email || !firstName || !lastName || !service || !message) {
@@ -30,14 +30,13 @@ export async function POST(req) {
   try {
     await transporter.sendMail({
       ...mailOption,
-      subject: `SmachStack Contact form - ${firstName} ${lastName} (New submission)`,
+      subject: `Contact form - ${firstName} ${lastName} (New submission)`,
       text: mailContent,
     });
     return NextResponse.json({
       success: true,
       message: "Email sent successfully!",
     });
-
   } catch (error) {
     console.log(error);
     return NextResponse.json(

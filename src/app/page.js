@@ -6,10 +6,12 @@ import WhyChooseUs from "./components/WhyChooseUs";
 import Technologies from "./components/technologies/Technologies";
 import Contact from "./components/contact/Contact";
 import Head from "next/head";
-import { getBaseUrl } from "@/utils/baseUrl";
-import { fetchStrapi } from "@/lib/api";
+import { getBaseUrl } from "../utils/baseUrl";
+import { fetchStrapi } from "../lib/api";
 import NewsSection from "./components/news-components/NewsSection";
 import CaseStudies from "./components/case-studies-components/caseStudies";
+import AboutUsSection from "./components/about-us-section";
+import AiTechnologiesSection from "./components/ai-technologies-section";
 
 export async function generateMetadata() {
   const HomeMeta = await fetchStrapi(
@@ -23,14 +25,12 @@ export async function generateMetadata() {
     description: metaData?.metaDescription,
     keywords: metaData?.keyWords,
     icons: {
-      icon: '/smachstack.png',
     },
     openGraph: {
       title: metaData?.metaTitle,
       description: metaData?.metaDescription,
       images: [
         {
-          url: '/smach-stack-logo.png',
           width: 1200,
           height: 630,
           alt: metaData?.metaTitle,
@@ -43,7 +43,7 @@ export async function generateMetadata() {
       description: metaData?.metaDescription,
       images: [
         {
-          url: '/smach-stack-logo.png',
+          // url: getStrapiMedia(metaData.openGraphImage.url),
           width: 1200,
           height: 630,
           alt: metaData?.metaTitle,
@@ -61,7 +61,6 @@ export default async function Home() {
     "landing-pages?populate[hero_sections][populate][image][fields]=url,formats" +
       "&populate[hero_sections][populate][video][fields]=url,formats" +
       "&populate[hero_sections][populate][Button][fields]=*" +
-      
       "&populate[industries_section][populate][industryCard][populate][image][fields]=url,formats" +
       "&populate[services_section][populate][serviceCard][populate][image][fields]=url,formats" +
       "&populate[services_section][populate][backgroundImage][fields]=url,formats" +
@@ -80,8 +79,7 @@ export default async function Home() {
   );
 
   const heroData = landingPageData?.[0] || {};
-  const heroSectionData = heroData.hero_sections;
-  const HeroSectionData = heroSectionData.sort((a, b) => a.order - b.order);
+  const HeroSectionData = heroData.hero_sections;
 
   const clientsdata = landingPageData?.[0] || {};
   const clients = clientsdata.clients_section;
@@ -142,10 +140,12 @@ export default async function Home() {
         <HeroSection items={HeroSectionData} />
         {clients[0]?.display !== false && <OurClients clientsLogo={clients} />}
         <WhyChooseUs aboutData={aboutUs} />
+        {/* <AboutUsSection /> */}
+         <AiTechnologiesSection />
         <Industries headerData={industriesData} />
         <Services headerData={servicesData} />
         <Technologies headerData={techsHeader} technologies={techs} />
-        <div className="pt-[5%] bg-gray-100"></div>
+        {/* <div className="pt-[5%] bg-gray-100"></div> */}
         <CaseStudies headerData={caseStudiesheader} cards={caseStudiesCards} />
         <NewsSection headerData={newsAndBlogsHeader} data={newsAndBlogs} />
         <Contact headerData={contactFormData} contactForm={contactForm} />

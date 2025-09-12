@@ -40,7 +40,7 @@ body {
 }
 
 .footer-items-heading {
-  @apply  text-start font-poppins text-lg font-medium tracking-wide
+  @apply  text-start font-poppins text-xl font-medium tracking-wide
 }
 
 
@@ -425,3 +425,11 @@ height: auto!important;
 .swiper-wrapper .swiper-slide:nth-child(n + 1) {
   padding-top: 10px;
 }
+
+/* Remove spacing for last row items */
+/* .swiper-slide:last-child,
+.swiper-slide:nth-last-child(2),
+.swiper-slide:nth-last-child(3),
+.swiper-slide:nth-last-child(4) {
+  padding-top: 0 !important;
+} */

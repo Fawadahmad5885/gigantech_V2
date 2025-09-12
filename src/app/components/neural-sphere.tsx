@@ -43,7 +43,7 @@ useEffect(() => {
     opacity: 0.8,
   });
   const redMaterial = new THREE.MeshBasicMaterial({ color: 0xFC303A });
-  const borderMaterial = new THREE.LineBasicMaterial({ color: 0x347498 }); // dark gray border
+  const borderMaterial = new THREE.LineBasicMaterial({ color: 0x0B74BF }); // dark gray border
 
   // Generate neuron positions using Fibonacci sphere
   function fibonacciSphere(samples: number, radius: number) {
@@ -167,6 +167,7 @@ useEffect(() => {
       if (now - meteor.userData.createdAt > 600) {
         scene.remove(meteor);
         const targetIdx = meteor.userData.targetIndex;
+        // Restore original material, ensuring it's a clone to avoid modifying the shared material
         neurons[targetIdx].material = baseColorMaterial.clone();
         meteors.splice(i, 1);
       }
@@ -221,7 +222,7 @@ useEffect(() => {
 return (
 <div
     ref={mountRef}
-    className="w-full h-full max-md:w-full max-md:h-fit mx-auto" // Added max dimensions
+    className="w-full h-full mx-auto" // Added max dimensions
     style={{
           width: "100%",
       height: "100%",
